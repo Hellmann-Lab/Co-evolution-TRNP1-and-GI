@@ -1,7 +1,7 @@
 # Co-evolution-TRNP1-and-GI
 This repository contains data files and scripts to reproduce the analyses and results presented in our paper.
 
-##Protein
+## Protein
 
 1) Protein-coding sequence collection 
 scripts/downl_genomes.sh - to download the genome sequences used
@@ -23,7 +23,7 @@ summarize_cor_output.R
 5) Analysis of NPC proliferation assay
 proliferation_analysis.R
 
-##Regulation
+## Regulation
 
 1) CRE-orthologue re-sequencing 
 
