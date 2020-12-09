@@ -1,0 +1,21 @@
+
+random seed : 698619
+
+Coevol version 1.4
+
+tree and data ok
+
+process RESET
+body_mass : 0 out of 31 missing
+
+unfold
+mapping substitutions
+ok
+
+ln prob = -17152.4
+start
+
+
+exit
+13285 points saved, current ln prob = -4712.46
+

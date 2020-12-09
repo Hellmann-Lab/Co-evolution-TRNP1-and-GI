@@ -1,0 +1,14 @@
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Mon Jun 15 21:17:24 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{llll}
+  \hline
+Parameter 1 & Parameter 2 & Marginal Correlation (Posterior Probability) & Partial Correlation (Posterior Probability) \\ 
+  \hline
+brain mass & omega & 0.499 (0.89) & 0.667 (0.96) \\ 
+  omega & dS & -0.031 (0.52) & 0.334 (0.74) \\ 
+  brain mass & dS & -0.524 (0.99) & -0.516 (0.88) \\ 
+   \hline
+\end{tabular}
+\end{table}

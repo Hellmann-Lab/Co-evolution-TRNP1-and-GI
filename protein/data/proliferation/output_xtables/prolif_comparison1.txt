@@ -1,0 +1,15 @@
+% latex table generated in R 4.0.3 by xtable 1.8-4 package
+% Wed Dec  9 18:15:59 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & z value & Pr($>$$|$z$|$) \\ 
+  \hline
+human - mouse & 0.15 & 0.069 & 2.188 & 0.0988 \\ 
+  dolphin - human & 0.30 & 0.089 & 3.378 & 0.0028 \\ 
+  human - macaque & 0.34 & 0.085 & 3.972 & 0.0003 \\ 
+  human - galago & 0.26 & 0.085 & 3.071 & 0.0082 \\ 
+   \hline
+\end{tabular}
+\end{table}

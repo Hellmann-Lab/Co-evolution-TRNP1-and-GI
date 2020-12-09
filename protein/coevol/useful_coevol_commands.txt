@@ -1,0 +1,20 @@
+#running coevol - from results folder where you want the results to be saved, eg,
+sbatch --wrap="bash ../../scripts/exon1_coding_6species/run2_dnds_6species.sh"
+
+#useful coevol commands
+# -x specifies burnin
+
+#check convergence of runs 
+tracecomp -x 5000 exon1_dsomggc1 exon1_dsomggc2
+
+#stop a script
+echo 0 > name.run
+
+#restart the script
+coevol name
+
+#check covariance, correlation, probability matrix, reconstructed phenotype histories
+readcoevol -x 5000 exon1_dsomggc1
+
+#check partial correlation (0 - exclude this variable)
+readcoevol -x 5000 1 -partial 1110111 exon1_dsomggc1 #calculates normal correlation (.cov) and partial (.controlcov)
