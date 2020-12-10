@@ -1,4 +1,4 @@
-# PAML site-model comparison
+## PAML site-model comparison
 
 In this analysis the 2 nested site models - NS7 (also called M7; estimates beta paramters) and NS8 (also called M8; estimates beta & w>1 parameters) are compared.
 Each is run using command `codeml_script.ctl`
