@@ -1,0 +1,866 @@
+>Papio_hamadryas (670 bp)
+
+CLUSTER 1
+Location: 218 to 397
+Score: 40.2
+MA0139.1: 10.8
+MA0155.1: 7.67
+MA0868.2: 6.4
+MA0685.1: 4.63
+MA0037.3: 3.62
+MA0750.2: 3.38
+MA1108.2: 3.27
+MA0508.3: 3.24
+MA0522.3: 2.41
+MA0145.3: 2.29
+MA0693.2: 1.63
+MA0100.3: 1.42
+MA0812.1: 0.821
+MA1648.1: 0.143
+MA1579.1: 0.0367
+MA0109.1: 0.0156
+MA0104.4: 0.0151
+MA1653.1: 0.0117
+MA0079.4: 0.00386
+MA0742.1: 0.00365
+MA0505.1: 0.0024
+MA1511.1: 0.00183
+MA0161.2: 0.000321
+MA0597.1: 0.000269
+MA0003.4: 0.000127
+MA1107.2: 0.000127
+MA0738.1: 3.29e-05
+MA1569.1: 2.43e-05
+MA1570.1: 1.25e-05
+MA0867.2: 1.25e-05
+MA1536.1: 8.55e-06
+MA0765.2: 5.42e-07
+MA1637.1: 3.33e-07
+MA1153.1: 2.72e-07
+MA1105.2: 1.52e-07
+MA0103.3: 7.79e-08
+MA0633.1: 5.87e-08
+MA0077.1: 5.69e-08
+MA1558.1: 4.56e-08
+MA0515.1: 3.52e-08
+MA0526.3: 3.52e-08
+MA0073.1: 2.35e-08
+MA1604.1: 1.9e-08
+MA0524.2: 1.25e-08
+MA0514.1: 8.47e-09
+MA1117.1: 7.03e-09
+MA0101.1: 2.18e-09
+MA1631.1: 1.31e-09
+MA0130.1: 1.08e-09
+MA0147.3: 5.59e-10
+MA1120.1: 3.41e-10
+MA0057.1: 2.42e-10
+MA0830.2: 2.07e-10
+MA0811.1: 1.59e-10
+MA1100.2: 7.03e-11
+MA1644.1: 5.82e-11
+MA0059.1: 5.44e-11
+MA0746.2: 4.96e-11
+MA1581.1: 4.89e-11
+MA0093.3: 3.11e-11
+MA0741.1: 2.98e-11
+MA0502.2: 2.07e-11
+MA0814.2: 1.98e-11
+MA1122.1: 1.66e-11
+MA0471.2: 1.34e-11
+MA0657.1: 9.6e-12
+MA1652.1: 2.98e-12
+MA1578.1: 2.88e-12
+MA1508.1: 2.7e-12
+MA0154.4: 1.19e-12
+MA1616.1: 7.39e-13
+MA1655.1: 3.91e-13
+MA0019.1: 2.27e-13
+MA0671.1: 1.35e-13
+MA0764.2: 2.84e-14
+MA0528.2: 2.84e-14
+MA0647.1: 2.13e-14
+MA0159.1: 1.42e-14
+MA1110.1: 7.11e-15
+MA0087.1: 7.11e-15
+MA1657.1: 0
+MA1656.1: 0
+MA1654.1: 0
+MA1650.1: 0
+MA1647.1: 0
+MA1643.1: 0
+MA1640.1: 0
+MA1639.1: 0
+MA1636.1: 0
+MA1633.1: 0
+MA1632.1: 0
+MA1630.1: 0
+MA1629.1: 0
+MA1628.1: 0
+MA1627.1: 0
+MA1625.1: 0
+MA1623.1: 0
+MA1622.1: 0
+MA1615.1: 0
+MA1603.1: 0
+MA1602.1: 0
+MA1601.1: 0
+MA1600.1: 0
+MA1599.1: 0
+MA1597.1: 0
+MA1594.1: 0
+MA1593.1: 0
+MA1592.1: 0
+MA1589.1: 0
+MA1588.1: 0
+MA1587.1: 0
+MA1585.1: 0
+MA1584.1: 0
+MA1576.1: 0
+MA1575.1: 0
+MA1574.1: 0
+MA1573.1: 0
+MA1561.1: 0
+MA1557.1: 0
+MA1555.1: 0
+MA1554.1: 0
+MA1553.1: 0
+MA1552.1: 0
+MA1550.1: 0
+MA1549.1: 0
+MA1548.1: 0
+MA1546.1: 0
+MA1545.1: 0
+MA1541.1: 0
+MA1539.1: 0
+MA1538.1: 0
+MA1537.1: 0
+MA1535.1: 0
+MA1533.1: 0
+MA1532.1: 0
+MA1529.1: 0
+MA1528.1: 0
+MA1527.1: 0
+MA1525.1: 0
+MA1523.1: 0
+MA1520.1: 0
+MA1517.1: 0
+MA1516.1: 0
+MA1515.1: 0
+MA1514.1: 0
+MA1504.1: 0
+MA1501.1: 0
+MA1494.1: 0
+MA1493.1: 0
+MA1491.1: 0
+MA1489.1: 0
+MA1484.1: 0
+MA1483.1: 0
+MA1471.1: 0
+MA1470.1: 0
+MA1466.1: 0
+MA1464.1: 0
+MA1421.1: 0
+MA1418.1: 0
+MA1154.1: 0
+MA1150.1: 0
+MA1149.1: 0
+MA1148.1: 0
+MA1146.1: 0
+MA1145.1: 0
+MA1144.1: 0
+MA1143.1: 0
+MA1142.1: 0
+MA1141.1: 0
+MA1140.2: 0
+MA1139.1: 0
+MA1138.1: 0
+MA1137.1: 0
+MA1134.1: 0
+MA1133.1: 0
+MA1132.1: 0
+MA1131.1: 0
+MA1130.1: 0
+MA1129.1: 0
+MA1128.1: 0
+MA1126.1: 0
+MA1125.1: 0
+MA1124.1: 0
+MA1123.2: 0
+MA1121.1: 0
+MA1118.1: 0
+MA1116.1: 0
+MA1114.1: 0
+MA1111.1: 0
+MA1106.1: 0
+MA1103.2: 0
+MA1101.2: 0
+MA1099.2: 0
+MA0912.2: 0
+MA0903.1: 0
+MA0902.2: 0
+MA0900.2: 0
+MA0895.1: 0
+MA0894.1: 0
+MA0890.1: 0
+MA0872.1: 0
+MA0871.2: 0
+MA0870.1: 0
+MA0869.1: 0
+MA0866.1: 0
+MA0865.1: 0
+MA0864.2: 0
+MA0863.1: 0
+MA0862.1: 0
+MA0860.1: 0
+MA0859.1: 0
+MA0858.1: 0
+MA0857.1: 0
+MA0855.1: 0
+MA0853.1: 0
+MA0852.2: 0
+MA0851.1: 0
+MA0847.2: 0
+MA0846.1: 0
+MA0845.1: 0
+MA0844.1: 0
+MA0843.1: 0
+MA0842.2: 0
+MA0840.1: 0
+MA0839.1: 0
+MA0838.1: 0
+MA0836.2: 0
+MA0835.2: 0
+MA0833.2: 0
+MA0831.2: 0
+MA0829.2: 0
+MA0828.1: 0
+MA0825.1: 0
+MA0819.1: 0
+MA0815.1: 0
+MA0813.1: 0
+MA0810.1: 0
+MA0809.2: 0
+MA0808.1: 0
+MA0804.1: 0
+MA0803.1: 0
+MA0801.1: 0
+MA0800.1: 0
+MA0799.1: 0
+MA0798.2: 0
+MA0797.1: 0
+MA0796.1: 0
+MA0795.1: 0
+MA0794.1: 0
+MA0793.1: 0
+MA0789.1: 0
+MA0787.1: 0
+MA0786.1: 0
+MA0785.1: 0
+MA0783.1: 0
+MA0782.2: 0
+MA0780.1: 0
+MA0778.1: 0
+MA0777.1: 0
+MA0776.1: 0
+MA0775.1: 0
+MA0774.1: 0
+MA0773.1: 0
+MA0772.1: 0
+MA0770.1: 0
+MA0769.2: 0
+MA0768.1: 0
+MA0763.1: 0
+MA0761.2: 0
+MA0759.1: 0
+MA0758.1: 0
+MA0757.1: 0
+MA0756.1: 0
+MA0755.1: 0
+MA0754.1: 0
+MA0753.2: 0
+MA0751.1: 0
+MA0745.2: 0
+MA0739.1: 0
+MA0737.1: 0
+MA0736.1: 0
+MA0735.1: 0
+MA0734.2: 0
+MA0730.1: 0
+MA0729.1: 0
+MA0728.1: 0
+MA0727.1: 0
+MA0726.1: 0
+MA0723.1: 0
+MA0721.1: 0
+MA0716.1: 0
+MA0706.1: 0
+MA0704.1: 0
+MA0703.2: 0
+MA0702.2: 0
+MA0698.1: 0
+MA0697.1: 0
+MA0696.1: 0
+MA0695.1: 0
+MA0692.1: 0
+MA0691.1: 0
+MA0688.1: 0
+MA0684.2: 0
+MA0680.1: 0
+MA0679.2: 0
+MA0677.1: 0
+MA0670.1: 0
+MA0668.1: 0
+MA0664.1: 0
+MA0663.1: 0
+MA0661.1: 0
+MA0656.1: 0
+MA0655.1: 0
+MA0649.1: 0
+MA0646.1: 0
+MA0645.1: 0
+MA0643.1: 0
+MA0642.1: 0
+MA0641.1: 0
+MA0638.1: 0
+MA0637.1: 0
+MA0632.2: 0
+MA0628.1: 0
+MA0627.2: 0
+MA0626.1: 0
+MA0625.1: 0
+MA0624.1: 0
+MA0622.1: 0
+MA0620.3: 0
+MA0619.1: 0
+MA0615.1: 0
+MA0614.1: 0
+MA0609.2: 0
+MA0608.1: 0
+MA0606.1: 0
+MA0605.2: 0
+MA0604.1: 0
+MA0603.1: 0
+MA0602.1: 0
+MA0601.1: 0
+MA0600.2: 0
+MA0599.1: 0
+MA0596.1: 0
+MA0595.1: 0
+MA0593.1: 0
+MA0592.3: 0
+MA0591.1: 0
+MA0527.1: 0
+MA0525.2: 0
+MA0523.1: 0
+MA0521.1: 0
+MA0520.1: 0
+MA0518.1: 0
+MA0517.1: 0
+MA0516.2: 0
+MA0513.1: 0
+MA0512.2: 0
+MA0511.2: 0
+MA0510.2: 0
+MA0509.2: 0
+MA0507.1: 0
+MA0506.1: 0
+MA0504.1: 0
+MA0503.1: 0
+MA0501.1: 0
+MA0498.2: 0
+MA0497.1: 0
+MA0495.3: 0
+MA0494.1: 0
+MA0492.1: 0
+MA0491.2: 0
+MA0490.2: 0
+MA0489.1: 0
+MA0488.1: 0
+MA0486.2: 0
+MA0484.2: 0
+MA0483.1: 0
+MA0482.2: 0
+MA0481.3: 0
+MA0480.1: 0
+MA0478.1: 0
+MA0477.2: 0
+MA0476.1: 0
+MA0475.2: 0
+MA0474.2: 0
+MA0473.3: 0
+MA0472.2: 0
+MA0470.2: 0
+MA0469.3: 0
+MA0467.1: 0
+MA0466.2: 0
+MA0464.2: 0
+MA0463.2: 0
+MA0259.1: 0
+MA0258.2: 0
+MA0164.1: 0
+MA0163.1: 0
+MA0162.4: 0
+MA0157.2: 0
+MA0152.1: 0
+MA0151.1: 0
+MA0150.2: 0
+MA0146.2: 0
+MA0144.2: 0
+MA0141.3: 0
+MA0138.2: 0
+MA0137.3: 0
+MA0131.2: 0
+MA0124.2: 0
+MA0119.1: 0
+MA0117.2: 0
+MA0116.1: 0
+MA0115.1: 0
+MA0114.4: 0
+MA0113.3: 0
+MA0112.3: 0
+MA0108.2: 0
+MA0107.1: 0
+MA0106.3: 0
+MA0105.4: 0
+MA0099.3: 0
+MA0098.3: 0
+MA0095.2: 0
+MA0090.3: 0
+MA0089.2: 0
+MA0088.2: 0
+MA0083.3: 0
+MA0080.5: 0
+MA0076.2: 0
+MA0075.3: 0
+MA0074.1: 0
+MA0072.1: 0
+MA0071.1: 0
+MA0070.1: 0
+MA0069.1: 0
+MA0067.1: 0
+MA0066.1: 0
+MA0065.2: 0
+MA0063.2: 0
+MA0062.3: 0
+MA0060.3: 0
+MA0058.3: 0
+MA0056.2: 0
+MA0052.4: 0
+MA0051.1: 0
+MA0050.2: 0
+MA0048.2: 0
+MA0043.3: 0
+MA0032.2: 0
+MA0031.1: 0
+MA0029.1: 0
+MA0028.2: 0
+MA0027.2: 0
+MA0025.2: 0
+MA0024.3: 0
+MA0018.4: 0
+MA0017.2: 0
+MA0014.3: 0
+MA0007.3: 0
+MA0006.1: 0
+MA0004.1: 0
+MA0002.2: 0
+TGCTTGGGGCTGGGAGACCAGTTCAAGGTTCTAATCTAGGCACCTGCTCCTCAACTGGATAACCATGTGGGCGGTGCCACCAGAGGGCAGTGTGGGGCTGCTTTCTCGAGAGGAAGGAGGCGTGGCCTGGAGCAGGTTCAGTCCTTTATTGTTCCCGCCCCCAGTCATCCCCTTCCCGGG
+MA0006.1	218	223	+	4.27	tgcttg
+MA0155.1	218	229	+	6.05	tgcttggggctg
+MA0812.1	218	228	+	4.2	tgcttggggct
+MA0812.1	218	228	-	7.05	agccccaagca
+MA0002.2	219	229	+	3.04	gcttggggctg
+MA1599.1	220	235	-	3.6	gtctcccagccccaag
+MA0513.1	225	237	-	4.28	tggtctcccagcc
+MA0647.1	231	242	+	5.09	gagaccagttca
+MA0647.1	231	242	-	4.6	tgaactggtctc
+MA1105.2	231	242	-	5.8	tgaactggtctc
+MA0138.2	232	252	-	4.56	attagaaccttgaactggtct
+MA0145.3	232	241	+	6.72	agaccagttc
+MA0145.3	232	241	-	6.84	gaactggtct
+MA1148.1	233	250	+	3.69	gaccagttcaaggttcta
+MA1541.1	233	249	+	5.33	gaccagttcaaggttct
+MA0065.2	235	249	+	4.86	ccagttcaaggttct
+MA0504.1	235	249	+	6.06	ccagttcaaggttct
+MA0693.2	235	242	+	5.95	ccagttca
+MA1550.1	235	250	+	4.48	ccagttcaaggttcta
+MA1581.1	235	247	-	5.56	aaccttgaactgg
+MA0505.1	236	250	+	6.12	cagttcaaggttcta
+MA0677.1	236	249	+	4.23	cagttcaaggttct
+MA1146.1	236	250	+	3.54	cagttcaaggttcta
+MA1494.1	236	250	+	3.37	cagttcaaggttcta
+MA1536.1	236	243	+	5.61	cagttcaa
+MA1574.1	236	250	+	6.91	cagttcaaggttcta
+MA0769.2	237	247	-	4.15	aaccttgaact
+MA0592.3	238	250	+	4.9	gttcaaggttcta
+MA1118.1	238	248	-	3.33	gaaccttgaac
+MA1616.1	238	252	-	3.9	attagaaccttgaac
+MA0069.1	239	252	+	3.54	ttcaaggttctaat
+MA0114.4	239	251	+	5.7	ttcaaggttctaa
+MA0484.2	239	251	+	5.63	ttcaaggttctaa
+MA0643.1	240	249	+	3.6	tcaaggttct
+MA0164.1	241	247	+	4.62	caaggtt
+MA0164.1	242	248	-	4.31	gaacctt
+MA0693.2	242	249	+	3.22	aaggttct
+MA0052.4	245	259	-	4.5	tgcctagattagaac
+MA0482.2	245	256	+	5.49	gttctaatctag
+MA0497.1	246	260	-	6.55	gtgcctagattagaa
+MA0037.3	247	254	-	7.38	agattaga
+MA0151.1	247	252	-	3.96	attaga
+MA0706.1	247	256	+	3.88	tctaatctag
+MA0903.1	247	256	-	3.79	ctagattaga
+MA0027.2	248	255	+	4.04	ctaatcta
+MA0602.1	248	261	+	3	ctaatctaggcacc
+MA0704.1	248	255	+	4.26	ctaatcta
+MA0704.1	248	255	-	4.3	tagattag
+MA0716.1	248	255	+	3.85	ctaatcta
+MA0716.1	248	255	-	4.12	tagattag
+MA0721.1	248	255	+	4.28	ctaatcta
+MA0721.1	248	255	-	4.75	tagattag
+MA0726.1	248	255	+	3.72	ctaatcta
+MA0895.1	248	257	-	3.53	cctagattag
+MA0161.2	251	261	+	6.44	atctaggcacc
+MA0620.3	252	269	+	3.31	tctaggcacctgctcctc
+MA0620.3	252	269	-	3.31	gaggagcaggtgcctaga
+MA0739.1	252	260	-	3.37	gtgcctaga
+MA1529.1	252	269	+	4.46	tctaggcacctgctcctc
+MA1529.1	252	269	-	5.77	gaggagcaggtgcctaga
+MA0688.1	253	263	-	3.11	caggtgcctag
+MA0093.3	254	267	-	4.43	ggagcaggtgccta
+MA0526.3	254	267	-	4.54	ggagcaggtgccta
+MA0829.2	254	267	+	3.76	taggcacctgctcc
+MA0830.2	254	266	-	4.36	gagcaggtgccta
+MA1631.1	254	266	-	4.47	gagcaggtgccta
+MA0059.1	255	265	+	3.94	aggcacctgct
+MA0104.4	255	266	+	3.14	aggcacctgctc
+MA0104.4	255	266	-	3.14	gagcaggtgcct
+MA0147.3	255	266	+	5.42	aggcacctgctc
+MA0147.3	255	266	-	4.09	gagcaggtgcct
+MA0521.1	255	265	-	7.24	agcaggtgcct
+MA0522.3	255	265	-	3.67	agcaggtgcct
+MA0745.2	255	267	+	8.83	aggcacctgctcc
+MA0830.2	255	267	+	10.5	aggcacctgctcc
+MA1123.2	255	267	-	3.23	ggagcaggtgcct
+MA1631.1	255	267	+	10.8	aggcacctgctcc
+MA1648.1	255	265	-	3.49	agcaggtgcct
+MA0048.2	256	265	+	6.98	ggcacctgct
+MA0048.2	256	265	-	6.86	agcaggtgcc
+MA0058.3	256	265	+	3.35	ggcacctgct
+MA0059.1	256	266	-	4.57	gagcaggtgcc
+MA0103.3	256	266	+	8.85	ggcacctgctc
+MA0464.2	256	265	+	3.3	ggcacctgct
+MA0506.1	256	266	-	5.04	gagcaggtgcc
+MA0522.3	256	266	+	9.66	ggcacctgctc
+MA0649.1	256	265	+	6.52	ggcacctgct
+MA0664.1	256	265	-	4.4	agcaggtgcc
+MA0668.1	256	265	+	3.31	ggcacctgct
+MA0692.1	256	265	+	3.99	ggcacctgct
+MA0692.1	256	265	-	3.76	agcaggtgcc
+MA0825.1	256	265	-	5.07	agcaggtgcc
+MA1100.2	256	265	+	8.21	ggcacctgct
+MA1100.2	256	265	-	8.3	agcaggtgcc
+MA1105.2	256	267	-	4.09	ggagcaggtgcc
+MA1493.1	256	265	+	5.73	ggcacctgct
+MA1558.1	256	265	-	8.84	agcaggtgcc
+MA1648.1	256	266	+	9.56	ggcacctgctc
+MA0159.1	257	273	-	7.19	agttgaggagcaggtgc
+MA0603.1	257	266	-	3.54	gagcaggtgc
+MA1114.1	257	273	-	5.61	agttgaggagcaggtgc
+MA1149.1	257	274	-	3.43	cagttgaggagcaggtgc
+MA1629.1	257	270	-	4.1	tgaggagcaggtgc
+MA0004.1	258	263	+	4.16	cacctg
+MA0004.1	258	263	-	4.16	caggtg
+MA0782.2	258	272	-	3.54	gttgaggagcaggtg
+MA0831.2	258	265	+	3.16	cacctgct
+MA1627.1	258	271	+	3.59	cacctgctcctcaa
+MA1628.1	258	268	-	6.03	aggagcaggtg
+MA0528.2	260	271	-	5.28	ttgaggagcagg
+MA1655.1	260	271	-	3.21	ttgaggagcagg
+MA0056.2	261	273	+	3.07	ctgctcctcaact
+MA0057.1	261	270	-	3.36	tgaggagcag
+MA1627.1	261	274	+	3.43	ctgctcctcaactg
+MA0684.2	262	273	+	3.85	tgctcctcaact
+MA1549.1	262	271	-	3.61	ttgaggagca
+MA0063.2	263	273	+	3	gctcctcaact
+MA0528.2	263	274	-	3.25	cagttgaggagc
+MA0706.1	263	272	+	3.09	gctcctcaac
+MA0130.1	264	269	+	3.56	ctcctc
+MA1579.1	265	279	-	3.54	ttatccagttgagga
+MA0698.1	266	278	-	4.32	tatccagttgagg
+MA1123.2	266	278	-	4.4	tatccagttgagg
+MA0100.3	267	276	+	8.02	ctcaactgga
+MA0130.1	267	272	+	3.65	ctcaac
+MA0074.1	268	282	-	5.56	tggttatccagttga
+MA1105.2	268	279	+	5.21	tcaactggataa
+MA1118.1	268	278	+	3.06	tcaactggata
+MA1508.1	268	279	+	3.15	tcaactggataa
+MA0025.2	269	281	-	3.65	ggttatccagttg
+MA0145.3	269	278	+	6.52	caactggata
+MA0145.3	269	278	-	4.6	tatccagttg
+MA1150.1	270	280	+	3.61	aactggataac
+MA0624.1	271	280	-	3.44	gttatccagt
+MA0625.1	271	280	-	3.54	gttatccagt
+MA0895.1	271	280	+	5.35	actggataac
+MA0130.1	272	277	-	4.15	atccag
+MA0152.1	273	279	-	5.83	ttatcca
+MA0852.2	273	286	+	3.09	tggataaccatgtg
+MA0786.1	274	285	-	3.11	acatggttatcc
+MA1103.2	274	284	+	3.58	ggataaccatg
+MA0785.1	275	286	-	3.64	cacatggttatc
+MA0895.1	275	284	-	5.77	catggttatc
+MA0031.1	276	283	+	5.48	ataaccat
+MA0157.2	276	283	+	4	ataaccat
+MA0077.1	277	285	-	4.04	acatggtta
+MA0087.1	277	283	-	5.02	atggtta
+MA0093.3	277	290	+	4.12	taaccatgtgggcg
+MA0526.3	277	290	+	4.51	taaccatgtgggcg
+MA1120.1	277	287	+	3.03	taaccatgtgg
+MA0059.1	278	288	+	5.24	aaccatgtggg
+MA0067.1	278	285	+	3.28	aaccatgt
+MA0103.3	278	288	-	3.23	cccacatggtt
+MA0104.4	278	289	+	7.07	aaccatgtgggc
+MA0104.4	278	289	-	7.07	gcccacatggtt
+MA0109.1	278	287	+	5.4	aaccatgtgg
+MA0109.1	278	287	-	3.55	ccacatggtt
+MA0147.3	278	289	+	5.95	aaccatgtgggc
+MA0147.3	278	289	-	5.87	gcccacatggtt
+MA1123.2	278	290	-	4.76	cgcccacatggtt
+MA0058.3	279	288	+	4.93	accatgtggg
+MA0058.3	279	288	-	5.49	cccacatggt
+MA0059.1	279	289	-	6.36	gcccacatggt
+MA0626.1	279	288	-	4.83	cccacatggt
+MA0633.1	279	288	+	6.78	accatgtggg
+MA0633.1	279	288	-	6.7	cccacatggt
+MA0668.1	279	288	+	3.87	accatgtggg
+MA0668.1	279	288	-	5.57	cccacatggt
+MA0692.1	279	288	+	3.26	accatgtggg
+MA0692.1	279	288	-	4.58	cccacatggt
+MA0819.1	279	288	+	3.59	accatgtggg
+MA0819.1	279	288	-	3.57	cccacatggt
+MA0825.1	279	288	+	3.73	accatgtggg
+MA0825.1	279	288	-	3.95	cccacatggt
+MA0831.2	279	286	-	5.22	cacatggt
+MA1108.2	279	288	-	7.9	cccacatggt
+MA1570.1	279	288	+	6.73	accatgtggg
+MA1570.1	279	288	-	6.64	cccacatggt
+MA0162.4	280	293	-	5.59	caccgcccacatgg
+MA1627.1	280	293	-	3.99	caccgcccacatgg
+MA0004.1	281	286	+	3.64	catgtg
+MA0004.1	281	286	-	3.64	cacatg
+MA0472.2	281	291	-	4.29	ccgcccacatg
+MA0646.1	281	291	+	4.5	catgtgggcgg
+MA0685.1	281	297	-	4.08	gtggcaccgcccacatg
+MA0742.1	281	295	-	3.3	ggcaccgcccacatg
+MA1107.2	281	296	-	3.77	tggcaccgcccacatg
+MA0516.2	282	298	-	3.58	ggtggcaccgcccacat
+MA1650.1	282	293	-	4.94	caccgcccacat
+MA0079.4	283	297	-	4.54	gtggcaccgcccaca
+MA0597.1	283	291	-	4.81	ccgcccaca
+MA0746.2	283	295	-	5.93	ggcaccgcccaca
+MA0130.1	284	289	-	3.23	gcccac
+MA0741.1	284	294	-	5.34	gcaccgcccac
+MA1511.1	284	294	-	3.36	gcaccgcccac
+MA1515.1	285	295	-	5.29	ggcaccgccca
+MA1517.1	285	295	-	5.45	ggcaccgccca
+MA0494.1	288	306	-	7.91	tgccctctggtggcaccgc
+MA0139.1	289	307	-	3.11	ctgccctctggtggcaccg
+MA0159.1	290	306	+	4.85	ggtgccaccagagggca
+MA0671.1	290	298	+	3.63	ggtgccacc
+MA0139.1	291	309	+	13.2	gtgccaccagagggcagtg
+MA0597.1	291	299	+	4.26	gtgccacca
+MA0738.1	291	299	+	5.46	gtgccacca
+MA0739.1	291	299	+	7.08	gtgccacca
+MA0003.4	294	307	-	4.3	ctgccctctggtgg
+MA0814.2	294	307	+	3.5	ccaccagagggcag
+MA1123.2	294	306	+	4.11	ccaccagagggca
+MA0130.1	295	300	+	3.22	caccag
+MA0524.2	295	306	+	4.23	caccagagggca
+MA0810.1	295	306	+	3.09	caccagagggca
+MA0810.1	295	306	-	3.58	tgccctctggtg
+MA0811.1	295	306	+	3.87	caccagagggca
+MA0114.4	296	308	+	3.35	accagagggcagt
+MA0484.2	296	308	+	3.43	accagagggcagt
+MA1615.1	296	308	+	3.46	accagagggcagt
+MA1111.1	298	308	+	3.1	cagagggcagt
+MA0597.1	299	307	-	6.28	ctgccctct
+MA0693.2	299	306	+	3.05	agagggca
+MA0738.1	299	307	-	4.6	ctgccctct
+MA0739.1	299	307	-	3.05	ctgccctct
+MA1535.1	299	307	+	4.3	agagggcag
+MA1110.1	300	310	-	3.51	acactgccctc
+MA1149.1	300	317	+	4.15	gagggcagtgtggggctg
+MA1514.1	300	314	-	8.15	ccccacactgccctc
+MA1536.1	300	307	+	3.93	gagggcag
+MA1532.1	301	315	+	4.53	agggcagtgtggggc
+MA1107.2	302	317	-	3.73	cagccccacactgccc
+MA1578.1	305	314	-	3.04	ccccacactg
+MA1515.1	306	316	-	3.65	agccccacact
+MA1656.1	306	319	-	5.03	agcagccccacact
+MA0130.1	309	314	-	3.7	ccccac
+MA1655.1	311	322	-	3.25	gaaagcagcccc
+MA1579.1	315	329	-	4.94	ctctcgagaaagcag
+MA0508.3	316	326	+	7.65	tgctttctcga
+MA0154.4	319	333	+	3.14	tttctcgagaggaag
+MA1579.1	320	334	+	3.67	ttctcgagaggaagg
+MA0080.5	321	340	+	3.63	tctcgagaggaaggaggcgt
+MA0528.2	322	333	+	4.42	ctcgagaggaag
+MA1508.1	323	334	+	5.95	tcgagaggaagg
+MA0057.1	324	333	+	3.48	cgagaggaag
+MA0062.3	324	337	-	5.91	cctccttcctctcg
+MA0473.3	324	337	+	4.89	cgagaggaaggagg
+MA0761.2	324	337	+	6.12	cgagaggaaggagg
+MA0508.3	325	335	-	6.37	tccttcctctc
+MA0750.2	325	337	+	4.42	gagaggaaggagg
+MA1484.1	325	334	+	3.09	gagaggaagg
+MA0076.2	326	336	-	4.85	ctccttcctct
+MA0098.3	326	335	+	4.7	agaggaagga
+MA0471.2	326	338	+	4.35	agaggaaggaggc
+MA0474.2	326	335	+	4.16	agaggaagga
+MA0475.2	326	335	+	3.03	agaggaagga
+MA0528.2	326	337	+	6.77	agaggaaggagg
+MA0624.1	326	335	-	3.93	tccttcctct
+MA0625.1	326	335	-	3.46	tccttcctct
+MA0645.1	326	335	+	6.58	agaggaagga
+MA0759.1	326	335	+	4.13	agaggaagga
+MA0764.2	326	335	+	9.36	agaggaagga
+MA0765.2	326	336	-	5.83	ctccttcctct
+MA0155.1	328	339	+	3.43	aggaaggaggcg
+MA0657.1	328	345	-	8.09	aggccacgcctccttcct
+MA0685.1	330	346	-	11.4	caggccacgcctccttc
+MA0742.1	330	344	-	7.31	ggccacgcctccttc
+MA1107.2	330	345	-	5.96	aggccacgcctccttc
+MA1653.1	330	341	-	4.38	cacgcctccttc
+MA0516.2	331	347	-	5.27	ccaggccacgcctcctt
+MA1599.1	331	346	-	3.9	caggccacgcctcctt
+MA1648.1	331	341	-	3	cacgcctcctt
+MA0079.4	332	346	-	10.3	caggccacgcctcct
+MA0746.2	332	344	-	9.75	ggccacgcctcct
+MA0057.1	333	342	+	3.75	ggaggcgtgg
+MA0146.2	333	346	+	6.84	ggaggcgtggcctg
+MA0741.1	333	343	-	8.2	gccacgcctcc
+MA1511.1	333	343	-	7.97	gccacgcctcc
+MA0146.2	334	347	-	3.05	ccaggccacgcctc
+MA0599.1	334	343	-	5.27	gccacgcctc
+MA1515.1	334	344	-	6.1	ggccacgcctc
+MA1516.1	334	344	-	6.74	ggccacgcctc
+MA1517.1	334	344	-	5.71	ggccacgcctc
+MA0014.3	335	346	+	6.28	aggcgtggcctg
+MA0259.1	335	342	+	4.53	aggcgtgg
+MA0801.1	335	342	+	3.32	aggcgtgg
+MA0006.1	336	341	+	4.57	ggcgtg
+MA0505.1	338	352	-	3.88	ctgctccaggccacg
+MA0003.4	340	353	-	4.22	cctgctccaggcca
+MA0524.2	340	351	+	4.44	tggcctggagca
+MA0524.2	340	351	-	4.79	tgctccaggcca
+MA0810.1	340	351	+	3.99	tggcctggagca
+MA0810.1	340	351	-	3.93	tgctccaggcca
+MA0811.1	340	351	+	4.15	tggcctggagca
+MA0811.1	340	351	-	4.21	tgctccaggcca
+MA0814.2	340	353	+	3.17	tggcctggagcagg
+MA0812.1	341	351	+	3.37	ggcctggagca
+MA0812.1	341	351	-	4.55	tgctccaggcc
+MA1581.1	341	353	+	5.57	ggcctggagcagg
+MA0130.1	344	349	-	3.7	ctccag
+MA0152.1	345	351	-	3.34	tgctcca
+MA1628.1	345	355	+	3.12	tggagcaggtt
+MA0745.2	346	358	-	3.43	ctgaacctgctcc
+MA0830.2	346	358	-	5.14	ctgaacctgctcc
+MA1105.2	346	357	+	7.1	ggagcaggttca
+MA1631.1	346	358	-	5.28	ctgaacctgctcc
+MA0103.3	347	357	-	3.35	tgaacctgctc
+MA0522.3	347	357	-	5.18	tgaacctgctc
+MA1648.1	347	357	-	5.11	tgaacctgctc
+MA1100.2	348	357	+	3.1	agcaggttca
+MA1558.1	348	357	+	5.86	agcaggttca
+MA0693.2	350	357	+	7.31	caggttca
+MA0019.1	351	362	+	3.38	aggttcagtcct
+MA1110.1	351	361	-	3.18	ggactgaacct
+MA1536.1	351	358	+	5.27	aggttcag
+MA0108.2	354	368	-	4.49	caataaaggactgaa
+MA0769.2	359	369	+	3.03	tcctttattgt
+MA0867.2	359	368	-	4.51	caataaagga
+MA0063.2	360	370	-	3.62	aacaataaagg
+MA0868.2	360	369	-	4.42	acaataaagg
+MA0070.1	361	372	-	3.76	ggaacaataaag
+MA0706.1	361	370	-	3.27	aacaataaag
+MA0890.1	361	370	-	4.16	aacaataaag
+MA0903.1	361	370	-	4.33	aacaataaag
+MA1120.1	361	371	-	7.29	gaacaataaag
+MA1644.1	361	371	-	3.01	gaacaataaag
+MA0027.2	362	369	-	3.59	acaataaa
+MA0151.1	362	367	-	4.15	aataaa
+MA0704.1	362	369	+	3.11	tttattgt
+MA0716.1	362	369	-	5.05	acaataaa
+MA0721.1	362	369	-	4.88	acaataaa
+MA0723.1	362	369	+	3.63	tttattgt
+MA0726.1	362	369	+	3.23	tttattgt
+MA0867.2	362	371	-	8.17	gaacaataaa
+MA0077.1	363	371	+	8.22	ttattgttc
+MA0514.1	363	372	+	6.44	ttattgttcc
+MA0515.1	363	372	+	7.95	ttattgttcc
+MA0614.1	363	370	-	3.11	aacaataa
+MA0755.1	363	372	-	3.49	ggaacaataa
+MA0868.2	363	372	-	8.99	ggaacaataa
+MA1561.1	364	374	-	5.37	cgggaacaata
+MA0087.1	365	371	+	7.9	attgttc
+MA0516.2	365	381	+	7.33	attgttcccgcccccag
+MA0152.1	367	373	+	4.52	tgttccc
+MA0471.2	367	379	-	10.3	gggggcgggaaca
+MA1122.1	367	377	-	9.52	gggcgggaaca
+MA0597.1	368	376	+	3.48	gttcccgcc
+MA0738.1	368	376	+	3.52	gttcccgcc
+MA0746.2	368	380	+	5.75	gttcccgccccca
+MA0753.2	368	380	+	3.19	gttcccgccccca
+MA1515.1	368	378	+	3.95	gttcccgcccc
+MA1517.1	368	378	+	3.14	gttcccgcccc
+MA1653.1	368	379	+	4.24	gttcccgccccc
+MA0599.1	369	378	+	7.26	ttcccgcccc
+MA0741.1	369	379	+	6.39	ttcccgccccc
+MA1107.2	369	384	+	3.04	ttcccgcccccagtca
+MA1511.1	369	379	+	3.88	ttcccgccccc
+MA0162.4	370	383	+	5.78	tcccgcccccagtc
+MA1515.1	370	380	+	5.02	tcccgccccca
+MA1627.1	370	383	+	7.33	tcccgcccccagtc
+MA1615.1	371	383	-	4.48	gactgggggcggg
+MA0597.1	372	380	+	4.97	ccgccccca
+MA0695.1	372	383	+	3.45	ccgcccccagtc
+MA1630.1	372	382	-	5.41	actgggggcgg
+MA0155.1	373	384	-	8.39	tgactgggggcg
+MA0524.2	373	384	+	4.73	cgcccccagtca
+MA0524.2	373	384	-	4.23	tgactgggggcg
+MA0810.1	373	384	+	4.49	cgcccccagtca
+MA0811.1	373	384	+	4.4	cgcccccagtca
+MA0811.1	373	384	-	3.76	tgactgggggcg
+MA1578.1	374	383	+	5.05	gcccccagtc
+MA0073.1	375	394	+	8.77	cccccagtcatccccttccc
+MA1578.1	375	384	+	3.25	cccccagtca
+MA0060.3	376	386	+	3.59	ccccagtcatc
+MA0163.1	376	389	-	6.28	ggggatgactgggg
+MA1523.1	376	385	+	3.61	ccccagtcat
+MA1600.1	376	393	+	7.72	ccccagtcatccccttcc
+MA1644.1	376	386	+	4.65	ccccagtcatc
+MA0775.1	378	385	-	4.81	atgactgg
+MA1552.1	378	391	-	3.43	aaggggatgactgg
+MA0498.2	379	385	-	5	atgactg
+MA1652.1	379	392	-	3.13	gaaggggatgactg
+MA0067.1	380	387	+	3.25	agtcatcc
+MA0117.2	380	391	-	4.25	aaggggatgact
+MA0528.2	380	391	-	7.13	aaggggatgact
+MA0056.2	381	393	+	7.12	gtcatccccttcc
+MA0596.1	381	390	-	3.63	aggggatgac
+MA1117.1	381	391	+	4.19	gtcatcccctt
+MA0057.1	383	392	-	5.61	gaaggggatg
+MA0155.1	383	394	-	4.69	gggaaggggatg
+MA0057.1	384	393	-	5.1	ggaaggggat
+MA0130.1	384	389	+	3.41	atcccc
+MA0738.1	384	392	+	3.66	atccccttc
+MA1536.1	384	391	-	3.02	aaggggat
+MA1653.1	384	395	+	5.52	atccccttcccg
+MA0750.2	385	397	-	5.69	cccgggaagggga
+MA1653.1	385	396	+	4.46	tccccttcccgg
+MA0765.2	386	396	+	4.57	ccccttcccgg
+MA0645.1	387	396	-	3.22	ccgggaaggg
+MA0597.1	389	397	+	3.1	cttcccggg
+
+>Papio_anubis (646 bp)

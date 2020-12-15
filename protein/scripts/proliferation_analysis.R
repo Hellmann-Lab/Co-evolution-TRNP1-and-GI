@@ -284,7 +284,7 @@ wrap_summary_table_BM<-function(model_output){
 #compare to GI
 pheno_data<-readRDS("pheno_data/pheno_data.rds")
 
-prolif_vs_dnds<-combined_glm_all %>% 
+prolif_vs_GI<-combined_glm_all %>% 
   mutate(species=case_when(term=="macaque" ~ "Macaca_mulatta",
                            term=="galago" ~ "Otolemur_garnettii",
                            term=="ferret" ~ "Mustela_putorius",
@@ -292,24 +292,24 @@ prolif_vs_dnds<-combined_glm_all %>%
                            term=="human" ~ "Homo_sapiens",
                            term=="dolphin" ~ "Tursiops_truncatus")) %>%
   left_join(pheno_data)
-saveRDS(prolif_vs_dnds, "protein/data/proliferation/prolif_vs_dnds.rds")
+saveRDS(prolif_vs_GI, "protein/data/proliferation/prolif_vs_GI.rds")
 
 
 
 #tree
 tree.coding31<-read.tree("protein/trees/tree_TRNP1_coding_31sp.txt") 
 
-tree.prolif<-drop.tip(tree.coding31, tree.coding31$tip.label[!tree.coding31$tip.label %in% prolif_vs_dnds$species ])
-rownames(prolif_vs_dnds)<-prolif_vs_dnds$species
+tree.prolif<-drop.tip(tree.coding31, tree.coding31$tip.label[!tree.coding31$tip.label %in% prolif_vs_GI$species ])
+rownames(prolif_vs_GI)<-prolif_vs_GI$species
 
-mod_GI<-gls(log2(GI) ~ log2(prolif_prob), data=prolif_vs_dnds, correlation=corBrownian(1, tree.prolif,form=~species), method="ML")
+mod_GI<-gls(log2(GI) ~ log2(prolif_prob), data=prolif_vs_GI, correlation=corBrownian(1, tree.prolif,form=~species), method="ML")
 summary(mod_GI)
 #qq plots
 qqnorm(mod_GI$residuals, pch = 1, frame = FALSE)
 qqline(mod_GI$residuals, col = "steelblue", lwd = 2)
 plot(mod_GI$fitted, mod_GI$residuals)
 
-mod_GI_ctrl<-gls(log2(GI) ~ 1, data=prolif_vs_dnds, correlation=corBrownian(1, tree.prolif,form=~species), method="ML")
+mod_GI_ctrl<-gls(log2(GI) ~ 1, data=prolif_vs_GI, correlation=corBrownian(1, tree.prolif,form=~species), method="ML")
 anova(mod_GI,mod_GI_ctrl)
 
 
@@ -333,17 +333,17 @@ print(xtable(mod_GI_prolif,digits=c(1,1,2,2,2,3,2,3)),
 
 
 #exclude mouse####
-prolif_vs_dnds_nomouse<-prolif_vs_dnds %>%
+prolif_vs_GI_nomouse<-prolif_vs_GI %>%
   filter(term!="mouse")
 
-tree.prolif.nomouse<-drop.tip(tree.coding31, tree.coding31$tip.label[!tree.coding31$tip.label %in% prolif_vs_dnds_nomouse$species ])
-rownames(prolif_vs_dnds_nomouse)<-prolif_vs_dnds_nomouse$species
+tree.prolif.nomouse<-drop.tip(tree.coding31, tree.coding31$tip.label[!tree.coding31$tip.label %in% prolif_vs_GI_nomouse$species ])
+rownames(prolif_vs_GI_nomouse)<-prolif_vs_GI_nomouse$species
 
 
-mod_GI_nomouse<-gls(log2(GI) ~ log2(prolif_prob), data=prolif_vs_dnds_nomouse, correlation=corBrownian(1, tree.prolif.nomouse,form=~species), method="ML")
+mod_GI_nomouse<-gls(log2(GI) ~ log2(prolif_prob), data=prolif_vs_GI_nomouse, correlation=corBrownian(1, tree.prolif.nomouse,form=~species), method="ML")
 summary(mod_GI_nomouse)
 
-mod_GI_ctrl_nomouse<-gls(log2(GI) ~ 1, data=prolif_vs_dnds_nomouse, correlation=corBrownian(1, tree.prolif.nomouse,form=~species), method="ML")
+mod_GI_ctrl_nomouse<-gls(log2(GI) ~ 1, data=prolif_vs_GI_nomouse, correlation=corBrownian(1, tree.prolif.nomouse,form=~species), method="ML")
 anova(mod_GI_nomouse,mod_GI_ctrl_nomouse)
 
 

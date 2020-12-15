@@ -1,0 +1,466 @@
+nthread = 0
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 59   
+makedirectionlist (nuc) Version 7.407
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+0 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+59 x 855 - 103 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 59    1 / 59    2 / 59    3 / 59    4 / 59    5 / 59    6 / 59    7 / 59    8 / 59    9 / 59   10 / 59   11 / 59   12 / 59   13 / 59   14 / 59   15 / 59   16 / 59   17 / 59   18 / 59   19 / 59   20 / 59   21 / 59   22 / 59   23 / 59   24 / 59   25 / 59   26 / 59   27 / 59   28 / 59   29 / 59   30 / 59   31 / 59   32 / 59   33 / 59   34 / 59   35 / 59   36 / 59   37 / 59   38 / 59   39 / 59   40 / 59   41 / 59   42 / 59   43 / 59   44 / 59   45 / 59   46 / 59   47 / 59   48 / 59   49 / 59   50 / 59   51 / 59   52 / 59   53 / 59   54 / 59   55 / 59   56 / 59   57 / 59tbfast-pair (nuc) Version 7.407
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 59   10 / 59   20 / 59   30 / 59   40 / 59   50 / 59
+done.
+
+Progressive alignment ... 
+STEP     1 /58 STEP     2 /58 STEP     3 /58 STEP     4 /58 STEP     5 /58 STEP     6 /58 STEP     7 /58 STEP     8 /58 STEP     9 /58 STEP    10 /58 STEP    11 /58 STEP    12 /58 STEP    13 /58 STEP    14 /58 STEP    15 /58 STEP    16 /58 STEP    17 /58 
+Reallocating..done. *alloclen = 2715
+STEP    18 /58 STEP    19 /58 STEP    20 /58 STEP    21 /58 STEP    22 /58 STEP    23 /58 STEP    24 /58 STEP    25 /58 STEP    26 /58 STEP    27 /58 STEP    28 /58 STEP    29 /58 STEP    30 /58 STEP    31 /58 STEP    32 /58 STEP    33 /58 STEP    34 /58 STEP    35 /58 STEP    36 /58 STEP    37 /58 STEP    38 /58 STEP    39 /58 STEP    40 /58 STEP    41 /58 STEP    42 /58 STEP    43 /58 STEP    44 /58 STEP    45 /58 STEP    46 /58 STEP    47 /58 STEP    48 /58 STEP    49 /58 STEP    50 /58 STEP    51 /58 STEP    52 /58 STEP    53 /58 STEP    54 /58 STEP    55 /58 STEP    56 /58 STEP    57 /58 STEP    58 /58 
+done.
+tbfast (nuc) Version 7.407
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+
+nthread = 0
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 47   
+makedirectionlist (nuc) Version 7.407
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+0 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+47 x 830 - 130 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 47    1 / 47    2 / 47    3 / 47    4 / 47    5 / 47    6 / 47    7 / 47    8 / 47    9 / 47   10 / 47   11 / 47   12 / 47   13 / 47   14 / 47   15 / 47   16 / 47   17 / 47   18 / 47   19 / 47   20 / 47   21 / 47   22 / 47   23 / 47   24 / 47   25 / 47   26 / 47   27 / 47   28 / 47   29 / 47   30 / 47   31 / 47   32 / 47   33 / 47   34 / 47   35 / 47   36 / 47   37 / 47   38 / 47   39 / 47   40 / 47   41 / 47   42 / 47   43 / 47   44 / 47   45 / 47tbfast-pair (nuc) Version 7.407
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 47   10 / 47   20 / 47   30 / 47   40 / 47
+done.
+
+Progressive alignment ... 
+STEP     1 /46 STEP     2 /46 STEP     3 /46 STEP     4 /46 STEP     5 /46 STEP     6 /46 STEP     7 /46 STEP     8 /46 STEP     9 /46 STEP    10 /46 STEP    11 /46 STEP    12 /46 STEP    13 /46 STEP    14 /46 STEP    15 /46 STEP    16 /46 STEP    17 /46 STEP    18 /46 STEP    19 /46 STEP    20 /46 STEP    21 /46 STEP    22 /46 STEP    23 /46 STEP    24 /46 STEP    25 /46 STEP    26 /46 STEP    27 /46 STEP    28 /46 STEP    29 /46 STEP    30 /46 STEP    31 /46 STEP    32 /46 STEP    33 /46 STEP    34 /46 STEP    35 /46 STEP    36 /46 STEP    37 /46 STEP    38 /46 STEP    39 /46 STEP    40 /46 STEP    41 /46 STEP    42 /46 STEP    43 /46 STEP    44 /46 
+Reallocating..done. *alloclen = 2826
+STEP    45 /46 STEP    46 /46 
+done.
+tbfast (nuc) Version 7.407
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+
+nthread = 0
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 50   
+makedirectionlist (nuc) Version 7.407
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+0 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+50 x 513 - 110 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 50    1 / 50    2 / 50    3 / 50    4 / 50    5 / 50    6 / 50    7 / 50    8 / 50    9 / 50   10 / 50   11 / 50   12 / 50   13 / 50   14 / 50   15 / 50   16 / 50   17 / 50   18 / 50   19 / 50   20 / 50   21 / 50   22 / 50   23 / 50   24 / 50   25 / 50   26 / 50   27 / 50   28 / 50   29 / 50   30 / 50   31 / 50   32 / 50   33 / 50   34 / 50   35 / 50   36 / 50   37 / 50   38 / 50   39 / 50   40 / 50   41 / 50   42 / 50   43 / 50   44 / 50   45 / 50   46 / 50   47 / 50   48 / 50tbfast-pair (nuc) Version 7.407
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 50   10 / 50   20 / 50   30 / 50   40 / 50
+done.
+
+Progressive alignment ... 
+STEP     1 /49 STEP     2 /49 STEP     3 /49 STEP     4 /49 STEP     5 /49 STEP     6 /49 STEP     7 /49 STEP     8 /49 STEP     9 /49 STEP    10 /49 STEP    11 /49 STEP    12 /49 STEP    13 /49 STEP    14 /49 STEP    15 /49 STEP    16 /49 STEP    17 /49 STEP    18 /49 STEP    19 /49 STEP    20 /49 STEP    21 /49 STEP    22 /49 STEP    23 /49 STEP    24 /49 STEP    25 /49 STEP    26 /49 STEP    27 /49 
+Reallocating..done. *alloclen = 2029
+STEP    28 /49 STEP    29 /49 STEP    30 /49 STEP    31 /49 STEP    32 /49 STEP    33 /49 STEP    34 /49 STEP    35 /49 STEP    36 /49 STEP    37 /49 STEP    38 /49 STEP    39 /49 STEP    40 /49 STEP    41 /49 STEP    42 /49 STEP    43 /49 STEP    44 /49 STEP    45 /49 STEP    46 /49 STEP    47 /49 STEP    48 /49 STEP    49 /49 
+done.
+tbfast (nuc) Version 7.407
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+
+nthread = 0
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 41   
+makedirectionlist (nuc) Version 7.407
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+0 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+41 x 527 - 95 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 41    1 / 41    2 / 41    3 / 41    4 / 41    5 / 41    6 / 41    7 / 41    8 / 41    9 / 41   10 / 41   11 / 41   12 / 41   13 / 41   14 / 41   15 / 41   16 / 41   17 / 41   18 / 41   19 / 41   20 / 41   21 / 41   22 / 41   23 / 41   24 / 41   25 / 41   26 / 41   27 / 41   28 / 41   29 / 41   30 / 41   31 / 41   32 / 41   33 / 41   34 / 41   35 / 41   36 / 41   37 / 41   38 / 41   39 / 41tbfast-pair (nuc) Version 7.407
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 41   10 / 41   20 / 41   30 / 41
+done.
+
+Progressive alignment ... 
+STEP     1 /40 STEP     2 /40 STEP     3 /40 STEP     4 /40 STEP     5 /40 STEP     6 /40 STEP     7 /40 STEP     8 /40 STEP     9 /40 STEP    10 /40 STEP    11 /40 STEP    12 /40 STEP    13 /40 STEP    14 /40 STEP    15 /40 STEP    16 /40 STEP    17 /40 STEP    18 /40 STEP    19 /40 STEP    20 /40 STEP    21 /40 STEP    22 /40 STEP    23 /40 STEP    24 /40 STEP    25 /40 STEP    26 /40 STEP    27 /40 STEP    28 /40 STEP    29 /40 STEP    30 /40 STEP    31 /40 STEP    32 /40 STEP    33 /40 STEP    34 /40 STEP    35 /40 STEP    36 /40 STEP    37 /40 STEP    38 /40 
+Reallocating..done. *alloclen = 2118
+STEP    39 /40 STEP    40 /40 
+done.
+tbfast (nuc) Version 7.407
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+
+nthread = 0
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 44   
+makedirectionlist (nuc) Version 7.407
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+0 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+44 x 832 - 126 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 44    1 / 44    2 / 44    3 / 44    4 / 44    5 / 44    6 / 44    7 / 44    8 / 44    9 / 44   10 / 44   11 / 44   12 / 44   13 / 44   14 / 44   15 / 44   16 / 44   17 / 44   18 / 44   19 / 44   20 / 44   21 / 44   22 / 44   23 / 44   24 / 44   25 / 44   26 / 44   27 / 44   28 / 44   29 / 44   30 / 44   31 / 44   32 / 44   33 / 44   34 / 44   35 / 44   36 / 44   37 / 44   38 / 44   39 / 44   40 / 44   41 / 44   42 / 44tbfast-pair (nuc) Version 7.407
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 44   10 / 44   20 / 44   30 / 44   40 / 44
+done.
+
+Progressive alignment ... 
+STEP     1 /43 STEP     2 /43 STEP     3 /43 STEP     4 /43 STEP     5 /43 STEP     6 /43 STEP     7 /43 STEP     8 /43 STEP     9 /43 STEP    10 /43 STEP    11 /43 STEP    12 /43 STEP    13 /43 STEP    14 /43 STEP    15 /43 STEP    16 /43 STEP    17 /43 STEP    18 /43 STEP    19 /43 STEP    20 /43 STEP    21 /43 STEP    22 /43 STEP    23 /43 STEP    24 /43 STEP    25 /43 STEP    26 /43 STEP    27 /43 STEP    28 /43 STEP    29 /43 STEP    30 /43 STEP    31 /43 STEP    32 /43 STEP    33 /43 STEP    34 /43 STEP    35 /43 STEP    36 /43 STEP    37 /43 STEP    38 /43 STEP    39 /43 STEP    40 /43 STEP    41 /43 STEP    42 /43 STEP    43 /43 
+done.
+tbfast (nuc) Version 7.407
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+
+nthread = 0
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 59   
+makedirectionlist (nuc) Version 7.407
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+0 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+59 x 837 - 142 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 59    1 / 59    2 / 59    3 / 59    4 / 59    5 / 59    6 / 59    7 / 59    8 / 59    9 / 59   10 / 59   11 / 59   12 / 59   13 / 59   14 / 59   15 / 59   16 / 59   17 / 59   18 / 59   19 / 59   20 / 59   21 / 59   22 / 59   23 / 59   24 / 59   25 / 59   26 / 59   27 / 59   28 / 59   29 / 59   30 / 59   31 / 59   32 / 59   33 / 59   34 / 59   35 / 59   36 / 59   37 / 59   38 / 59   39 / 59   40 / 59   41 / 59   42 / 59   43 / 59   44 / 59   45 / 59   46 / 59   47 / 59   48 / 59   49 / 59   50 / 59   51 / 59   52 / 59   53 / 59   54 / 59   55 / 59   56 / 59   57 / 59tbfast-pair (nuc) Version 7.407
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 59   10 / 59   20 / 59   30 / 59   40 / 59   50 / 59
+done.
+
+Progressive alignment ... 
+STEP     1 /58 STEP     2 /58 STEP     3 /58 STEP     4 /58 STEP     5 /58 STEP     6 /58 STEP     7 /58 STEP     8 /58 STEP     9 /58 STEP    10 /58 STEP    11 /58 STEP    12 /58 STEP    13 /58 STEP    14 /58 STEP    15 /58 STEP    16 /58 STEP    17 /58 STEP    18 /58 STEP    19 /58 STEP    20 /58 STEP    21 /58 STEP    22 /58 STEP    23 /58 STEP    24 /58 STEP    25 /58 STEP    26 /58 STEP    27 /58 STEP    28 /58 STEP    29 /58 STEP    30 /58 
+Reallocating..done. *alloclen = 2676
+STEP    31 /58 STEP    32 /58 STEP    33 /58 STEP    34 /58 STEP    35 /58 STEP    36 /58 STEP    37 /58 STEP    38 /58 STEP    39 /58 STEP    40 /58 STEP    41 /58 STEP    42 /58 STEP    43 /58 STEP    44 /58 STEP    45 /58 STEP    46 /58 STEP    47 /58 STEP    48 /58 STEP    49 /58 STEP    50 /58 STEP    51 /58 STEP    52 /58 STEP    53 /58 STEP    54 /58 STEP    55 /58 STEP    56 /58 STEP    57 /58 STEP    58 /58 
+done.
+tbfast (nuc) Version 7.407
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+
+nthread = 0
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 48   
+makedirectionlist (nuc) Version 7.407
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+0 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+48 x 2803 - 140 d
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 48    1 / 48    2 / 48    3 / 48    4 / 48    5 / 48    6 / 48    7 / 48    8 / 48    9 / 48   10 / 48   11 / 48   12 / 48   13 / 48   14 / 48   15 / 48   16 / 48   17 / 48   18 / 48   19 / 48   20 / 48   21 / 48   22 / 48   23 / 48   24 / 48   25 / 48   26 / 48   27 / 48   28 / 48   29 / 48   30 / 48   31 / 48   32 / 48   33 / 48   34 / 48   35 / 48   36 / 48   37 / 48   38 / 48   39 / 48   40 / 48   41 / 48   42 / 48   43 / 48   44 / 48   45 / 48   46 / 48tbfast-pair (nuc) Version 7.407
+alg=N, model=DNA200 (2), 2.00 (6.00), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 48   10 / 48   20 / 48   30 / 48   40 / 48
+done.
+
+Progressive alignment ... 
+STEP     1 /47 STEP     2 /47 STEP     3 /47 STEP     4 /47 STEP     5 /47 STEP     6 /47 STEP     7 /47 STEP     8 /47 STEP     9 /47 
+Reallocating..done. *alloclen = 6994
+STEP    10 /47 STEP    11 /47 STEP    12 /47 STEP    13 /47 STEP    14 /47 STEP    15 /47 STEP    16 /47 STEP    17 /47 STEP    18 /47 STEP    19 /47 STEP    20 /47 STEP    21 /47 STEP    22 /47 STEP    23 /47 STEP    24 /47 STEP    25 /47 STEP    26 /47 STEP    27 /47 
+Reallocating..done. *alloclen = 8230
+STEP    28 /47 STEP    29 /47 STEP    30 /47 STEP    31 /47 STEP    32 /47 STEP    33 /47 STEP    34 /47 STEP    35 /47 STEP    36 /47 STEP    37 /47 
+Reallocating..done. *alloclen = 11010
+STEP    38 /47 STEP    39 /47 STEP    40 /47 STEP    41 /47 
+Reallocating..done. *alloclen = 12146
+STEP    42 /47 STEP    43 /47 STEP    44 /47 STEP    45 /47 STEP    46 /47 STEP    47 /47 
+done.
+tbfast (nuc) Version 7.407
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ E-INS-1 (Not tested.)
+ ?
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Parameters for the E-INS-i option have been changed in version 7.243 (2015 Jun).
+To switch to the old parameters, use --oldgenafpair, instead of --genafpair.
+

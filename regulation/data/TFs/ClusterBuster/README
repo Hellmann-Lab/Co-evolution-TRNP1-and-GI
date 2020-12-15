@@ -1,0 +1,12 @@
+#README
+
+before this -- run the 2 bash scripts run_ctrain and run_cbust to get the optimal gap parameter and enriched TFs overall (ctrain) and the clusters and their TF scores (cbust)
+
+
+this folder contains scripts and output files that enable the transformation of ClusterBuster output file into files that contain a) the overall enrichment per TF per sequence (folder "scores"), b) the specific sites of motif binding in each sequence (folder "motifs"). 
+
+
+Currently the best script example can be found under "./subsetting_NPC_expr_output_OWM_weighted2/scripts/subset_per_species.sh". To apply it to other data, one just needs to copy the folder, adjust the directory/file names in the script and you can delete (but don't have to) all the other folders besides "scripts" (or just copy ./scripts/subset_per_species.sh to a new folder).  
+
+
+Then after this, in order to generate 1 file for all tfs in all species, go back to ClusterBuster/prepare_ClusterBuster.R  and gather the file contents from "scores" folder. Then you are good to go for modelling. 

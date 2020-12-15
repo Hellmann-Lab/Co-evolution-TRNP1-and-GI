@@ -1,0 +1,11 @@
+sample species replicate clone well XC
+29B5_I human 1 29B5 A1 AAAACT
+29B5_II human 2 29B5 B1 ATATAG
+29B5_III human 3 29B5 C1 GTTTAT
+30B1_I human 1 30B1 D1 TGTTTA
+30B1_II human 2 30B1 E1 GCTAGA
+30B1_III human 3 30B1 F1 CCCACG
+39B2_I cynomolgus 1 39B2 G1 CGGTGG
+39B2_II cynomolgus 2 39B2 H1 GCTCGC
+39B2_III cynomolgus 3 39B2 A2 AAAGTT
+39B2_III_RT- cynomolgus 4 39B2 B2 ATCAAA

@@ -1,0 +1,10 @@
+Mandrillus_sphinx
+Macaca_fascicularis
+Macaca_mulatta
+Papio_hamadryas
+Papio_anubis
+Pongo_abelii
+Gorilla_gorilla
+Pan_paniscus
+Homo_sapiens
+Pan_troglodytes

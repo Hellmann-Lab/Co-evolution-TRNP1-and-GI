@@ -1,0 +1,456 @@
+      IRanges    Biostrings     tidyverse      reshape2       reshape 
+         TRUE          TRUE          TRUE          TRUE          TRUE 
+GenomicRanges    data.table      phangorn         caper      phytools 
+         TRUE          TRUE          TRUE          TRUE          TRUE 
+       rBLAST       stringr 
+         TRUE          TRUE 
+[1] "/usr/lib/R/bin/exec/R"                                                                                             
+[2] "--slave"                                                                                                           
+[3] "--no-restore"                                                                                                      
+[4] "--file=/data/share/htp/TRNP1/paper_data/regulation/scripts/MPRA/region_activity_calc/MPRA_summarization_function.R"
+[5] "--args"                                                                                                            
+[6] "exon2"                                                                                                             
+[1] "exon2"
+
+
+Building a new DB, current time: 05/12/2020 10:49:40
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000272989 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:40
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000232935 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:40
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000260115 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:41
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000266075 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:41
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000213146 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:41
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000233889 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:41
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00029707 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:42
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000209093 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:42
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000224113 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:42
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000185966 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:43
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000227213 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:43
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000270844 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:43
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000221014 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:43
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000207901 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:44
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00028801 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:44
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000291109 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:44
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000234127 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:44
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000218153 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:45
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000198841 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:45
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000262976 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:45
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000292063 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:46
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000257969 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:46
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00028491 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:46
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000303984 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:46
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000211 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:47
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000324965 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:47
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000322819 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:47
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000211 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:48
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00022912 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:48
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000264168 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:48
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000277042 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:48
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000248909 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:49
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000222921 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:49
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000249863 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:49
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000226021 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:49
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000188112 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:50
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000190973 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:50
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000299931 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:50
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000216961 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:51
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000259161 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:51
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000277996 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:51
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000255823 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:51
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000236988 seconds.
+
+
+Building a new DB, current time: 05/12/2020 10:49:52
+New DB name:   /tmp/RtmpDwtAk6/seqs.fasta
+New DB title:  /tmp/RtmpDwtAk6/seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000211954 seconds.
+[1] "Lost chunks during blasting: 0"
+[1] "Lost sequences: 0"
+Time difference of 13.48127 mins
