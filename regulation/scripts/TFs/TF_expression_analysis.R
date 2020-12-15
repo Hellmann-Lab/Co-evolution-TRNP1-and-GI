@@ -301,7 +301,7 @@ saveRDS(intron_22TFs_summarized, "regulation/data/TFs/expression/summarized_info
 
 
 #get the motif distances####
-system("cd regulation/data/TFs/JASPAR_2020/matrix_clustering/; unzip JASPAR_2020_matrix_clustering_vertebrates_archive.zip 'JASPAR_2020_matrix_clustering_vertebrates_tables/distance_table.tab' -d  .")
+#system("cd regulation/data/TFs/JASPAR_2020/matrix_clustering/; unzip JASPAR_2020_matrix_clustering_vertebrates_archive.zip 'JASPAR_2020_matrix_clustering_vertebrates_tables/distance_table.tab' -d  .")
 
 motif_distances<-read.table("regulation/data/TFs/JASPAR_2020/matrix_clustering/JASPAR_2020_matrix_clustering_vertebrates_tables/distance_table.tab") 
 colnames(motif_distances)<-word(colnames(motif_distances), start=5, end=6, sep="_")

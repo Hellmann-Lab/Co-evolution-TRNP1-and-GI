@@ -10,8 +10,8 @@ system("fold=regulation/data/TFs/JASPAR_2020; mkdir -p $fold; mkdir -p $fold/JAS
        cd $fold/JASPAR_collection; wget http://jaspar.genereg.net/download/CORE/JASPAR2020_CORE_vertebrates_non-redundant_pfms_jaspar.zip; 
        unzip JASPAR2020_CORE_vertebrates_non-redundant_pfms_jaspar.zip; 
        rm JASPAR2020_CORE_vertebrates_non-redundant_pfms_jaspar.zip")
-#also download PWM clustering data
-system('sbatch --wrap="wget http://jaspar.genereg.net/static/clustering/JASPAR_2020_clusters/vertebrates/radial_trees/JASPAR_2020_matrix_clustering_vertebrates_archive.zip -P /data/share/htp/TRNP1/paper_data/regulation/data/TFs/JASPAR_2020/matrix_clustering"')       
+#also download PWM clustering data --> big file; don't run this
+#system('sbatch --wrap="wget http://jaspar.genereg.net/static/clustering/JASPAR_2020_clusters/vertebrates/radial_trees/JASPAR_2020_matrix_clustering_vertebrates_archive.zip -P /data/share/htp/TRNP1/paper_data/regulation/data/TFs/JASPAR_2020/matrix_clustering"')       
 
 
 
