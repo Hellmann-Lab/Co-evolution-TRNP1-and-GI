@@ -3,17 +3,17 @@ This repository contains data files and scripts to reproduce the analyses and re
 
 ## Protein
 
-1) Protein-coding sequence collection 
+### Protein-coding sequence collection 
 
-protein/scripts/downl_genomes.sh - to download the genome sequences from ENSEMBL and NCBI
+1) protein/scripts/downl_genomes.sh - to download the genome sequences from ENSEMBL and NCBI
 
-protein/scripts/processingL_final.R - process our own sequence assemblies from targeted re-sequencing
+2) protein/scripts/processingL_final.R - process our own sequence assemblies from targeted re-sequencing
 
-protein/scripts/collect_coding_seqs2/run_ccs2_function.sh - blast wrapper to extract orthologous protein-coding sequences from genomes 
+3) protein/scripts/collect_coding_seqs2/run_ccs2_function.sh - blast wrapper to extract orthologous protein-coding sequences from genomes 
 
-protein/scripts/collect_coding_seqs.R - gather the orthologous TRNP1 protein-coding sequences from all included sources (genomes, resequencing). Intersect with the available trait data. Save sequences and traits for the downstream analyses
+4) protein/scripts/collect_coding_seqs.R - gather the orthologous TRNP1 protein-coding sequences from all included sources (genomes, resequencing). Intersect with the available trait data. Save sequences and traits for the downstream analyses
 
-2) [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
+### [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
 protein/scripts/align_with_prank.sh
 
 3) [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
