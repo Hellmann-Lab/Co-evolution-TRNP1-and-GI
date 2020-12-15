@@ -1,5 +1,6 @@
-# SETTINGS ----------------------------------------------------------------
 # Written by Beate, used and adjusted by Lucas, and Zane just adjusted the directories
+
+# SETTINGS ----------------------------------------------------------------
 
 setwd("/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing")
 # load in needed packages
