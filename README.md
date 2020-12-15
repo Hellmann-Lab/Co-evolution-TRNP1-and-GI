@@ -3,22 +3,24 @@ This repository contains data files and scripts to reproduce the analyses and re
 
 ## Protein
 
+All the relevant scripts listed below can be found within protein/scripts folder.
+
 ### Protein-coding sequence collection 
 
-1) protein/scripts/downl_genomes.sh - to download the genome sequences from ENSEMBL and NCBI
+1) `downl_genomes.sh` - to download the genome sequences from ENSEMBL and NCBI
 
-2) protein/scripts/processingL_final.R - process our own sequence assemblies from targeted re-sequencing
+2) processingL_final.R - process our own sequence assemblies from targeted re-sequencing
 
-3) protein/scripts/collect_coding_seqs2/run_ccs2_function.sh - blast wrapper to extract orthologous protein-coding sequences from genomes 
+3) collect_coding_seqs2/run_ccs2_function.sh - blast wrapper to extract orthologous protein-coding sequences from genomes 
 
-4) protein/scripts/collect_coding_seqs.R - gather the orthologous TRNP1 protein-coding sequences from all included sources (genomes, resequencing). Intersect with the available trait data. Save sequences and traits for the downstream analyses
+4) collect_coding_seqs.R - gather the orthologous TRNP1 protein-coding sequences from all included sources (genomes, resequencing). Intersect with the available trait data. Save sequences and traits for the downstream analyses
 
 ### [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
-protein/scripts/align_with_prank.sh
+align_with_prank.sh
 
 3) [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
 First, run PAML site models as described in the readme in the folder PAML.
-protein/scripts/select_sign_sites_PAML_M8.R - pull out the identified sites under positive selection.
+select_sign_sites_PAML_M8.R - pull out the identified sites under positive selection.
 
 4) [COEVOL](https://github.com/bayesiancook/coevol)
 protein/scripts/run_coevol.sh - wrapper to run Coevol
