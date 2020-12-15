@@ -4,7 +4,7 @@
 libs<-c("tidyverse", "broom","multcomp","ape", "readr","geiger","nlme","phytools","xtable")
 sapply(libs, require, character.only=T)
 
-setwd("/data/share/htp/TRNP1/paper_data/protein/data/proliferation/")
+setwd("/data/share/htp/TRNP1/paper_data/Co-evolution-TRNP1-and-GI/")
 
 
 
@@ -14,7 +14,7 @@ setwd("/data/share/htp/TRNP1/paper_data/protein/data/proliferation/")
 
 
 #data from the first experiment
-prolif_rate_Trnp1_exp1 <-read_delim("input_data/goetz_prolif_cells_full.csv", 
+prolif_rate_Trnp1_exp1 <-read_delim("protein/data/proliferation/input_data/goetz_prolif_cells_full.csv", 
                                     ";", escape_double = FALSE, 
                                     locale = locale(decimal_mark = ","), 
                                     trim_ws = TRUE)
@@ -36,7 +36,7 @@ prolif_rate_Trnp1_exp1<-prolif_rate_Trnp1_exp1 %>%
 
 
 #data from the second experiment
-prolif_rate_Trnp1_exp2 <-read_delim("input_data/prolif_cells_full_repeated.csv", 
+prolif_rate_Trnp1_exp2 <-read_delim("protein/data/proliferation/input_data/prolif_cells_full_repeated.csv", 
                                              ";", escape_double = FALSE, 
                                              locale = locale(decimal_mark = ","), 
                                              trim_ws = TRUE)
@@ -55,7 +55,7 @@ prolif_rate_Trnp1_exp2<-prolif_rate_Trnp1_exp2 %>%
 
 
 #data from the third experiment
-prolif_rate_Trnp1_exp3 <-read_delim("input_data/repl_6_7.csv", 
+prolif_rate_Trnp1_exp3 <-read_delim("protein/data/proliferation/input_data/repl_6_7.csv", 
                                     ",", escape_double = FALSE, 
                                     locale = locale(decimal_mark = ","), 
                                     trim_ws = TRUE)
@@ -87,7 +87,7 @@ prolif_rate_Trnp1_full_repeated<-prolif_rate_Trnp1_exp2 %>%
 combined_prolif_all<-bind_rows(prolif_rate_Trnp1_exp1, prolif_rate_Trnp1_full_repeated) %>%
   mutate(Trnp1=case_when(species=="GFP"~ "no",
                          T ~ "yes"))
-write.csv2(combined_prolif_all, "input_data/prolif_data_combined.csv")
+write.csv2(combined_prolif_all, "protein/data/proliferation/input_data/prolif_data_combined.csv")
 
 
 
@@ -120,7 +120,7 @@ mod_species_n_orth<-glm(perc_prolif ~ species+n, weights = GFP_pos,
                              data = combined_prolif_Trnp1, family = "binomial")
 
 anova_3mod_prolif_orth<-anova(mod_null_orth, mod_species_orth, mod_species_n_orth, test="LRT") # the best model is the full one
-print(xtable(anova_3mod_prolif_orth,digits=c(1,0,2,0,2,-1)), include.rownames=FALSE, file="output_xtables/prolif_mod_sel1.txt")
+print(xtable(anova_3mod_prolif_orth,digits=c(1,0,2,0,2,-1)), include.rownames=FALSE, file="protein/data/proliferation/output_xtables/prolif_mod_sel1.txt")
 
 
 
@@ -149,7 +149,7 @@ combined_glm_all<-combined_glm_all %>%
          prolif_stderr=prolif_stderr_max-prolif_prob)
 
 
-saveRDS(combined_glm_all, "proliferation_LR_res_orthologues.rds")
+saveRDS(combined_glm_all, "protein/data/proliferation/proliferation_LR_res_orthologues.rds")
 
 #prepare the table for the supplementary material
 combined_glm_pretty<-combined_glm_all %>%
@@ -157,7 +157,7 @@ combined_glm_pretty<-combined_glm_all %>%
   dplyr::select(term, prolif_prob, prolif_stderr) %>%
   dplyr::rename(Species=term, `Proliferation rate` = prolif_prob, `Proliferation SE`=prolif_stderr)
 
-print(xtable(combined_glm_pretty, display=rep("s",ncol(combined_glm_pretty)+1)), include.rownames=FALSE, file="output_xtables/prolif_prob1.txt")
+print(xtable(combined_glm_pretty, display=rep("s",ncol(combined_glm_pretty)+1)), include.rownames=FALSE, file="protein/data/proliferation/output_xtables/prolif_prob1.txt")
 
 
 
@@ -165,22 +165,28 @@ print(xtable(combined_glm_pretty, display=rep("s",ncol(combined_glm_pretty)+1)),
 #info for general linear hypothesis https://stats.stackexchange.com/questions/60352/comparing-levels-of-factors-after-a-glm-in-r
 #it's a comparison of means: kind of like Tukey test (but assuming z-distribution), where YA is the larger of the two means being compared, YB is the smaller of the two means being compared, and SE is the standard error of the sum of the means (summed variances / sqrt sum of ns?)
 
+wrap_glht_output<-function(glht_output){
+  
+  pq<-summary(glht_output)$test
+  mtests <- cbind(pq$coefficients, pq$sigma, pq$tstat, pq$pvalues)
+  error <- attr(pq$pvalues, "error")
+  pname <- switch(glht_output$alternativ, 
+                  less = paste("Pr(<", ifelse(glht_output$df ==0, "z", "t"), ")", sep = ""), 
+                  greater = paste("Pr(>", ifelse(glht_output$df == 0, "z", "t"), ")", sep = ""), 
+                  two.sided = paste("Pr(>|", ifelse(glht_output$df == 0, "z", "t"), "|)", sep = ""))     
+  colnames(mtests) <- c("Estimate", "Std. Error", ifelse(glht_output$df ==0, "z value", "t value"), pname)
+  return(mtests)
+}
+
+
 x<-glht(mod_combined_glm_all,  linfct=mcp(species=c("human - mouse = 0",
                                                     "dolphin - human = 0",
                                                     "human - macaque = 0",
                                                     "human - galago = 0")))   
 
-pq<-summary(x)$test
-
-mtests <- cbind(pq$coefficients, pq$sigma, pq$tstat, pq$pvalues)
-error <- attr(pq$pvalues, "error")
-pname <- switch(x$alternativ, 
-                less = paste("Pr(<", ifelse(x$df ==0, "z", "t"), ")", sep = ""), 
-                greater = paste("Pr(>", ifelse(x$df == 0, "z", "t"), ")", sep = ""), 
-                two.sided = paste("Pr(>|", ifelse(x$df == 0, "z", "t"), "|)", sep = ""))                                                                   
-colnames(mtests) <- c("Estimate", "Std. Error", ifelse(x$df ==0, "z value", "t value"), pname)
-xtable(mtests, digits=4)
-print(xtable(mtests,digits=c(1,2,3,3,4)), file="output_xtables/prolif_comparison1.txt")
+mtests1<-wrap_glht_output(x)
+xtable(mtests1, digits=4)
+print(xtable(mtests1,digits=c(1,2,3,3,4)), file="protein/data/proliferation/output_xtables/prolif_comparison1.txt")
 
 
 
@@ -202,10 +208,10 @@ mod_Trnp1_pres_n<-glm(perc_prolif ~ Trnp1+n, weights = GFP_pos,
                         data = combined_prolif_all, family = "binomial")
 
 anova_3mod_prolif_Trnp1<-anova(mod_null_Trnp1, mod_Trnp1_pres, mod_Trnp1_pres_n, test="LRT") # the best model is the full one
-print(xtable(anova_3mod_prolif_Trnp1,digits=c(1,0,2,0,2,-1)), include.rownames=FALSE, file="output_xtables/prolif_mod_sel2.txt")
+print(xtable(anova_3mod_prolif_Trnp1,digits=c(1,0,2,0,2,-1)), include.rownames=FALSE, file="protein/data/proliferation/output_xtables/prolif_mod_sel2.txt")
 
 
-
+#best model: Trnp1 +n; set intercept to 0 to backcalculate the absolute prolif rates
 combined_glm_Trnp1<-tidy(glm(perc_prolif ~ 0+Trnp1+n, weights = GFP_pos, 
                              data = combined_prolif_all, family = "binomial"))
 
@@ -221,7 +227,7 @@ combined_glm_Trnp1<-combined_glm_Trnp1 %>%
          prolif_stderr_min=exp(estimate-std.error)/(1+exp(estimate-std.error)),
          prolif_stderr=prolif_stderr_max-prolif_prob)
 
-saveRDS(combined_glm_Trnp1, "proliferation_LR_res_TRNP1.rds")
+saveRDS(combined_glm_Trnp1, "protein/data/proliferation/proliferation_LR_res_TRNP1.rds")
 
 
 
@@ -231,35 +237,29 @@ combined_glm_Trnp1_pretty<-combined_glm_Trnp1 %>%
   dplyr::select(term, prolif_prob, prolif_stderr) %>%
   dplyr::rename("TRNP1 present"=term, `Proliferation rate` = prolif_prob, `Proliferation SE`=prolif_stderr)
 
-print(xtable(combined_glm_Trnp1_pretty, display=rep("s",ncol(combined_glm_pretty)+1)), include.rownames=FALSE, file="output_xtables/prolif_prob2.txt")
+print(xtable(combined_glm_Trnp1_pretty, display=rep("s",ncol(combined_glm_pretty)+1)), include.rownames=FALSE, file="protein/data/proliferation/output_xtables/prolif_prob2.txt")
 
 
 
 
 
-# do multiple comparisons of means to get test statistics
+# do multiple comparisons of means to get test statistics on the differences between conditions
 comb_trnp1<-glm(perc_prolif ~ 0+Trnp1+n, weights = GFP_pos, 
                 data = combined_prolif_all, family = "binomial")
 summary(comb_trnp1)
 
 x2<-glht(comb_trnp1, linfct=mcp(Trnp1=c("yes - no = 0")))
-pq2<-summary(x2)$test
-
-mtests2 <- cbind(pq2$coefficients, pq2$sigma, pq2$tstat, pq2$pvalues)
-error2 <- attr(pq2$pvalues, "error")
-pname2 <- switch(x2$alternativ, 
-                less = paste("Pr(<", ifelse(x2$df ==0, "z", "t"), ")", sep = ""), 
-                greater = paste("Pr(>", ifelse(x2$df == 0, "z", "t"), ")", sep = ""), 
-                two.sided = paste("Pr(>|", ifelse(x2$df == 0, "z", "t"), "|)", sep = ""))                                                                   
-colnames(mtests2) <- c("Estimate", "Std. Error", ifelse(x2$df ==0, "z value", "t value"), pname)
+mtests2<-wrap_glht_output(x2)
 xtable(mtests2, digits=3)
 
 #p-value rounds up to a zero -- > use the one from summary output
 summary(x2)
 #2e-16
 mtests2[4]<-2E-16
-print(xtable(mtests2,digits=c(1,2,3,3,-1)), file="output_xtables/prolif_comparison2.txt")
+print(xtable(mtests2,digits=c(1,2,3,3,-1)), file="protein/data/proliferation/output_xtables/prolif_comparison2.txt")
 
+
+ 
 
 
 
@@ -269,30 +269,42 @@ print(xtable(mtests2,digits=c(1,2,3,3,-1)), file="output_xtables/prolif_comparis
 # PGLS: GI vs proliferation ####
 ################################################################
 
-#compare to GI
-pheno_data_new<-readRDS("/data/share/htp/TRNP1/paper_data/data_tables/pheno_data/pheno_data_new.rds")
+wrap_summary_table_BM<-function(model_output){
+  repl_summary<-summary(model_output)
+  repl_summary_table<-as.data.frame(repl_summary$tTable) %>%
+    rownames_to_column(var="Predictor")%>%
+    dplyr::rename(p.value="p-value", t.value="t-value") %>%
+    mutate(Value=round(Value,3),
+           p.value=round(p.value, 4),
+           t.value=round(t.value, 4),
+           logLik=model_output$logLik)
+  return(repl_summary_table)
+}
 
-combined_glm_all<-combined_glm_all %>%
+#compare to GI
+pheno_data<-readRDS("pheno_data/pheno_data.rds")
+
+prolif_vs_dnds<-combined_glm_all %>% 
   mutate(species=case_when(term=="macaque" ~ "Macaca_mulatta",
                            term=="galago" ~ "Otolemur_garnettii",
                            term=="ferret" ~ "Mustela_putorius",
                            term=="mouse" ~ "Mus_musculus",
                            term=="human" ~ "Homo_sapiens",
-                           term=="dolphin" ~ "Tursiops_truncatus"))
-
-prolif_vs_dnds<-combined_glm_all %>% left_join(pheno_data_new)
-saveRDS(prolif_vs_dnds, "prolif_vs_dnds.rds")
+                           term=="dolphin" ~ "Tursiops_truncatus")) %>%
+  left_join(pheno_data)
+saveRDS(prolif_vs_dnds, "protein/data/proliferation/prolif_vs_dnds.rds")
 
 
 
 #tree
-tree.exon1.coding.29sp.full<-read.tree("../../trees/tree_TRNP1_coding_31sp.txt") 
+tree.coding31<-read.tree("protein/trees/tree_TRNP1_coding_31sp.txt") 
 
-tree.prolif<-drop.tip(tree.exon1.coding.29sp.full, tree.exon1.coding.29sp.full$tip.label[!tree.exon1.coding.29sp.full$tip.label %in% prolif_vs_dnds$species ])
+tree.prolif<-drop.tip(tree.coding31, tree.coding31$tip.label[!tree.coding31$tip.label %in% prolif_vs_dnds$species ])
 rownames(prolif_vs_dnds)<-prolif_vs_dnds$species
 
 mod_GI<-gls(log2(GI) ~ log2(prolif_prob), data=prolif_vs_dnds, correlation=corBrownian(1, tree.prolif,form=~species), method="ML")
 summary(mod_GI)
+#qq plots
 qqnorm(mod_GI$residuals, pch = 1, frame = FALSE)
 qqline(mod_GI$residuals, col = "steelblue", lwd = 2)
 plot(mod_GI$fitted, mod_GI$residuals)
@@ -305,7 +317,7 @@ anova_GI_reg<- as.data.frame(anova(mod_GI_ctrl,mod_GI))
 anova_GI_reg$call<-c("log2(GI) ~ 1","log2(GI) ~ log2(Proliferation rate)")
 
 print(xtable(anova_GI_reg,digits=c(1,1,1,1,2,2,2,1,2,3)),
-      include.rownames=FALSE, file="output_xtables/GI_prolif_mod_sel_BM.tex")
+      include.rownames=FALSE, file="protein/data/proliferation/output_xtables/GI_prolif_mod_sel_BM.tex")
 
 
 mod_GI_prolif<-wrap_summary_table_BM(mod_GI) %>%
@@ -315,4 +327,24 @@ mod_GI_prolif$logLik[1]<-NA
 mod_GI_prolif$R2[1]<-NA
 
 print(xtable(mod_GI_prolif,digits=c(1,1,2,2,2,3,2,3)),
-      include.rownames=FALSE, file="output_xtables/GI_prolif_mod_BM.tex")
+      include.rownames=FALSE, file="protein/data/proliferation/output_xtables/GI_prolif_mod_BM.tex")
+
+
+
+
+#exclude mouse####
+prolif_vs_dnds_nomouse<-prolif_vs_dnds %>%
+  filter(term!="mouse")
+
+tree.prolif.nomouse<-drop.tip(tree.coding31, tree.coding31$tip.label[!tree.coding31$tip.label %in% prolif_vs_dnds_nomouse$species ])
+rownames(prolif_vs_dnds_nomouse)<-prolif_vs_dnds_nomouse$species
+
+
+mod_GI_nomouse<-gls(log2(GI) ~ log2(prolif_prob), data=prolif_vs_dnds_nomouse, correlation=corBrownian(1, tree.prolif.nomouse,form=~species), method="ML")
+summary(mod_GI_nomouse)
+
+mod_GI_ctrl_nomouse<-gls(log2(GI) ~ 1, data=prolif_vs_dnds_nomouse, correlation=corBrownian(1, tree.prolif.nomouse,form=~species), method="ML")
+anova(mod_GI_nomouse,mod_GI_ctrl_nomouse)
+
+
+

@@ -1,5 +1,4 @@
 #!/bin/bash
-# actually do not need the -showall flag that returns reconstructed ancestral sequences and the tree
 # 45 species with full names
 prank -d=/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding_seqs_45sp.fa \
 -t=/data/share/htp/TRNP1/paper_data/protein/trees/tree_TRNP1_coding_45sp.txt \

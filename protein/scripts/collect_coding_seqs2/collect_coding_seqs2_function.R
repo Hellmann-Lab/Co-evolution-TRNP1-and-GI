@@ -29,7 +29,7 @@ print("before function")
 
 
 #load human TRNP1 protein sequence
-protein.fa <- readAAStringSet("protein/data/trnp1_protein_seq_hum.fasta")
+protein.fa <- readAAStringSet("protein/fastas/trnp1_protein_seq_hum.fasta")
 
 
 #create a blast function
@@ -48,7 +48,7 @@ do_rblast_full<-function(subject=input_seq,query=protein.fa,type="tblastn", min_
   
   } 
   else {
-    #whereas in other cases, the full name (which I concatenate together) is required to uniquely identify the sequences
+    #whereas in other cases (ENSEMBL genomes), the full name (which I concatenate together) is required to uniquely identify the sequences
     dir<-paste(input_seq_dir)
     names(subject)<-gsub(" ","",names(subject))
     writeXStringSet(subject, filepath = file.path(paste0(dir,"/",species,".seqs.fasta")))

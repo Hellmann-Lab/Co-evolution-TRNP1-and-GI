@@ -12,42 +12,42 @@
   4 & Cercocebus atys & Ensembl41 & Caty\_1.0 \\ 
   5 & Cercopithecus mitis & targeted resequencing, Enard Lab & - \\ 
   6 & Chlorocebus aethiops & targeted resequencing, Enard Lab & - \\ 
-  7 & Chlorocebus sabeus & NCBI & chlSab2.fa \\ 
-  8 & Dasypus novemcinctus & NCBI & dasNov3.fa \\ 
+  7 & Chlorocebus sabeus & NCBI & chlSab2 \\ 
+  8 & Dasypus novemcinctus & NCBI & dasNov3 \\ 
   9 & Delphinapterus leucas & NCBI & ASM228892v3 \\ 
   10 & Elephantulus edwardii & NCBI & EleEdw1.0 \\ 
   11 & Erythrocebus patas & NCBI & EryPat\_v1\_BIUU \\ 
   12 & Felis catus & Ensembl41 & Felis\_catus\_9.0 \\ 
-  13 & Gorilla gorilla & NCBI & Kamilah\_GGO\_v0 \\ 
-  14 & Heterocephalus glaber & NCBI & hetGla2.fa \\ 
+  13 & Gorilla gorilla & NCBI & Susie3 \\ 
+  14 & Heterocephalus glaber & NCBI & hetGla2 \\ 
   15 & Homo sapiens & targeted resequencing, Enard Lab & - \\ 
   16 & Lipotes vexillifer & NCBI & Lipotes\_vexillifer\_v1 \\ 
   17 & Macaca fascicularis & Ensembl41 & Macaca\_fascicularis\_5.0 \\ 
   18 & Macaca leonia & targeted resequencing, Enard Lab & - \\ 
-  19 & Macaca mulatta & NCBI & rheMac8.fa \\ 
+  19 & Macaca mulatta & NCBI & rheMac8 \\ 
   20 & Macaca nemestrina & Ensembl41 & Mnem\_1.0 \\ 
   21 & Mandrillus sphinx & targeted resequencing, Enard Lab & - \\ 
-  22 & Microcebus murinus & NCBI & micMur2.fa \\ 
+  22 & Microcebus murinus & NCBI & micMur2 \\ 
   23 & Mus caroli & Ensembl41 & CAROLI\_EIJ\_v1.1 \\ 
-  24 & Mus musculus & NCBI & mm10.fa \\ 
+  24 & Mus musculus & NCBI & mm10 \\ 
   25 & Mus pahari & Ensembl41 & PAHARI\_EIJ\_v1.1 \\ 
   26 & Mus spretus & Ensembl41 & SPRET\_EiJ\_v1 \\ 
   27 & Mustela putorius & cDNA, Goetz Lab & - \\ 
   28 & Odocoileus virginianus & NCBI & Ovir.te\_1.0 \\ 
   29 & Orcinus orca & NCBI & Oorc\_1.1 \\ 
-  30 & Otolemur garnettii & NCBI & otoGar3.fa \\ 
+  30 & Otolemur garnettii & NCBI & otoGar3 \\ 
   31 & Pan troglodytes & NCBI & panTro6 \\ 
   32 & Panthera pardus & Ensembl41 & PanPar1.0 \\ 
   33 & Papio anubis & targeted resequencing, Enard Lab & - \\ 
-  34 & Papio hamadryas & NCBI & papHam1.fa \\ 
+  34 & Papio hamadryas & NCBI & papHam1 \\ 
   35 & Phoca vitulina & NCBI & GSC\_HSeal\_1.0 \\ 
   36 & Physeter catodon & NCBI & Physeter\_macrocephalus-2.0.2 \\ 
   37 & Piliocolobus tephrosceles & NCBI & ASM277652v1 \\ 
   38 & Pongo abelii & NCBI & ponAbe3 \\ 
-  39 & Procavia capensis & NCBI & proCap1.fa \\ 
+  39 & Procavia capensis & NCBI & proCap1 \\ 
   40 & Propithecus coquereli & Ensembl41 & Pcoq\_1.0 \\ 
-  41 & Rattus norvegicus & NCBI & rn6.fa \\ 
-  42 & Sus scrofa & NCBI & susScr3.fa \\ 
+  41 & Rattus norvegicus & NCBI & rn6 \\ 
+  42 & Sus scrofa & NCBI & susScr3 \\ 
   43 & Theropithecus gelada & NCBI & Tgel\_1.0 \\ 
   44 & Tursiops truncatus & NCBI & Tur\_tru v1 \\ 
   45 & Zalophus californianus & NCBI & zalCal2.2 \\ 
