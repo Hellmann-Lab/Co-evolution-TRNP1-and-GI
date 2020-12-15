@@ -5,30 +5,30 @@ This repository contains data files and scripts to reproduce the analyses and re
 
 1) Protein-coding sequence collection 
 
-scripts/downl_genomes.sh - to download the genome sequences from ENSEMBL and NCBI
+protein/scripts/downl_genomes.sh - to download the genome sequences from ENSEMBL and NCBI
 
-scripts/processingL_final.R - process our own sequence assemblies from targeted re-sequencing
+protein/scripts/processingL_final.R - process our own sequence assemblies from targeted re-sequencing
 
-scripts/collect_coding_seqs2/run_ccs2_function.sh - blast wrapper to extract orthologous protein-coding sequences from genomes 
+protein/scripts/collect_coding_seqs2/run_ccs2_function.sh - blast wrapper to extract orthologous protein-coding sequences from genomes 
 
-scripts/collect_coding_seqs.R - gather the orthologous TRNP1 protein-coding sequences from all included sources (genomes, resequencing). Intersect with the available trait data. Save sequences and traits for the downstream analyses
+protein/scripts/collect_coding_seqs.R - gather the orthologous TRNP1 protein-coding sequences from all included sources (genomes, resequencing). Intersect with the available trait data. Save sequences and traits for the downstream analyses
 
 2) [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
-scripts/align_with_prank.sh
+protein/scripts/align_with_prank.sh
 
 3) [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
 First, run PAML site models as described in the readme in the folder PAML.
-scripts/select_sign_sites_PAML_M8.R - pull out the identified sites under positive selection.
+protein/scripts/select_sign_sites_PAML_M8.R - pull out the identified sites under positive selection.
 
 4) [COEVOL](https://github.com/bayesiancook/coevol)
-scripts/run_coevol.sh - wrapper to run Coevol
+protein/scripts/run_coevol.sh - wrapper to run Coevol
 
-scripts/summarize_cor_output1.R - access the estimated correlations and posterior probabilities
+protein/scripts/summarize_cor_output1.R - access the estimated correlations and posterior probabilities
 
-scripts/summarize_cor_output2.R - access the estimated omega of the protein
+protein/scripts/summarize_cor_output2.R - access the estimated omega of the protein
 
 5) Analysis of NPC proliferation assay
-scripts/proliferation_analysis.R - gather proliferation assay data, estimate proliferation rates using logistic regression, infer association with GI using PGLS
+protein/scripts/proliferation_analysis.R - gather proliferation assay data, estimate proliferation rates using logistic regression, infer association with GI using PGLS
 
 ## Regulation
 
@@ -37,17 +37,17 @@ scripts/proliferation_analysis.R - gather proliferation assay data, estimate pro
 2) MPRA-design
 
 3) MPRA count pre-processing
-scripts/MPRA/collect_MPRA_fastas.R - extract sequences from each of the 7 CRE regions, align using [mafft](https://mafft.cbrc.jp/alignment/software/)
+regulation/scripts/MPRA/collect_MPRA_fastas.R - extract sequences from each of the 7 CRE regions, align using [mafft](https://mafft.cbrc.jp/alignment/software/)
 
-scripts/MPRA/MPRA_analysis.R - filter and summarize CRE activities. Plug into PGLS and compare to brain mass and gyrification
+regulation/scripts/MPRA/MPRA_analysis.R - filter and summarize CRE activities. Plug into PGLS and compare to brain mass and gyrification
 
 3) Motif identification (JASPAR) and expression via RNA-seq 
 
-scripts/TFs/motifs_JASPAR2020.R - download PWMs and motif clustering from [JASPAR 2020](http://jaspar.genereg.net/downloads/), transform PWMs for Cluster-Buster
+regulation/scripts/TFs/motifs_JASPAR2020.R - download PWMs and motif clustering from [JASPAR 2020](http://jaspar.genereg.net/downloads/), transform PWMs for Cluster-Buster
 
-scripts/TFs/TF_expression_analysis.R - find the expressed transcription factors in our NPCs (from bulk RNA-seq data). Run [Cluster-Buster](http://cagt.bu.edu/page/ClusterBuster_download) on the intron sequences including only the PWMs of the expressed TFs to identify overrepresented motifs
+regulation/scripts/TFs/TF_expression_analysis.R - find the expressed transcription factors in our NPCs (from bulk RNA-seq data). Run [Cluster-Buster](http://cagt.bu.edu/page/ClusterBuster_download) on the intron sequences including only the PWMs of the expressed TFs to identify overrepresented motifs
 
-scripts/TFs/PGLS_motifs.R - investigate binding score assocation with intron CRE activity and GI among the 22 most abundant motifs on the intron sequence using PGLS
+regulation/scripts/TFs/PGLS_motifs.R - investigate binding score assocation with intron CRE activity and GI among the 22 most abundant motifs on the intron sequence using PGLS
 
 
 
