@@ -15,7 +15,7 @@ All the relevant scripts listed below can be found within protein/scripts folder
 
 4) collect_coding_seqs.R - gather the orthologous TRNP1 protein-coding sequences from all included sources (genomes, resequencing). Intersect with the available trait data. Save sequences and traits for the downstream analyses
 
-### [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
+#### [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
 align_with_prank.sh
 
 3) [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
