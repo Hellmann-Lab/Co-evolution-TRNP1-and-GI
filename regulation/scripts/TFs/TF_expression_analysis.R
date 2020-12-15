@@ -10,10 +10,6 @@ setwd("/data/share/htp/TRNP1/paper_data/")
 #load MPRA data 
 activity_overlap_summary<-readRDS("regulation/data/MPRA/output/activity_overlap_summary.rds")
 
-#load the combined phenotype data
-pheno_data_new<-readRDS("data_tables/pheno_data/pheno_data_new.rds") %>%
-  dplyr::select("species","EQ","GI") 
-
 #load the upgraded mammal tree from Bininda-Emonds 2007
 mammaltree<-read.tree("protein/trees/mammaltree.txt") 
 

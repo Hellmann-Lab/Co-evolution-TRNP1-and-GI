@@ -5,8 +5,6 @@ sapply(libs, require, character.only=T)
 setwd("/data/share/htp/TRNP1/paper_data/")
 source("regulation/scripts/MPRA/MPRA_helper_functions.R")
 
-monkey_clade_colors<-c('#501537','#9B405F','#EF798A','#827191')
-names(monkey_clade_colors)<-c("Great ape", "Old World monkey","New World monkey", "Other")
 
 #############################
 # LOAD THE RELEVANT DATA ####

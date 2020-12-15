@@ -307,55 +307,8 @@ print(xtable(pgls_model_output, digits=c(1,1,2,3,1,2,3)),hline.after = c(-1,0,7,
 
 
 
-
 # ZOOM INTO THE INTRON TREE ####
-intron_activity_GI<-activity_overlap_summary %>% 
-  filter(region=="intron") %>%
-  left_join(pheno_data[,c("species","GI")]) %>%
-  drop_na() %>%
-  mutate(log2_activity_per_bp=log2_total_activity/length)
-intron_tree_full<-ape::drop.tip(mammaltree, mammaltree$tip.label[!mammaltree$tip.label %in% intron_activity_GI$species])
-ggtree(intron_tree_full)+geom_tiplab()+xlim(0,150) + geom_text2(aes(subset=!isTip, label=node), hjust=-.3)
-length(intron_tree_full$tip.label) #37
-
-
-pgls_LRT_zoomin<-bind_rows(PGLSzoomin(clade_type = "clade", clade_subset=unique(intron_activity_GI_hum1$clade), subset_name="all")[[1]],
-                           PGLSzoomin(clade_type = "primate_clade", clade_subset=c("Old World monkey","Great ape","Other"), subset_name="excluding NWMs")[[1]],
-                           PGLSzoomin(clade_type = "clade",clade_subset = "Primate", subset_name = "primates only")[[1]],
-                           PGLSzoomin(clade_type = "primate_clade",clade_subset = c("Old World monkey","Great ape"), subset_name = "OWMs & great apes")[[1]],
-                           PGLSzoomin(clade_type = "primate_clade",clade_subset = "New World monkey", subset_name = "NWMs")[[1]],
-                           PGLSzoomin(clade_type = "clade",clade_subset = c("Rodent","Other","Carnivore"), subset_name = "other mammals")[[1]]) %>%
-  dplyr::select(-`Cell line`) %>%
-  mutate(call=gsub("(gls[(]model = )","",call),
-         call=gsub("\\,.*","",call),
-         call=gsub("log2_total_activity","log2(intron)",call),
-         df=as.factor(df))
-
-
-#coefficients
-pgls_zoomin_coeffs<-bind_rows(PGLSzoomin(clade_type = "clade", clade_subset=unique(intron_activity_GI_hum1$clade), subset_name="all")[[2]],
-                           PGLSzoomin(clade_type = "primate_clade", clade_subset=c("Old World monkey","Great ape","Other"), subset_name="excluding NWMs")[[2]],
-                           PGLSzoomin(clade_type = "clade",clade_subset = "Primate", subset_name = "primates only")[[2]],
-                           PGLSzoomin(clade_type = "primate_clade",clade_subset = c("Old World monkey","Great ape"), subset_name = "OWMs & great apes")[[2]],
-                           PGLSzoomin(clade_type = "primate_clade",clade_subset = "New World monkey", subset_name = "NWMs")[[2]],
-                           PGLSzoomin(clade_type = "clade",clade_subset = c("Rodent","Other","Carnivore"), subset_name = "other mammals")[[2]]) %>%
-  filter(Predictor=="log2_total_activity") %>%
-  dplyr::select(Value, Std.Error, Species, `Cell line`) %>%
-  right_join(pgls_LRT_zoomin %>% filter(call!="log2(GI) ~ 1")) %>%
-  mutate(df=as.factor(1)) %>%
-  dplyr::select(call, Value, Std.Error, df, L.Ratio, `p-value`, Species) %>%
-  dplyr::rename(Model=call, `LRT p-value`=`p-value`)
-
-
-print(xtable(pgls_zoomin_coeffs, digits=c(1,1,2,3,1,2,3,1)),include.rownames=FALSE,file="regulation/data/MPRA/xtables/LRT_GI_intron_zoomin_coeffs.tex")
-
-
-
-
-
-
-#ok, the signal seems to come from OWMs & great apes --> is it reproducible in the other cell lines?
-#OWMs & apes across cell lines ####
+#intron activity in OWMs & apes across cell lines ####
 pgls_hum1<-PGLSzoomin(clade_type = "primate_clade",clade_subset = c("Old World monkey","Great ape"), cells = "human1")
 pgls_hum2<-PGLSzoomin(clade_type = "primate_clade",clade_subset = c("Old World monkey","Great ape"), cells = "human2")
 pgls_mac<-PGLSzoomin(clade_type = "primate_clade",clade_subset = c("Old World monkey","Great ape"), cells = "macaque")
