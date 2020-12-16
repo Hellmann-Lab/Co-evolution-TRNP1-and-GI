@@ -15,24 +15,23 @@ All the relevant scripts listed below can be found within protein/scripts folder
 
 4) `collect_coding_seqs.R` - gather the orthologous TRNP1 protein-coding sequences from all included sources (genomes, resequencing). Intersect with the available trait data. Save sequences and traits for the downstream analyses
 
-#### Protein-coding sequence alignment
-align_with_prank.sh - [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
+### Protein-coding sequence alignment
+`align_with_prank.sh` - [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
 
-#### Phylogenetic analysis of TRNP1 protein
+### Phylogenetic analysis of TRNP1 protein
 
 1) [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
 First, run PAML site models as described in the readme in the folder PAML.
 `select_sign_sites_PAML_M8.R` - pull out the identified sites under positive selection.
 
-4) [COEVOL](https://github.com/bayesiancook/coevol)
+2) [COEVOL](https://github.com/bayesiancook/coevol)
+
 `run_coevol.sh` - wrapper to run Coevol
-
 `summarize_cor_output1.R` - access the estimated correlations and posterior probabilities
-
 `summarize_cor_output2.R` - access the estimated omega of the protein
 
-5) Analysis of NPC proliferation assay
-protein/scripts/proliferation_analysis.R - gather proliferation assay data, estimate proliferation rates using logistic regression, infer association with GI using PGLS
+### Analysis of NPC proliferation assay
+`proliferation_analysis.R` - gather proliferation assay data, estimate proliferation rates using logistic regression, infer association with GI using PGLS
 
 ## Regulation
 
