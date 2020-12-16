@@ -3,7 +3,7 @@ This repository contains data files and scripts to reproduce the analyses and re
 
 ## Protein
 
-All the relevant scripts listed below can be found within the `protein/scripts` folder.
+All relevant scripts listed below can be found within the `protein/scripts` folder.
 
 ### Protein-coding sequence collection 
 
@@ -27,9 +27,9 @@ First, run PAML site models as described in the readme in the folder PAML.
 
 1) `run_coevol.sh` - wrapper to run Coevol
 
-2) `summarize_cor_output1.R` - access the estimated correlations and posterior probabilities
+2) `summarize_coevol_output1.R` - access the estimated correlations and posterior probabilities
 
-3) `summarize_cor_output2.R` - access the estimated omega of the protein
+3) `summarize_coevol_output2.R` - access the estimated omega of the protein
 
 ### Analysis of NPC proliferation assay
 `proliferation_analysis.R` - gather proliferation assay data, estimate proliferation rates using logistic regression, infer association with GI using PGLS
@@ -37,7 +37,7 @@ First, run PAML site models as described in the readme in the folder PAML.
 
 ## Regulation
 
-All the relevant scripts listed below can be found within the `regulation/scripts` folder.
+All relevant scripts listed below can be found within the `regulation/scripts` folder.
 
 ### CRE-orthologue re-sequencing 
 
