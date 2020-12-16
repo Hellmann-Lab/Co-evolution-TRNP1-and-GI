@@ -3,7 +3,7 @@ This repository contains data files and scripts to reproduce the analyses and re
 
 ## Protein
 
-All the relevant scripts listed below can be found within protein/scripts folder.
+All the relevant scripts listed below can be found within the `protein/scripts` folder.
 
 ### Protein-coding sequence collection 
 
@@ -21,7 +21,7 @@ All the relevant scripts listed below can be found within protein/scripts folder
 
 ### [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
 First, run PAML site models as described in the readme in the folder PAML.
-`select_sign_sites_PAML_M8.R` - pull out the identified sites under positive selection.
+`select_sign_sites_PAML_M8.R` - pull out the identified sites under positive selection
 
 ### [COEVOL](https://github.com/bayesiancook/coevol)
 
@@ -37,7 +37,7 @@ First, run PAML site models as described in the readme in the folder PAML.
 
 ## Regulation
 
-All the relevant scripts listed below can be found within regulation/scripts folder.
+All the relevant scripts listed below can be found within the `regulation/scripts` folder.
 
 ### CRE-orthologue re-sequencing 
 
