@@ -8,7 +8,7 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 
 ### Protein-coding sequence collection 
 
-1) If you want to do the blast search using our scripts, you will need to download genomes listed in table XX (remove downl_genomes, ENSEMBL, NCBI genomes)
+1) If you want to do the blast search using our scripts, you will need to download genomes listed in table XX
 
 2) `processingL_final.R` - process our own sequence assemblies from targeted re-sequencing
 
@@ -68,7 +68,7 @@ All relevant scripts listed below can be found within the `regulation/scripts` f
 4) `TFs/PGLS_motifs.R` - investigate binding score assocation with intron CRE activity and GI among the 22 most abundant motifs on the intron sequence using PGLS
 
 
-Tree construction: `regulation/scripts/MPRA/tree_construction.R`.
+Tree construction: `regulation/scripts/MPRA/tree_construction.R`
 
 ADD SESSION INFO!!!
 
