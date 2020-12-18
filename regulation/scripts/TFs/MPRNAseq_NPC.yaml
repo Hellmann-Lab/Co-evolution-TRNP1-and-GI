@@ -1,0 +1,49 @@
+project: MPRNAseq_NPC
+sequence_files:
+  file1:
+    name: /data/sfb1243cs/htp/A14/Current_Flowcell/20191028/deML/lane1_MPRA_NPC_r1.fq.gz
+    base_definition:
+    - BC(1-6)
+    - UMI(7-16)
+  file2:
+    name: /data/sfb1243cs/htp/A14/Current_Flowcell/20191028/deML/lane1_MPRA_NPC_r2.fq.gz
+    base_definition: cDNA(1-50)
+reference:
+  STAR_index: /data/sfb1243cs/ngs/genomes/Human/hg38/STAR6idx_noGTF/
+  GTF_file: /data/sfb1243cs/ngs/genomes/Human/hg38/Homo_sapiens.GRCh38.84_chrsNamesUCSC.gtf
+  additional_STAR_params: ''
+  additional_files: ~
+out_dir: /data/sfb1243cs/htp/A14/Current_Flowcell/20191028/MPRNAseq_NPC/
+num_threads: 8
+mem_limit: 0
+filter_cutoffs:
+  BC_filter:
+    num_bases: 1
+    phred: 20
+  UMI_filter:
+    num_bases: 1
+    phred: 20
+barcodes:
+  barcode_num: ~
+  barcode_file: /data/sfb1243cs/htp/A14/Barcode-Annotations/SCRBseq_96_setA_justBCs.txt
+  automatic: yes
+  BarcodeBinning: 0
+  nReadsperCell: 100
+  demultiplex: no
+counting_opts:
+  introns: yes
+  downsampling: '1000000,5000000'
+  strand: 0
+  Ham_Dist: 0
+  write_ham: no
+  velocyto: no
+  primaryHit: yes
+  twoPass: yes
+make_stats: yes
+which_Stage: Filtering
+Rscript_exec: Rscript
+STAR_exec: STAR
+pigz_exec: pigz
+samtools_exec: samtools
+zUMIs_directory: /data/sfb1243cs/htp/A14/zUMIs/zUMIs2/zUMIs
+read_layout: SE
