@@ -7,7 +7,7 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 
 ### Protein-coding sequence collection 
 
-1) `downl_genomes.sh` - to download the genome sequences from ENSEMBL and NCBI
+1) If you want to do the blast search using our scripts, you will need to download genomes listed in table XX (remove downl_genomes, ENSEMBL, NCBI genomes)
 
 2) `processingL_final.R` - process our own sequence assemblies from targeted re-sequencing
 
@@ -15,21 +15,24 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 
 4) `collect_coding_seqs.R` - gather the orthologous TRNP1 protein-coding sequences from all included sources. Intersect with the available trait data. Save sequences and traits for the downstream analyses
 
-### [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
+
+### Evolutionary analysis of TRNP1 coding-sequence
+
+1) [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
 `align_with_prank.sh` -  protein-coding sequence alignment
 
 
-### [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
+2) [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
 First, run PAML site models as described in the readme in the folder PAML.
 `select_sign_sites_PAML_M8.R` - pull out the identified sites under positive selection
 
-### [COEVOL](https://github.com/bayesiancook/coevol)
+3) [COEVOL](https://github.com/bayesiancook/coevol)
 
-1) `run_coevol.sh` - wrapper to run Coevol
+`run_coevol.sh` - wrapper to run Coevol
 
-2) `summarize_coevol_output1.R` - access the estimated correlations and posterior probabilities
+`summarize_coevol_output1.R` - access the estimated correlations and posterior probabilities
 
-3) `summarize_coevol_output2.R` - access the estimated omega of the protein
+`summarize_coevol_output2.R` - access the estimated omega of the protein
 
 ### Analysis of NPC proliferation assay
 `proliferation_analysis.R` - gather proliferation assay data, estimate proliferation rates using logistic regression, infer association with GI using PGLS
@@ -39,23 +42,40 @@ First, run PAML site models as described in the readme in the folder PAML.
 
 All relevant scripts listed below can be found within the `regulation/scripts` folder.
 
-### CRE-orthologue re-sequencing 
 
-### MPRA-design
+### MPRA assay 
 
-### MPRA count pre-processing
-1) `MPRA/collect_MPRA_fastas.R` - extract sequences from each of the 7 CRE regions, align using [mafft](https://mafft.cbrc.jp/alignment/software/)
+1) CRE-orthologue re-sequencing 
 
-2) `MPRA/MPRA_analysis.R` - filter and summarize CRE activities. Plug into PGLS and compare to brain mass and gyrification
+`MPRA/MPRA_sequences.R` - identify and collect orthologous TRNP1 CRE sequences across mammals from our sequenced data as well as published genomes
 
-### TF expression and enriched motifs on the intron CRE sequence
+2) MPRA-design
+`MPRA/MPRA_oligolib_construction.R` - using a sliding window, construct enhancer tiles based on the orthologous CRE sequences from the previous script to test within the MPRA assay
+
+3) MPRA count pre-processing. Extract reporter gene expression counts for each included enhancer tile 
+
+4) `MPRA/collect_MPRA_fastas.R` - separate and save the relevant sequences from each of the 7 CRE regions, align using [mafft](https://mafft.cbrc.jp/alignment/software/)
+
+5) `MPRA/MPRA_analysis.R` - filter and summarize CRE activities. Plug into PGLS and compare to brain mass and gyrification
+
+6) `MPRA/combine_dnds_intron.R` - combine TRNP1 protein evolution rates inferred using Coevol with the intron activity across catharrines within the same model
+
+### Transcription factor analysis
 
 1) `TFs/motifs_JASPAR2020.R` - download PWMs and motif clustering from [JASPAR 2020](http://jaspar.genereg.net/downloads/), transform PWMs for Cluster-Buster
 
-2) `TFs/TF_expression_analysis.R` - find the expressed transcription factors in our NPCs (from bulk RNA-seq data). Run [Cluster-Buster](http://cagt.bu.edu/page/ClusterBuster_download) on the intron sequences including only the PWMs of the expressed TFs to identify overrepresented motifs
+2) zUMIs yaml file
 
-3) `TFs/PGLS_motifs.R` - investigate binding score assocation with intron CRE activity and GI among the 22 most abundant motifs on the intron sequence using PGLS
+3) `TFs/TF_expression_analysis.R` - find the expressed transcription factors in our NPCs (from bulk RNA-seq data). Run [Cluster-Buster](http://cagt.bu.edu/page/ClusterBuster_download) on the intron sequences including only the PWMs of the expressed TFs to identify overrepresented motifs
+
+4) `TFs/PGLS_motifs.R` - investigate binding score assocation with intron CRE activity and GI among the 22 most abundant motifs on the intron sequence using PGLS
 
 
 
-Generate figures using `figures/figures_forPaper.R`
+
+Tree construction: `regulation/scripts/MPRA/tree_construction.R`.
+Generate figures using `figures/figures_forPaper.R`.
+
+
+System requirements: slurm, zUMIs, R, Coevol, PAML,  
+

@@ -9,95 +9,10 @@ setwd("/data/share/htp/TRNP1/paper_data/Co-evolution-TRNP1-and-GI/")
 
 
 ################################################################
-# Collect the proliferation data from different experiments ####
-################################################################
-
-
-#data from the first experiment
-prolif_rate_Trnp1_exp1 <-read_delim("protein/data/proliferation/input_data/goetz_prolif_cells_full.csv", 
-                                    ";", escape_double = FALSE, 
-                                    locale = locale(decimal_mark = ","), 
-                                    trim_ws = TRUE)
-
-prolif_rate_Trnp1_exp1<-prolif_rate_Trnp1_exp1 %>%
-  mutate(species=case_when(plasmid=="msTRNP" ~ "mouse",
-                           plasmid=="hmTRNP" ~ "human",
-                           plasmid=="ferTRNP" ~ "ferret",
-                           plasmid=="GFP" ~ "GFP"))
-
-
-#sum up for each biological replicate & orthologue since these were not separate wells according to miriam
-prolif_rate_Trnp1_exp1<-prolif_rate_Trnp1_exp1 %>%
-  dplyr::group_by(n, species) %>%
-  dplyr::summarise(GFP_pos=sum(GFP), GFP_Ki67_pos=sum(GFP_Ki67)) %>%
-  mutate(perc_prolif=GFP_Ki67_pos/GFP_pos)
-
-
-
-
-#data from the second experiment
-prolif_rate_Trnp1_exp2 <-read_delim("protein/data/proliferation/input_data/prolif_cells_full_repeated.csv", 
-                                             ";", escape_double = FALSE, 
-                                             locale = locale(decimal_mark = ","), 
-                                             trim_ws = TRUE)
-
-#exclude one batch because it was reported to behave weirdly during cell culturing (a lot of dead, unhealthy cells)
-prolif_rate_Trnp1_exp2<-prolif_rate_Trnp1_exp2 %>%
-  dplyr::rename(n=X1) %>%
-  #exclude batch 3 because it was reported to behave weirdly during cell culturing (a lot of dead, unhealthy cells)
-  filter(!n=="N3") %>%
-  #rename the rest of the batches to be able to combine results with the first experiment
-  mutate(n=case_when(n=="N1" ~ 6,
-                      n=="N2" ~ 7,
-                      n=="N4" ~ 8,
-                      n=="N5" ~ 9,
-                      n=="N6" ~ 10))
-
-
-#data from the third experiment
-prolif_rate_Trnp1_exp3 <-read_delim("protein/data/proliferation/input_data/repl_6_7.csv", 
-                                    ",", escape_double = FALSE, 
-                                    locale = locale(decimal_mark = ","), 
-                                    trim_ws = TRUE)
-
-prolif_rate_Trnp1_exp3<-prolif_rate_Trnp1_exp3 %>%
-  dplyr::rename(n=X1) %>%
-  mutate(n=case_when(n=="N6" ~ 11,
-                     n=="N7" ~ 12))
-
-
-prolif_rate_Trnp1_full_repeated<-prolif_rate_Trnp1_exp2 %>%
-  bind_rows(prolif_rate_Trnp1_exp3) %>%
-  tidyr::gather(species, no_of_cells, 3:9) %>%
-  #exclude BrdU measurements since we do not use them in the downstream analysis
-  filter(X2!="number of GFP+ BrdU+ cells") %>%
-  #shorten the other names
-  mutate(X2=case_when(X2=="number GFP + cells" ~ "GFP_pos",
-                      X2=="number of GFP+ ki67+ cells" ~ "GFP_Ki67_pos")) %>%
-  tidyr::spread(X2, no_of_cells) %>%
-  mutate(perc_prolif=GFP_Ki67_pos/GFP_pos) %>%
-  rowwise() %>%
-  mutate_at("species", .funs=tolower) %>%
-  mutate(species=gsub("gfp","GFP",species),
-         species=gsub("macaca","macaque",species))
-
-
-
-#combine all data
-combined_prolif_all<-bind_rows(prolif_rate_Trnp1_exp1, prolif_rate_Trnp1_full_repeated) %>%
-  mutate(Trnp1=case_when(species=="GFP"~ "no",
-                         T ~ "yes"))
-write.csv2(combined_prolif_all, "protein/data/proliferation/input_data/prolif_data_combined.csv")
-
-
-
-
-
-
-
-################################################################
 # Logistic regression to estimate proliferation rates ####
 ################################################################
+
+combined_prolif_all<-read.csv2("protein/data/proliferation/input_data/prolif_data_combined.csv")
 
 # generate a set excluding GFP
 combined_prolif_Trnp1<- combined_prolif_all %>%

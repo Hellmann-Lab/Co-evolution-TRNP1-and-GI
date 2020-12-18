@@ -1,20 +1,19 @@
-# Written by Beate, used and adjusted by Lucas, and Zane just adjusted the directories
+# This script contains the commands used to identify the longest contig per species, which covers the coding sequences. The input of this script has not been uploaded due to limited git space. But the output of this script can be found under protein/fastas/resequenced_promexon1_primates.fa
+
 
 # SETTINGS ----------------------------------------------------------------
 
 setwd("/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing")
 # load in needed packages
-libs <- c("IRanges", "Biostrings", "ggplot2", "reshape", "reshape2", "reshape", "GenomicRanges", "data.table", "dplyr", "tidyr", "msa", "phangorn", "ape", "PhyloOrchard", "ggrepel", "ggtree", "caper", "phytools", "seqRFLP", "ggbio")
+libs <- c("IRanges", "Biostrings","reshape2", "reshape", "GenomicRanges", "data.table", "tidyverse", "phangorn", "ape", "ggrepel", "ggtree", "caper", "phytools", "ggbio")
 
 sapply(libs, require, character.only=T)
-
-# source("scripts/helper_functions.R")
-
 options(stringsAsFactors = F)
+
 
 # PEAK BED FILES -------------------------------------------------------------------
 
-# get file names
+# get file names -- these have NOT been uploaded due to size restrictions.
 allfiles <- list.files(path="/data/share/htp/TRNP1/TRNP1_Beate/output/peak_bed_fa", recursive = T, full.names=T, include.dirs = T, pattern="*.bed$")
 peakfiles <- allfiles[grepl(pattern = "*50*", allfiles)==F]
 peakfiles
@@ -102,6 +101,4 @@ names(all.prom_exon1.fas)
 all.prom_exon1.fas <- all.prom_exon1.fas[c(6,1:5,7:18)]
 
 # # write fasta seq to files 
-writeXStringSet(all.prom_exon1.fas, filepath='/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/Alignments/final_analysis/fastas/resequenced_promexon1_primates.fa', format = 'fasta', append=F)
-
-#save.image(paste0('workspace/Resquenced_PromExon1_SequenceConstruction_', Sys.Date(), ".RData"))
+writeXStringSet(all.prom_exon1.fas, filepath='protein/fastas/resequenced_promexon1_primates.fa', format = 'fasta', append=F)

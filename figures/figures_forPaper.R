@@ -2,12 +2,12 @@
 
 #libraries
 #load libraries 
-libs<-c("tidyverse","cowplot","GenomicRanges","data.table","reshape2","ggrepel", "broom", "ape", "ggtree", "readr","geiger","nlme","phytools","grid","gtable","xtable", "wesanderson","stringi","aplot","ggdendro","flashClust")
+libs<-c("tidyverse","cowplot","GenomicRanges","data.table","reshape2","ggrepel", "broom", "ape", "ggtree", "readr","geiger","nlme","phytools","grid","gtable","xtable", "wesanderson","stringi","aplot","ggdendro","flashClust","Biostrings")
 sapply(libs, require, character.only=T)
 
 
 #set working directory
-setwd("/data/share/htp/TRNP1/paper_data/")
+setwd("/data/share/htp/TRNP1/paper_data/Co-evolution-TRNP1-and-GI/")
 
 #a helper fuction for plotting
 source("/data/share/htp/TRNP1/paper_data/scripts/new_aes.R")
@@ -127,7 +127,7 @@ coevol_estimates$clade<-factor(coevol_estimates$clade, levels=c("Primate", "Rode
 options(scipen=10000) #turning off scientific notation
 fig1B<-ggplot(coevol_estimates, aes(x=omega, y=signif(brain/1000,1)))+
   geom_smooth(method="lm", color="darkgrey", alpha=0.23)+
-  xlab("Omega of TRNP1")+
+  xlab(expression(paste(omega," of TRNP1")))+
   ylab("Brain size (kg)")+
   geom_errorbarh(aes(xmin=CI.low, xmax=CI.high), color="grey70",size=0.3)+
   theme_classic()+
@@ -150,7 +150,7 @@ ggsave(file="figures/out/panel1/fig1B.pdf",fig1B, width=6.5, height=6.5, units="
 
 fig1C_unfinished<-ggplot(coevol_estimates, aes(x=omega, y=GI))+
   geom_smooth(method="lm", color="darkgrey", alpha=0.23)+
-  xlab("Omega of TRNP1")+
+  xlab(expression(paste(omega," of TRNP1")))+
   ylab("Gyrification (GI)")+
   geom_errorbarh(aes(xmin=CI.low, xmax=CI.high), color="grey70", size=0.3)+
   theme_classic()+
@@ -1436,12 +1436,13 @@ ext4f<- ggdraw() +
 ggdraw() +
   draw_plot(ext4a, x = 0.01, y = .83, width = .5, height = .15) +
   draw_plot(ext4b, x = 0.03, y = .25, width = .45, height = .58) +
-  draw_plot(ext4e, x = 0.59, y = 0.29, width = .33, height = .35) +
-  draw_plot(ext4c, x = 0.55, y = 0.64, width = 0.45, height = 0.35) +
-  draw_plot(ext4f, x = 0.06, y = 0.01, width = 0.6+0.3, height = .25)+
-  draw_plot_label(label = c("a", "c", "b", "d","e","f"), size = 11,
-                  x = c(0.05, 0.54, 0.05, 0.55, 0.55, 0.05 ), 
-                  y = c(1, 1, 0.86,0.69,0.53,0.28 ))
+  draw_plot(ext4c, x = 0.55, y = 0.625, width = 0.45, height = 0.36) +
+  draw_plot(ext4e, x = 0.59, y = 0.275, width = .33, height = .36) +
+  
+  #draw_plot(ext4f, x = 0.06, y = 0.01, width = 0.6+0.3, height = .25)+
+  draw_plot_label(label = c("a", "c", "b", "d","e"), size = 11,
+                  x = c(0.05, 0.54, 0.05, 0.55, 0.55 ), 
+                  y = c(1, 1, 0.86,0.69,0.53))
 
 ggsave("figures/out/extended4/ext4.pdf",  width=140, height=150,units = "mm")
 
