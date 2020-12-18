@@ -18,21 +18,20 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 
 ### Evolutionary analysis of TRNP1 coding-sequence
 
-1) [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
+#### [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)
 `align_with_prank.sh` -  protein-coding sequence alignment
 
-
-2) [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
+#### [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
 First, run PAML site models as described in the readme in the folder PAML.
 `select_sign_sites_PAML_M8.R` - pull out the identified sites under positive selection
 
-3) [COEVOL](https://github.com/bayesiancook/coevol)
+#### [COEVOL](https://github.com/bayesiancook/coevol)
 
-`run_coevol.sh` - wrapper to run Coevol
+1) `run_coevol.sh` - wrapper to run Coevol
 
-`summarize_coevol_output1.R` - access the estimated correlations and posterior probabilities
+2) `summarize_coevol_output1.R` - access the estimated correlations and posterior probabilities
 
-`summarize_coevol_output2.R` - access the estimated omega of the protein
+3) `summarize_coevol_output2.R` - access the estimated omega of the protein
 
 ### Analysis of NPC proliferation assay
 `proliferation_analysis.R` - gather proliferation assay data, estimate proliferation rates using logistic regression, infer association with GI using PGLS
@@ -45,12 +44,9 @@ All relevant scripts listed below can be found within the `regulation/scripts` f
 
 ### MPRA assay 
 
-1) CRE-orthologue re-sequencing 
+#### `MPRA/MPRA_sequences.R` - identify and collect orthologous TRNP1 CRE sequences across mammals from our sequenced data as well as published genomes
 
-`MPRA/MPRA_sequences.R` - identify and collect orthologous TRNP1 CRE sequences across mammals from our sequenced data as well as published genomes
-
-2) MPRA-design
-`MPRA/MPRA_oligolib_construction.R` - using a sliding window, construct enhancer tiles based on the orthologous CRE sequences from the previous script to test within the MPRA assay
+####`MPRA/MPRA_oligolib_construction.R` - MPRA design -  using a sliding window, construct enhancer tiles based on the orthologous CRE sequences from the previous script to test within the MPRA assay
 
 3) MPRA count pre-processing. Extract reporter gene expression counts for each included enhancer tile 
 
