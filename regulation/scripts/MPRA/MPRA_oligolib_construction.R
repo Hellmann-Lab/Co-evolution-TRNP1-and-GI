@@ -4,7 +4,6 @@
 libs<-c("tidyverse","GenomicRanges","data.table","Biostrings","microRNA", 'reshape2')
 sapply(libs, require, character.only=T)
 
-setwd("/data/share/htp/TRNP1/paper_data/")
 
 system('mkdir -p output/mpra_chunk')
 

@@ -7,7 +7,7 @@ motif_cutoff=$4
 gap=$5
 
 #specify file locations
-workdir=/data/share/htp/TRNP1/paper_data/regulation/data/TFs/ClusterBuster
+workdir=regulation/data/TFs/ClusterBuster
 res=$workdir/results/$JASPAR_folder_name #where jaspar_output files are to be found
 subs=$workdir/results/$JASPAR_folder_name/subset_cbust #where to put all of this (keep this script in a subfolder "scripts" of this folder)
 

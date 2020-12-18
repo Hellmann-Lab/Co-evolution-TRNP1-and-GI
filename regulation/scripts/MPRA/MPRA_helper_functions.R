@@ -282,8 +282,8 @@ run_ctrain_cbust<-function(tf_motif_vector,JASPAR_folder_name, query_fasta,add_w
     path<-paste0("regulation/data/TFs/JASPAR_2020/JASPAR_collection/",i,".jaspar")
     expr_tf_list_NPCs[[i]]<-path
   }
-  system(paste0('rm -r /data/share/htp/TRNP1/paper_data/regulation/data/TFs/JASPAR_2020/JASPAR_collection_transposed/',JASPAR_folder_name))
-  system(paste0('mkdir /data/share/htp/TRNP1/paper_data/regulation/data/TFs/JASPAR_2020/JASPAR_collection_transposed/',JASPAR_folder_name))
+  system(paste0('rm -r regulation/data/TFs/JASPAR_2020/JASPAR_collection_transposed/',JASPAR_folder_name))
+  system(paste0('mkdir regulation/data/TFs/JASPAR_2020/JASPAR_collection_transposed/',JASPAR_folder_name))
   
   expr_tf_list_NPCs<-unlist(expr_tf_list_NPCs, use.names = F)
   tf_list_NPCs<-list()
@@ -299,10 +299,10 @@ run_ctrain_cbust<-function(tf_motif_vector,JASPAR_folder_name, query_fasta,add_w
                 row.names = F, col.names = F, quote = F, na="")
   }
   
-  system(paste0('rm -r /data/share/htp/TRNP1/paper_data/regulation/data/TFs/ClusterBuster/results/',JASPAR_folder_name))
-  system(paste0('mkdir /data/share/htp/TRNP1/paper_data/regulation/data/TFs/ClusterBuster/results/',JASPAR_folder_name))
+  system(paste0('rm -r regulation/data/TFs/ClusterBuster/results/',JASPAR_folder_name))
+  system(paste0('mkdir regulation/data/TFs/ClusterBuster/results/',JASPAR_folder_name))
   
-  system(paste('sbatch /data/share/htp/TRNP1/paper_data/regulation/scripts/TFs/run_clusterbuster.sh',JASPAR_folder_name,query_fasta,add_weights,cluster_cutoff,motif_cutoff,gap), wait = T)
+  system(paste('sbatch scripts/TFs/run_clusterbuster.sh',JASPAR_folder_name,query_fasta,add_weights,cluster_cutoff,motif_cutoff,gap), wait = T)
   
 }
 

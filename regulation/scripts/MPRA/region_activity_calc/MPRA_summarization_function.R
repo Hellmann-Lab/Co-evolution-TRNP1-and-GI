@@ -8,8 +8,6 @@
 #mark how long the function runs
 old <- Sys.time() # get start time
 
-#set working dir
-setwd("/data/share/htp/TRNP1/paper_data/Co-evolution-TRNP1-and-GI/")
 
 #load libraries
 libs <- c("IRanges", "Biostrings", "tidyverse", "reshape2", "reshape", "GenomicRanges", "data.table", "phangorn", "caper", "phytools", "rBLAST", "stringr")

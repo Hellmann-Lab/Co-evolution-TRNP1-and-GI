@@ -1,6 +1,5 @@
 
 library(tidyverse)
-setwd("/data/share/htp/TRNP1/paper_data/")
 
 
 #function

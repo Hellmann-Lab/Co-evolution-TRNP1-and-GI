@@ -1,7 +1,7 @@
+
 libs<-c("rBLAST","tidyverse","GenomicRanges","data.table","broom", "ape", "ggtree", "readr","geiger","nlme","phytools","grid","gtable","xtable","phangorn","Biostrings")
 sapply(libs, require, character.only=T)
 
-setwd("/data/share/htp/TRNP1/paper_data/")
 
 
 ##########################################################

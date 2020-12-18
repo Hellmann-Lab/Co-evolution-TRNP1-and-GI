@@ -1,11 +1,11 @@
 #!/bin/bash
 
-workdir=/data/share/htp/TRNP1/paper_data/regulation/scripts/MPRA/region_activity_calc
+workdir=regulation/scripts/MPRA/region_activity_calc
 slurm=$workdir/slurms
 
 mkdir -p $slurm
-mkdir -p /data/share/htp/TRNP1/paper_data/regulation/data/MPRA/output/positional_activity
-mkdir -p /data/share/htp/TRNP1/paper_data/regulation/data/MPRA/output/summarized_activity
+mkdir -p regulation/data/MPRA/output/positional_activity
+mkdir -p regulation/data/MPRA/output/summarized_activity
 
 
 

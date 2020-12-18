@@ -1,11 +1,10 @@
 #!/bin/bash
 
-#define file locations-- NEED TO ADJUST (INES?)
-#coevol_input_loc=/data/share/htp/TRNP1/paper_data/protein/coevol/scripts
-prank_alignment_loc=/data/share/htp/TRNP1/paper_data/protein/fastas/prank_output/prank_TRNP1_coding_31species_forCoevol.best.nuc.phy
-tree_loc=/data/share/htp/TRNP1/paper_data/protein/trees/tree_TRNP1_coding_31sp_forCoevol.txt
-pheno_loc=/data/share/htp/TRNP1/paper_data/protein/coevol/pheno_data/
-coevol_output_loc=/data/share/htp/TRNP1/paper_data/protein/coevol/results/all
+#define file locations
+prank_alignment_loc=protein/fastas/prank_output/prank_TRNP1_coding_31species_forCoevol.best.nuc.phy
+tree_loc=protein/trees/tree_TRNP1_coding_31sp_forCoevol.txt
+pheno_loc=protein/coevol/pheno_data/
+coevol_output_loc=protein/coevol/results/all
 
 
 declare -a arr=("body_mass_brain_mass_GI" "GI" "brain_mass" "body_mass")

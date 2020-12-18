@@ -1,5 +1,5 @@
 # Co-evolution-TRNP1-and-GI
-This repository contains data files and scripts to reproduce the analyses and results presented in our paper.\\
+This repository contains data files and scripts to reproduce the analyses and results presented in our paper.
 System requirements: R, slurm, zUMIs, COEVOL, PAML, PRANK, MAFFT, Cluster-Buster. 
 
 ## Protein
@@ -49,7 +49,7 @@ All relevant scripts listed below can be found within the `regulation/scripts` f
 
 2) `MPRA/MPRA_oligolib_construction.R` - MPRA design -  using a sliding window, construct enhancer tiles based on the orthologous CRE sequences from the previous script to test within the MPRA assay
 
-3) `MPRA/preprocessing`  MPRA count pre-processing. Extract reporter gene expression counts for each included enhancer tile. THe folder contains a README with further details 
+3) `MPRA/preprocessing`  MPRA count pre-processing. Extract reporter gene expression counts for each included enhancer tile. This folder contains a README with further details 
 
 4) `MPRA/collect_MPRA_fastas.R` - separate and save the relevant sequences from each of the 7 CRE regions, align using [mafft](https://mafft.cbrc.jp/alignment/software/)
 
@@ -59,18 +59,16 @@ All relevant scripts listed below can be found within the `regulation/scripts` f
 
 ### Transcription factor analysis
 
-1) `TFs/motifs_JASPAR2020.R` - download PWMs and motif clustering from [JASPAR 2020](http://jaspar.genereg.net/downloads/), transform PWMs for Cluster-Buster
+1) `TFs/download_motifs_JASPAR2020.R` - download PWMs and motif clustering from [JASPAR 2020](http://jaspar.genereg.net/downloads/), transform PWMs for Cluster-Buster
 
-2) `TFs/MPRNAseq_NPC.yaml` - zUMIs yaml file for mapping RNA-seq reads from NPCs. Raw data processed with this can be accessed under E-MTAB-9951
+2) `TFs/MPRNAseq_NPC.yaml` - zUMIs yaml file for mapping RNA-seq reads from NPCs. Input raw data for this processing can be accessed under E-MTAB-9951
 
 3) `TFs/TF_expression_analysis.R` - find the expressed transcription factors in our NPCs (from bulk RNA-seq data). Run [Cluster-Buster](http://cagt.bu.edu/page/ClusterBuster_download) on the intron sequences including only the PWMs of the expressed TFs to identify overrepresented motifs
 
 4) `TFs/PGLS_motifs.R` - investigate binding score assocation with intron CRE activity and GI among the 22 most abundant motifs on the intron sequence using PGLS
 
 
-
-Tree construction: `regulation/scripts/MPRA/tree_construction.R`.\\
-Generate figures using `figures/figures_forPaper.R`.
+Tree construction: `regulation/scripts/MPRA/tree_construction.R`.
 
 ADD SESSION INFO!!!
 

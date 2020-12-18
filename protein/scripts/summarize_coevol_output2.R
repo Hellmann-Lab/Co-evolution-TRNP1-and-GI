@@ -3,7 +3,6 @@
 libs<-c("tidyverse","cowplot","GenomicRanges","data.table","reshape2", "broom", "ape", "ggtree", "readr","geiger","nlme","phytools","grid","gtable","xtable","rr2")
 sapply(libs, require, character.only=T)
 
-setwd("/data/share/htp/TRNP1/paper_data/")
 
 #function
 gather_coevol_trees<-function(omega_tree, brain_tree, GI_tree, BW_tree){

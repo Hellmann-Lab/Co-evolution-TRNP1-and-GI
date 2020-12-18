@@ -3,7 +3,6 @@
 
 # SETTINGS ----------------------------------------------------------------
 
-setwd("/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing")
 # load in needed packages
 libs <- c("IRanges", "Biostrings","reshape2", "reshape", "GenomicRanges", "data.table", "tidyverse", "phangorn", "ape", "ggrepel", "ggtree", "caper", "phytools", "ggbio")
 
@@ -13,7 +12,7 @@ options(stringsAsFactors = F)
 
 # PEAK BED FILES -------------------------------------------------------------------
 
-# get file names -- these have NOT been uploaded due to size restrictions.
+# get file names -- these have NOT been uploaded due to size restrictions!
 allfiles <- list.files(path="/data/share/htp/TRNP1/TRNP1_Beate/output/peak_bed_fa", recursive = T, full.names=T, include.dirs = T, pattern="*.bed$")
 peakfiles <- allfiles[grepl(pattern = "*50*", allfiles)==F]
 peakfiles

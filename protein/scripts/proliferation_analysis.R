@@ -4,8 +4,6 @@
 libs<-c("tidyverse", "broom","multcomp","ape", "readr","geiger","nlme","phytools","xtable")
 sapply(libs, require, character.only=T)
 
-setwd("/data/share/htp/TRNP1/paper_data/Co-evolution-TRNP1-and-GI/")
-
 
 
 ################################################################

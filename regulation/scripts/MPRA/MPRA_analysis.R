@@ -1,10 +1,8 @@
 # MPRA data analysis by Zane Kliesmete
 
 #load libraries 
-libs<-c("rBLAST","tidyverse","cowplot","GenomicRanges","data.table","reshape2", "broom", "ape", "ggtree", "readr","geiger","nlme","phytools","grid","gtable","xtable","rr2")
+libs<-c("rBLAST","tidyverse","cowplot","GenomicRanges","data.table","reshape2", "broom", "ape", "ggtree", "readr","geiger","nlme","phytools","grid","gtable","xtable","rr2","Biostrings")
 sapply(libs, require, character.only=T)
-
-setwd("/data/share/htp/TRNP1/paper_data/Co-evolution-TRNP1-and-GI/")
 
 
 ################

@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH --error=/data/share/htp/TRNP1/paper_data/regulation/data/TFs/ClusterBuster/results/slurms/slurm-%J.err
-#SBATCH --output=/data/share/htp/TRNP1/paper_data/regulation/data/TFs/ClusterBuster/results/slurms/slurm-%J.out
+#SBATCH --error=regulation/data/TFs/ClusterBuster/results/slurms/slurm-%J.err
+#SBATCH --output=regulation/data/TFs/ClusterBuster/results/slurms/slurm-%J.out
 
-workingdir=/data/share/htp/TRNP1/paper_data/regulation/data/TFs
+workingdir=regulation/data/TFs
 
 JASPAR_folder_name=$1
 fasta=$2  
@@ -58,6 +58,6 @@ fi
 
 
 #subset cbust output
-bash /data/share/htp/TRNP1/paper_data/regulation/scripts/TFs/cbust_subset_per_species.sh $JASPAR_folder_name $weighted $cluster_cutoff $motif_cutoff $gap 
+bash regulation/scripts/TFs/cbust_subset_per_species.sh $JASPAR_folder_name $weighted $cluster_cutoff $motif_cutoff $gap 
 
 

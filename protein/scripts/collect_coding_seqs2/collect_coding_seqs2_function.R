@@ -4,8 +4,6 @@
 libs <- c( "Biostrings","tidyverse", "rBLAST", "stringr")
 sapply(libs,require,character.only=T)
 
-setwd("/data/share/htp/TRNP1/paper_data/")
-
 #read arguments
 args <- commandArgs()
 print(args)

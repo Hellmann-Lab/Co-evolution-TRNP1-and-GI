@@ -1,7 +1,5 @@
 # This script contains TRNP1 protein-coding orthologue search by Zane Kliesmete
 
-setwd("/data/share/htp/TRNP1/paper_data/Co-evolution-TRNP1-and-GI/")
-
 libs <- c("IRanges", "Biostrings", "tidyverse", "reshape2", "reshape", "GenomicRanges", "data.table", "phangorn", "ape", "ggrepel", "ggtree", "caper", "phytools", "rBLAST", "stringr","xtable", "geiger","nlme","phytools")
 
 sapply(libs, require, character.only=T)

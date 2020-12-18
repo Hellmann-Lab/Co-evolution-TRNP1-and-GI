@@ -1,6 +1,8 @@
 # PREPARE JASPAR 2020 DATA
 
 library(tidyverse)
+library(org.Hs.eg.db)
+
 
 # 1 DOWNLOAD AND TRANSPOSE,COMBINE PWMs ####
 
@@ -52,7 +54,6 @@ tf_df<-tf_df %>%
          SYMBOL3=word(SYMBOL_noVar, 3,3,"::"))
 
 #translate from ENSEMBL to symbols (expressed_ensembl)
-library(org.Hs.eg.db)
 tf_df_ENSEMBL<-AnnotationDbi::select(org.Hs.eg.db,keys=unique_TFs,keytype="SYMBOL",columns=c("ENSEMBL","SYMBOL")) %>%
   left_join(tf_df, by=c("SYMBOL"="SYMBOL1")) %>%
   dplyr::rename(motif=ID, motif_SYMBOL=SYMBOL.y) %>%
