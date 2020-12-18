@@ -8,6 +8,6 @@ One needs to:
 3) `II_filtering.sh` - this script needs two helper files, also present here - III_quality.filtering_counting_pipeline_GFP.sh and IV_reads.through.filtering_all.samples.sh. The first one filters the demultiplexed read files based on base quality (Q>10 for all 10 barcode bases --> means 90% probability of calling the right base). In addition, it checks whether the constant region (here, the beginning of the GFP gene) is present and extracts the 10 bases before, thereby making sure to avoid wrong barcodes due to reads that did not have the correct starting point during amplification. The second script summarises filtering statistics into one, R-friendly file.
 4) `V_Count_table_matching_metadata_MPRA.R` - generation of count tables.
 
-The output of these scripts can be found under 
+The output of these scripts can be found in `regulation/data/mpra/input/all_counts_MPRA_long.txt`
 
 
