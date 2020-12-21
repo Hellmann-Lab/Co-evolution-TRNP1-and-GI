@@ -20,7 +20,7 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 `align_with_prank.sh` -  protein-coding sequence alignment
 
 #### [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html) (v4.8)
-First, run PAML site models as described in the readme in the folder PAML.
+First, run PAML site models as described in the readme from folder `PAML`.
 `select_sign_sites_PAML_M8.R` - pull out the identified sites under positive selection
 
 #### [COEVOL](https://github.com/bayesiancook/coevol) (v1.4)
