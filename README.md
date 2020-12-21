@@ -68,5 +68,3 @@ All relevant scripts listed below can be found within the `regulation/scripts` f
 
 Tree construction: `regulation/scripts/MPRA/tree_construction.R`
 
-ADD SESSION INFO!!!
-
