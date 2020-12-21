@@ -16,14 +16,14 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 
 ### Evolutionary analysis of TRNP1 coding-sequence
 
-#### [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/)(v150803)
+#### [Multiple Alignments with PRANK](http://wasabiapp.org/software/prank/) (v150803)
 `align_with_prank.sh` -  protein-coding sequence alignment
 
-#### [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)(v4.8)
+#### [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html) (v4.8)
 First, run PAML site models as described in the readme in the folder PAML.
 `select_sign_sites_PAML_M8.R` - pull out the identified sites under positive selection
 
-#### [COEVOL](https://github.com/bayesiancook/coevol)(v1.4)
+#### [COEVOL](https://github.com/bayesiancook/coevol) (v1.4)
 
 1) `run_coevol.sh` - wrapper to run Coevol
 
@@ -48,7 +48,7 @@ All relevant scripts listed below can be found within the `regulation/scripts` f
 
 3) `MPRA/preprocessing`  MPRA count pre-processing. Extract reporter gene expression counts for each included enhancer tile. This folder contains a README with further details 
 
-4) `MPRA/collect_MPRA_fastas.R` - separate and save the relevant sequences from each of the 7 CRE regions, align using [MAFFT](https://mafft.cbrc.jp/alignment/software/)(v7.407)
+4) `MPRA/collect_MPRA_fastas.R` - separate and save the relevant sequences from each of the 7 CRE regions, align using [MAFFT](https://mafft.cbrc.jp/alignment/software/) (v7.407)
 
 5) `MPRA/MPRA_analysis.R` - filter and summarize CRE activities. Plug into PGLS and compare to brain mass and gyrification
 
@@ -58,13 +58,13 @@ All relevant scripts listed below can be found within the `regulation/scripts` f
 
 1) `TFs/download_motifs_JASPAR2020.R` - download PWMs and motif clustering from [JASPAR 2020](http://jaspar.genereg.net/downloads/), transform PWMs for Cluster-Buster
 
-2) `TFs/MPRNAseq_NPC.yaml` - [zUMIs](https://github.com/sdparekh/zUMIs)(v2.5.4) yaml file for mapping RNA-seq reads from NPCs. Input raw data for this processing can be accessed under E-MTAB-9951
+2) `TFs/MPRNAseq_NPC.yaml` - [zUMIs](https://github.com/sdparekh/zUMIs) (v2.5.4) yaml file for mapping RNA-seq reads from NPCs. Input raw data for this processing can be accessed under E-MTAB-9951
 
-3) `TFs/TF_expression_analysis.R` - find the expressed transcription factors in our NPCs (from bulk RNA-seq data). Run [Cluster-Buster](http://cagt.bu.edu/page/ClusterBuster_download)(Jun 13 2019) on the intron sequences including only the PWMs of the expressed TFs to identify overrepresented motifs
+3) `TFs/TF_expression_analysis.R` - find the expressed transcription factors in our NPCs (from bulk RNA-seq data). Run [Cluster-Buster](http://cagt.bu.edu/page/ClusterBuster_download) (Jun 13 2019) on the intron sequences including only the PWMs of the expressed TFs to identify overrepresented motifs
 
 4) `TFs/PGLS_motifs.R` - investigate binding score assocation with intron CRE activity and GI among the 22 most abundant motifs on the intron sequence using PGLS
 
 
 Tree construction: `regulation/scripts/MPRA/tree_construction.R`
 
-Throughout the workflow, we are using job scheduling system [slurm](https://github.com/mattthias/slurm)(v0.4.3).
+Throughout the workflow, we are using job scheduling system [slurm](https://github.com/mattthias/slurm) (v0.4.3).
