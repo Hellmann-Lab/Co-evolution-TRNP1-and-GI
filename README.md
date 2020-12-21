@@ -1,6 +1,5 @@
 # Co-evolution-TRNP1-and-GI
 This repository contains data files and scripts to reproduce the analyses and results presented in our paper.
-System requirements: R, slurm, zUMIs, COEVOL, PAML, PRANK, MAFFT, Cluster-Buster. 
 
 ## Protein
 
@@ -59,7 +58,7 @@ All relevant scripts listed below can be found within the `regulation/scripts` f
 
 1) `TFs/download_motifs_JASPAR2020.R` - download PWMs and motif clustering from [JASPAR 2020](http://jaspar.genereg.net/downloads/), transform PWMs for Cluster-Buster
 
-2) `TFs/MPRNAseq_NPC.yaml` - zUMIs yaml file for mapping RNA-seq reads from NPCs. Input raw data for this processing can be accessed under E-MTAB-9951
+2) `TFs/MPRNAseq_NPC.yaml` - [zUMIs](https://github.com/sdparekh/zUMIs)(version  2.5.4) yaml file for mapping RNA-seq reads from NPCs. Input raw data for this processing can be accessed under E-MTAB-9951
 
 3) `TFs/TF_expression_analysis.R` - find the expressed transcription factors in our NPCs (from bulk RNA-seq data). Run [Cluster-Buster](http://cagt.bu.edu/page/ClusterBuster_download) on the intron sequences including only the PWMs of the expressed TFs to identify overrepresented motifs
 
@@ -67,4 +66,4 @@ All relevant scripts listed below can be found within the `regulation/scripts` f
 
 
 Tree construction: `regulation/scripts/MPRA/tree_construction.R`
-
+Throughout the scripts, we are using job scheduling system for Linux [slurm](https://github.com/mattthias/slurm)(version 0.4.3).

@@ -10,7 +10,7 @@ sapply(libs, require, character.only=T)
 # Logistic regression to estimate proliferation rates ####
 ################################################################
 
-combined_prolif_all<-read.csv2("protein/data/proliferation/input_data/prolif_data_combined.csv")
+combined_prolif_all<-read.csv2("protein/proliferation/input_data/prolif_data_combined.csv")
 
 # generate a set excluding GFP
 combined_prolif_Trnp1<- combined_prolif_all %>%
@@ -62,7 +62,7 @@ combined_glm_all<-combined_glm_all %>%
          prolif_stderr=prolif_stderr_max-prolif_prob)
 
 
-saveRDS(combined_glm_all, "protein/data/proliferation/proliferation_LR_res_orthologues.rds")
+saveRDS(combined_glm_all, "protein/proliferation/proliferation_LR_res_orthologues.rds")
 
 #prepare the table for the supplementary material
 combined_glm_pretty<-combined_glm_all %>%
@@ -70,7 +70,7 @@ combined_glm_pretty<-combined_glm_all %>%
   dplyr::select(term, prolif_prob, prolif_stderr) %>%
   dplyr::rename(Species=term, `Proliferation rate` = prolif_prob, `Proliferation SE`=prolif_stderr)
 
-print(xtable(combined_glm_pretty, display=rep("s",ncol(combined_glm_pretty)+1)), include.rownames=FALSE, file="protein/data/proliferation/output_xtables/prolif_prob1.txt")
+print(xtable(combined_glm_pretty, display=rep("s",ncol(combined_glm_pretty)+1)), include.rownames=FALSE, file="protein/proliferation/output_xtables/prolif_prob1.txt")
 
 
 
@@ -99,7 +99,7 @@ x<-glht(mod_combined_glm_all,  linfct=mcp(species=c("human - mouse = 0",
 
 mtests1<-wrap_glht_output(x)
 xtable(mtests1, digits=4)
-print(xtable(mtests1,digits=c(1,2,3,3,4)), file="protein/data/proliferation/output_xtables/prolif_comparison1.txt")
+print(xtable(mtests1,digits=c(1,2,3,3,4)), file="protein/proliferation/output_xtables/prolif_comparison1.txt")
 
 
 
@@ -121,7 +121,7 @@ mod_Trnp1_pres_n<-glm(perc_prolif ~ Trnp1+n, weights = GFP_pos,
                         data = combined_prolif_all, family = "binomial")
 
 anova_3mod_prolif_Trnp1<-anova(mod_null_Trnp1, mod_Trnp1_pres, mod_Trnp1_pres_n, test="LRT") # the best model is the full one
-print(xtable(anova_3mod_prolif_Trnp1,digits=c(1,0,2,0,2,-1)), include.rownames=FALSE, file="protein/data/proliferation/output_xtables/prolif_mod_sel2.txt")
+print(xtable(anova_3mod_prolif_Trnp1,digits=c(1,0,2,0,2,-1)), include.rownames=FALSE, file="protein/proliferation/output_xtables/prolif_mod_sel2.txt")
 
 
 #best model: Trnp1 +n; set intercept to 0 to backcalculate the absolute prolif rates
@@ -140,7 +140,7 @@ combined_glm_Trnp1<-combined_glm_Trnp1 %>%
          prolif_stderr_min=exp(estimate-std.error)/(1+exp(estimate-std.error)),
          prolif_stderr=prolif_stderr_max-prolif_prob)
 
-saveRDS(combined_glm_Trnp1, "protein/data/proliferation/proliferation_LR_res_TRNP1.rds")
+saveRDS(combined_glm_Trnp1, "protein/proliferation/proliferation_LR_res_TRNP1.rds")
 
 
 
@@ -150,7 +150,7 @@ combined_glm_Trnp1_pretty<-combined_glm_Trnp1 %>%
   dplyr::select(term, prolif_prob, prolif_stderr) %>%
   dplyr::rename("TRNP1 present"=term, `Proliferation rate` = prolif_prob, `Proliferation SE`=prolif_stderr)
 
-print(xtable(combined_glm_Trnp1_pretty, display=rep("s",ncol(combined_glm_pretty)+1)), include.rownames=FALSE, file="protein/data/proliferation/output_xtables/prolif_prob2.txt")
+print(xtable(combined_glm_Trnp1_pretty, display=rep("s",ncol(combined_glm_pretty)+1)), include.rownames=FALSE, file="protein/proliferation/output_xtables/prolif_prob2.txt")
 
 
 
@@ -169,7 +169,7 @@ xtable(mtests2, digits=3)
 summary(x2)
 #2e-16
 mtests2[4]<-2E-16
-print(xtable(mtests2,digits=c(1,2,3,3,-1)), file="protein/data/proliferation/output_xtables/prolif_comparison2.txt")
+print(xtable(mtests2,digits=c(1,2,3,3,-1)), file="protein/proliferation/output_xtables/prolif_comparison2.txt")
 
 
  
@@ -205,7 +205,7 @@ prolif_vs_GI<-combined_glm_all %>%
                            term=="human" ~ "Homo_sapiens",
                            term=="dolphin" ~ "Tursiops_truncatus")) %>%
   left_join(pheno_data)
-saveRDS(prolif_vs_GI, "protein/data/proliferation/prolif_vs_GI.rds")
+saveRDS(prolif_vs_GI, "protein/proliferation/prolif_vs_GI.rds")
 
 
 
@@ -230,7 +230,7 @@ anova_GI_reg<- as.data.frame(anova(mod_GI_ctrl,mod_GI))
 anova_GI_reg$call<-c("log2(GI) ~ 1","log2(GI) ~ log2(Proliferation rate)")
 
 print(xtable(anova_GI_reg,digits=c(1,1,1,1,2,2,2,1,2,3)),
-      include.rownames=FALSE, file="protein/data/proliferation/output_xtables/GI_prolif_mod_sel_BM.tex")
+      include.rownames=FALSE, file="protein/proliferation/output_xtables/GI_prolif_mod_sel_BM.tex")
 
 
 mod_GI_prolif<-wrap_summary_table_BM(mod_GI) %>%
@@ -240,7 +240,7 @@ mod_GI_prolif$logLik[1]<-NA
 mod_GI_prolif$R2[1]<-NA
 
 print(xtable(mod_GI_prolif,digits=c(1,1,2,2,2,3,2,3)),
-      include.rownames=FALSE, file="protein/data/proliferation/output_xtables/GI_prolif_mod_BM.tex")
+      include.rownames=FALSE, file="protein/proliferation/output_xtables/GI_prolif_mod_BM.tex")
 
 
 
