@@ -8,7 +8,7 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 
 ### Protein-coding sequence collection 
 
-1) If you want to do the blast search using our scripts, you will need to download genomes listed in table XX
+1) If you want to do the blast search using our scripts, you will need to download genomes listed in table `protein/data/TRNP1_source_genomes.csv`
 
 2) `processingL_final.R` - process our own sequence assemblies from targeted re-sequencing
 
