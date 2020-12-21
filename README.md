@@ -8,13 +8,11 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 
 ### Protein-coding sequence collection 
 
-1) If you want to do the blast search using our scripts, you will need to download genomes listed in table `protein/data/TRNP1_source_genomes.csv`
+1) `collect_coding_seqs2/run_ccs2_function.sh` - blast wrapper to extract orthologous protein-coding sequences from genomes. If you want to do the blast search using our scripts, you will need to download genomes listed in table `protein/data/TRNP1_source_genomes.csv`
 
 2) `processingL_final.R` - process our own sequence assemblies from targeted re-sequencing
 
-3) `collect_coding_seqs2/run_ccs2_function.sh` - blast wrapper to extract orthologous protein-coding sequences from genomes 
-
-4) `collect_coding_seqs.R` - gather the orthologous TRNP1 protein-coding sequences from all included sources. Intersect with the available trait data. Save sequences and traits for the downstream analyses
+3) `collect_coding_seqs.R` - gather the orthologous TRNP1 protein-coding sequences from all included sources. Intersect with the available trait data. Save sequences and traits for the downstream analyses
 
 
 ### Evolutionary analysis of TRNP1 coding-sequence
