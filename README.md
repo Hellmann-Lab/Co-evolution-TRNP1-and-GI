@@ -69,5 +69,5 @@ Tree construction: `regulation/scripts/MPRA/tree_construction.R`
 
 Throughout the workflow, we are using job scheduling system [slurm](https://github.com/mattthias/slurm) (v0.4.3).
 
-### Adiitional Tables
+### Aditional Tables
 Primer sequences for the resequencing of putative Trnp1 cis regulatory elements as well as for the MPRA can be found in `oligo_sequences/`. For more information on the different tables please have a look at the README `oligo_sequences/README`
