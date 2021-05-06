@@ -1,0 +1,146 @@
+Species_ID;Species_Name;Region;Pool;Primers_in_pool;nPrimer
+2;Pan troglodytes;peak1;peak_1_old_3;(0.1|F)_peak1, (0.2|R)_peak1;2
+2;Pan troglodytes;peak2;peak_2_old_2;(0.1|F)_peak2, (0.2|R)_peak2, (0.4|R)_peak2, (0.6|R)_peak2;4
+2;Pan troglodytes;peak3;peak_3_old_4;(0.1|F)_peak3, (0.2|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;5
+2;Pan troglodytes;peak5;peak_5_old_8;(0.2|R)_peak5, (0.12|F)_peak5;2
+2;Pan troglodytes;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+2;Pan troglodytes;peak7;peak_7_old_2;(0.1|F)_peak7, (0.4|F)_peak7, (0.6|F)_peak7, (0.12|R)_peak7;4
+3;Pan paniscus;peak1;peak_1_old_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+3;Pan paniscus;peak3;peak_3_old_4;(0.1|F)_peak3, (0.2|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;5
+3;Pan paniscus;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+3;Pan paniscus;peak7;peak_7_new_1;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.6|R)_peak7_new, (0.9|R)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;7
+4;Gorilla gorilla;peak1;peak_1_old_3;(0.1|F)_peak1, (0.2|R)_peak1;2
+4;Gorilla gorilla;peak2;peak_2_old_2;(0.1|F)_peak2, (0.2|R)_peak2, (0.4|R)_peak2, (0.6|R)_peak2;4
+4;Gorilla gorilla;peak3;peak_3_old_4;(0.1|F)_peak3, (0.2|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;5
+4;Gorilla gorilla;peak5;peak_5_old_8;(0.2|R)_peak5, (0.12|F)_peak5;2
+4;Gorilla gorilla;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+4;Gorilla gorilla;peak7;peak_7_new_1;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.6|R)_peak7_new, (0.9|R)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;7
+5;Pongo abelii;peak1;peak1_new_1;(0.1|F)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;5
+5;Pongo abelii;peak2;peak_2_old_2;(0.1|F)_peak2, (0.2|R)_peak2, (0.4|R)_peak2, (0.6|R)_peak2;4
+5;Pongo abelii;peak3;peak_3_old_4;(0.1|F)_peak3, (0.2|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;5
+5;Pongo abelii;peak5;peak_5_old_8;(0.2|R)_peak5, (0.12|F)_peak5;2
+5;Pongo abelii;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+5;Pongo abelii;peak7;peak_7_new_3;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.9|R)_peak7_new, (0.10|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;10
+6;Symphalangus syndactylus;peak1;peak_1_old_3;(0.1|F)_peak1, (0.2|R)_peak1;2
+6;Symphalangus syndactylus;peak2;peak_2_old_2;(0.1|F)_peak2, (0.2|R)_peak2, (0.4|R)_peak2, (0.6|R)_peak2;4
+6;Symphalangus syndactylus;peak3;peak_3_old_4;(0.1|F)_peak3, (0.2|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;5
+6;Symphalangus syndactylus;peak5;peak_5_old_8;(0.2|R)_peak5, (0.12|F)_peak5;2
+6;Symphalangus syndactylus;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+6;Symphalangus syndactylus;peak7;peak_7_old_2;(0.1|F)_peak7, (0.4|F)_peak7, (0.6|F)_peak7, (0.12|R)_peak7;4
+7;Nomascus gabriellae;exon2;exon_2_old_1;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F), TRNP1_exon2_(0.8|R);6
+7;Nomascus gabriellae;peak1;peak1_new_1;(0.1|F)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;5
+7;Nomascus gabriellae;peak2;peak2_new_1;(0.1|F)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.6|F)_peak2_new, (0.8|F)_peak2_new;5
+7;Nomascus gabriellae;peak3;peak_3_old_1;(0.1|F)_peak3, (0.2|R)_peak3, (0.6|F)_peak3, (0.8|F)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;7
+7;Nomascus gabriellae;peak5;peak_5_old_1;(0.1|F)_peak5, (0.2|R)_peak5, (0.5|F)_peak5, (0.6|R)_peak5, (0.11|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;7
+7;Nomascus gabriellae;peak6;peak_6_old_1;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.12|R)_peak6, (0.16|R)_peak6;9
+7;Nomascus gabriellae;peak7;peak_7_old_2;(0.1|F)_peak7, (0.4|F)_peak7, (0.6|F)_peak7, (0.12|R)_peak7;4
+8;Hylobates agilis;peak1;peak_1_old_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+8;Hylobates agilis;peak3;peak_3_old_1;(0.1|F)_peak3, (0.2|R)_peak3, (0.6|F)_peak3, (0.8|F)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;7
+8;Hylobates agilis;peak6;peak_6_old_1;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.12|R)_peak6, (0.16|R)_peak6;9
+8;Hylobates agilis;peak7;peak_7_new_3;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.9|R)_peak7_new, (0.10|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;10
+9;Papio anubis;peak1;peak_1_old_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+9;Papio anubis;peak5;peak_5_old_1;(0.1|F)_peak5, (0.2|R)_peak5, (0.5|F)_peak5, (0.6|R)_peak5, (0.11|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;7
+9;Papio anubis;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+9;Papio anubis;peak7;peak_7_new_3;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.9|R)_peak7_new, (0.10|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;10
+10;Papio hamadryas;peak1;peak_1_old_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+10;Papio hamadryas;peak6;peak_6_old_1;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.12|R)_peak6, (0.16|R)_peak6;9
+10;Papio hamadryas;peak7;peak_7_new_3;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.9|R)_peak7_new, (0.10|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;10
+11;Mandrillus sphinx;peak1;peak_1_old_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+11;Mandrillus sphinx;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+11;Mandrillus sphinx;peak7;peak_7_new_3;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.9|R)_peak7_new, (0.10|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;10
+12;Cercocebus chrysogaster;peak1;peak_1_old_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+12;Cercocebus chrysogaster;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+12;Cercocebus chrysogaster;peak7;peak_7_new_3;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.9|R)_peak7_new, (0.10|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;10
+13;Macaca mulatta;peak1;peak_1_old_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+13;Macaca mulatta;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+13;Macaca mulatta;peak7;peak_7_new_3;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.9|R)_peak7_new, (0.10|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;10
+14;Macaca arctoides;peak1;peak_1_old_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+14;Macaca arctoides;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+14;Macaca arctoides;peak7;peak_7_new_1;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.6|R)_peak7_new, (0.9|R)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;7
+15;Macaca leonia;peak1;peak1_new_1;(0.1|F)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;5
+15;Macaca leonia;peak2;peak2_new_1;(0.1|F)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.6|F)_peak2_new, (0.8|F)_peak2_new;5
+15;Macaca leonia;peak3;peak_3_old_1;(0.1|F)_peak3, (0.2|R)_peak3, (0.6|F)_peak3, (0.8|F)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;7
+15;Macaca leonia;peak5;peak_5_old_1;(0.1|F)_peak5, (0.2|R)_peak5, (0.5|F)_peak5, (0.6|R)_peak5, (0.11|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;7
+15;Macaca leonia;peak6;peak_6_old_1;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.12|R)_peak6, (0.16|R)_peak6;9
+15;Macaca leonia;peak7;peak_7_new_1;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.6|R)_peak7_new, (0.9|R)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;7
+16;Macaca sylvanus;exon2;exon_2_old_1;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F), TRNP1_exon2_(0.8|R);6
+16;Macaca sylvanus;peak1;peak1_new_1;(0.1|F)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;5
+16;Macaca sylvanus;peak2;peak2_new_1;(0.1|F)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.6|F)_peak2_new, (0.8|F)_peak2_new;5
+16;Macaca sylvanus;peak3;peak_3_old_1;(0.1|F)_peak3, (0.2|R)_peak3, (0.6|F)_peak3, (0.8|F)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;7
+16;Macaca sylvanus;peak5;peak_5_old_1;(0.1|F)_peak5, (0.2|R)_peak5, (0.5|F)_peak5, (0.6|R)_peak5, (0.11|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;7
+16;Macaca sylvanus;peak6;peak_6_old_1;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.12|R)_peak6, (0.16|R)_peak6;9
+16;Macaca sylvanus;peak7;peak_7_new_1;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.6|R)_peak7_new, (0.9|R)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;7
+17;Macaca nemestrina;exon2;exon_2_old_1;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F), TRNP1_exon2_(0.8|R);6
+17;Macaca nemestrina;peak1;peak1_new_1;(0.1|F)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;5
+17;Macaca nemestrina;peak2;peak2_new_1;(0.1|F)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.6|F)_peak2_new, (0.8|F)_peak2_new;5
+17;Macaca nemestrina;peak3;peak_3_old_1;(0.1|F)_peak3, (0.2|R)_peak3, (0.6|F)_peak3, (0.8|F)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;7
+17;Macaca nemestrina;peak5;peak_5_old_1;(0.1|F)_peak5, (0.2|R)_peak5, (0.5|F)_peak5, (0.6|R)_peak5, (0.11|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;7
+17;Macaca nemestrina;peak6;peak_6_old_1;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.12|R)_peak6, (0.16|R)_peak6;9
+17;Macaca nemestrina;peak7;peak_7_new_1;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.6|R)_peak7_new, (0.9|R)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;7
+18;Cercopithecus cephus;exon2;exon_2_old_1;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F), TRNP1_exon2_(0.8|R);6
+18;Cercopithecus cephus;peak1;peak_1_old_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+18;Cercopithecus cephus;peak5;peak_5_new_1;(0.2|R)_peak5_new, (0.3|F)_peak5_new, (0.4|R)_peak5_new, (0.5|R)_peak5_new, (0.6|R)_peak5_new, (0.7|F)_peak5_new, (0.8|R)_peak5_new, (0.9|F)_peak5_new, (0.10|R)_peak5_new, (0.11|R)_peak5_new, (0.12|R)_peak5_new;11
+18;Cercopithecus cephus;peak6;peak_6_new_1;(0.1|F)_peak6_new, (0.2|R)_peak6_new, (0.3|R)_peak6_new, (0.4|F)_peak6_new, (0.5|F)_peak6_new, (0.7|F)_peak6_new, (0.8|F)_peak6_new;7
+18;Cercopithecus cephus;peak7;peak_7_new_3;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.9|R)_peak7_new, (0.10|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new;10
+19;Cercopithecus mitis;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+19;Cercopithecus mitis;peak1;peak1_new_1;(0.1|F)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;5
+19;Cercopithecus mitis;peak3;peak_3_old_3;(0.1|F)_peak3, (0.2|R)_peak3, (0.7|F)_peak3, (0.8|F)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;7
+19;Cercopithecus mitis;peak5;peak_5_old_4;(0.1|F)_peak5, (0.2|R)_peak5, (0.4|F)_peak5, (0.5|F)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.11|F)_peak5, (0.12|F)_peak5, (0.13|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;11
+19;Cercopithecus mitis;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11
+19;Cercopithecus mitis;peak7;peak_7_new_2;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.5|F)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new, (0.14|F)_peak7_new;10
+21;Colobus guereza;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+21;Colobus guereza;peak1;peak_1_old_1;(0.1|F)_peak1, (0.2|R)_peak1, (0.3|F)_peak1, (0.4|F)_peak1, (0.5|R)_peak1, (0.6|F)_peak1, (0.7|R)_peak1;7
+21;Colobus guereza;peak2;peak_2_old_1;(0.1|F)_peak2_new, (0.2|R)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.5|F)_peak2_new, (0.6|F)_peak2_new, (0.7|R)_peak2_new, (0.8|F)_peak2_new;8
+21;Colobus guereza;peak5;peak_5_old_4;(0.1|F)_peak5, (0.2|R)_peak5, (0.4|F)_peak5, (0.5|F)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.11|F)_peak5, (0.12|F)_peak5, (0.13|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;11
+21;Colobus guereza;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11
+21;Colobus guereza;peak7;peak_7_new_2;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.5|F)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new, (0.14|F)_peak7_new;10
+24;Alouatta caraya;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+24;Alouatta caraya;peak1;peak1_new_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+24;Alouatta caraya;peak2;peak2_new_2;(0.1|F)_peak2_new, (0.2|R)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.6|F)_peak2_new, (0.8|F)_peak2_new;6
+24;Alouatta caraya;peak3;peak_3_old_2;(0.1|F)_peak3, (0.2|R)_peak3, (0.3|F)_peak3, (0.4|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3;6
+24;Alouatta caraya;peak5;peak_5_old_2;(0.4|F)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.9|F)_peak5, (0.10|R)_peak5, (0.13|F)_peak5, (0.14|R)_peak5;7
+24;Alouatta caraya;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11
+24;Alouatta caraya;peak7;peak_7_new_2;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.5|F)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new, (0.14|F)_peak7_new;10
+25;Lagothrix cana;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+25;Lagothrix cana;peak1;peak1_new_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+25;Lagothrix cana;peak2;peak_2_old_1;(0.1|F)_peak2_new, (0.2|R)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.5|F)_peak2_new, (0.6|F)_peak2_new, (0.7|R)_peak2_new, (0.8|F)_peak2_new;8
+25;Lagothrix cana;peak3;peak_3_old_3;(0.1|F)_peak3, (0.2|R)_peak3, (0.7|F)_peak3, (0.8|F)_peak3, (0.9|F)_peak3, (0.11|R)_peak3, (0.13|F)_peak3;7
+25;Lagothrix cana;peak5;peak_5_old_4;(0.1|F)_peak5, (0.2|R)_peak5, (0.4|F)_peak5, (0.5|F)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.11|F)_peak5, (0.12|F)_peak5, (0.13|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;11
+25;Lagothrix cana;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11
+25;Lagothrix cana;peak7;peak_7_new_2;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.5|F)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new, (0.14|F)_peak7_new;10
+26;Ateles fusciceps;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+26;Ateles fusciceps;peak1;peak_1_old_1;(0.1|F)_peak1, (0.2|R)_peak1, (0.3|F)_peak1, (0.4|F)_peak1, (0.5|R)_peak1, (0.6|F)_peak1, (0.7|R)_peak1;7
+26;Ateles fusciceps;peak2;peak2_new_2;(0.1|F)_peak2_new, (0.2|R)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.6|F)_peak2_new, (0.8|F)_peak2_new;6
+26;Ateles fusciceps;peak5;peak_5_old_2;(0.4|F)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.9|F)_peak5, (0.10|R)_peak5, (0.13|F)_peak5, (0.14|R)_peak5;7
+26;Ateles fusciceps;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11
+26;Ateles fusciceps;peak7;peak_7_new_2;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.5|F)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new, (0.14|F)_peak7_new;10
+27;Cebus apella;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+27;Cebus apella;peak1;peak1_new_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+27;Cebus apella;peak2;peak2_new_2;(0.1|F)_peak2_new, (0.2|R)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.6|F)_peak2_new, (0.8|F)_peak2_new;6
+27;Cebus apella;peak3;peak_3_old_2;(0.1|F)_peak3, (0.2|R)_peak3, (0.3|F)_peak3, (0.4|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3;6
+27;Cebus apella;peak5;peak_5_old_2;(0.4|F)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.9|F)_peak5, (0.10|R)_peak5, (0.13|F)_peak5, (0.14|R)_peak5;7
+27;Cebus apella;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11
+27;Cebus apella;peak7;peak_7_new_2;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.5|F)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new, (0.14|F)_peak7_new;10
+28;Saimiri sciureus;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+28;Saimiri sciureus;peak1;peak1_new_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+28;Saimiri sciureus;peak3;peak_3_old_2;(0.1|F)_peak3, (0.2|R)_peak3, (0.3|F)_peak3, (0.4|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3;6
+28;Saimiri sciureus;peak5;peak_5_old_5;(0.1|F)_peak5, (0.2|R)_peak5, (0.4|F)_peak5, (0.5|F)_peak5, (0.6|R)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.11|F)_peak5, (0.12|F)_peak5, (0.13|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;12
+28;Saimiri sciureus;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11
+28;Saimiri sciureus;peak7;peak_7_new_2;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.5|F)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new, (0.14|F)_peak7_new;10
+29;Aotus azarae;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+29;Aotus azarae;peak2;peak_2_old_1;(0.1|F)_peak2_new, (0.2|R)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.5|F)_peak2_new, (0.6|F)_peak2_new, (0.7|R)_peak2_new, (0.8|F)_peak2_new;8
+29;Aotus azarae;peak3;peak_3_old_2;(0.1|F)_peak3, (0.2|R)_peak3, (0.3|F)_peak3, (0.4|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3;6
+29;Aotus azarae;peak5;peak_5_old_5;(0.1|F)_peak5, (0.2|R)_peak5, (0.4|F)_peak5, (0.5|F)_peak5, (0.6|R)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.11|F)_peak5, (0.12|F)_peak5, (0.13|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;12
+29;Aotus azarae;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11
+29;Aotus azarae;peak7;peak_7_new_2;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.5|F)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new, (0.14|F)_peak7_new;10
+30;Saguinus oedipus;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+30;Saguinus oedipus;peak1;peak1_new_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+30;Saguinus oedipus;peak2;peak_2_old_1;(0.1|F)_peak2_new, (0.2|R)_peak2_new, (0.3|F)_peak2_new, (0.4|R)_peak2_new, (0.5|F)_peak2_new, (0.6|F)_peak2_new, (0.7|R)_peak2_new, (0.8|F)_peak2_new;8
+30;Saguinus oedipus;peak3;peak_3_old_2;(0.1|F)_peak3, (0.2|R)_peak3, (0.3|F)_peak3, (0.4|R)_peak3, (0.9|F)_peak3, (0.11|R)_peak3;6
+30;Saguinus oedipus;peak5;peak_5_old_5;(0.1|F)_peak5, (0.2|R)_peak5, (0.4|F)_peak5, (0.5|F)_peak5, (0.6|R)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.11|F)_peak5, (0.12|F)_peak5, (0.13|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;12
+30;Saguinus oedipus;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11
+30;Saguinus oedipus;peak7;peak_7_new_2;(0.1|F)_peak7_new, (0.2|R)_peak7_new, (0.3|F)_peak7_new, (0.4|R)_peak7_new, (0.5|F)_peak7_new, (0.6|R)_peak7_new, (0.7|F)_peak7_new, (0.11|F)_peak7_new, (0.13|F)_peak7_new, (0.14|F)_peak7_new;10
+33;Pithecia pithecia;exon2;exon_2_old_2;TRNP1_exon2_(0.1|F), TRNP1_exon2_(0.2|R), TRNP1_exon2_(0.3|R), TRNP1_exon2_(0.4|F), TRNP1_exon2_(0.7|F);5
+33;Pithecia pithecia;peak1;peak1_new_2;(0.1|F)_peak1_new, (0.2|F)_peak1_new, (0.3|R)_peak1_new, (0.4|F)_peak1_new, (0.5|R)_peak1_new, (0.6|R)_peak1_new, (0.7|F)_peak1_new;7
+33;Pithecia pithecia;peak5;peak_5_old_5;(0.1|F)_peak5, (0.2|R)_peak5, (0.4|F)_peak5, (0.5|F)_peak5, (0.6|R)_peak5, (0.7|F)_peak5, (0.8|R)_peak5, (0.11|F)_peak5, (0.12|F)_peak5, (0.13|F)_peak5, (0.14|R)_peak5, (0.15|R)_peak5;12
+33;Pithecia pithecia;peak6;peak_6_old_2;(0.1|F)_peak6, (0.2|R)_peak6, (0.6|F)_peak6, (0.7|R)_peak6, (0.8|R)_peak6, (0.9|F)_peak6, (0.10|R)_peak6, (0.11|F)_peak6, (0.12|R)_peak6, (0.13|F)_peak6, (0.16|R)_peak6;11

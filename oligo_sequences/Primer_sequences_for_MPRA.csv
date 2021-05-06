@@ -1,0 +1,9 @@
+Name;Purpose;Sequence
+pNL3.1_lin_primer_rev;linearisation primer for Gibson Cloning;GGTGGCTTTACCAACAGTAC
+pNL3.1_lin_primer_fwd;linearisation primer for Gibson Cloning;TAAGGCCGCGACTCTAGA
+EGFP_primer_fwd;EGFP amplification primer with overhang to pMPRA;ACTGTTGGTAAAGCCACCATGGTGAGCAAGGGCGAGGAG
+EGFP_primer_rev;EGFP amplification primer with overhang to pMPRA;TCTAGAGTCGCGGCCTTACTTGTACAGCTCGTCCATGC
+SeqLibrary_Fwd_Tn7_GFP;PCR primer with transposase mosaic overhang, used for 1. PCR of MPRA sequencing library;GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGCGCCCTGAGCAAAGACC
+PCR_primer_rev_universal;PCR primer, used for 1. PCR of MPRA sequencing library;CGACGCTCTTCCGATCT
+Index_PCR_fwd (p5);PCR primer, used for 2. PCR of MPRA sequencing library;AATGATACGGCGACCACCGA
+Illumina_Nextera_N7xx (p7);PCR primer, used for 2. PCR of MPRA sequencing library inc´luding the sample index;CAAGCAGAAGACGGCATACGAGAT[8-bp i7 index]GTCTCGTGGGCTCGG
