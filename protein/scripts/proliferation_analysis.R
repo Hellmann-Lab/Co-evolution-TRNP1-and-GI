@@ -1,9 +1,10 @@
 #analyse the proliferation rates induced by the different TRNP1 orthologues in vitro (mouse E14 neural stem cells)
 
 #load libraries  
-libs<-c("tidyverse", "broom","multcomp","ape", "readr","geiger","nlme","phytools","xtable")
+libs<-c("tidyverse", "broom","multcomp","ape", "readr","geiger","nlme","phytools","xtable","rr2")
 sapply(libs, require, character.only=T)
 
+setwd("/data/share/htp/TRNP1/paper_data")
 
 
 ################################################################
@@ -11,7 +12,6 @@ sapply(libs, require, character.only=T)
 ################################################################
 
 combined_prolif_all<-read.csv2("protein/proliferation/input_data/prolif_data_combined.csv")
-
 # generate a set excluding GFP
 combined_prolif_Trnp1<- combined_prolif_all %>%
   filter(species!="GFP")
@@ -33,7 +33,7 @@ mod_species_n_orth<-glm(perc_prolif ~ species+n, weights = GFP_pos,
                              data = combined_prolif_Trnp1, family = "binomial")
 
 anova_3mod_prolif_orth<-anova(mod_null_orth, mod_species_orth, mod_species_n_orth, test="LRT") # the best model is the full one
-print(xtable(anova_3mod_prolif_orth,digits=c(1,0,2,0,2,-1)), include.rownames=FALSE, file="protein/data/proliferation/output_xtables/prolif_mod_sel1.txt")
+print(xtable(anova_3mod_prolif_orth,digits=c(1,0,2,0,2,-1)), include.rownames=FALSE, file="protein//proliferation/output_xtables/prolif_mod_sel1.txt")
 
 
 
@@ -179,7 +179,7 @@ print(xtable(mtests2,digits=c(1,2,3,3,-1)), file="protein/proliferation/output_x
 
 
 ################################################################
-# PGLS: GI vs proliferation ####
+# PGLS: brain vs proliferation ####
 ################################################################
 
 wrap_summary_table_BM<-function(model_output){
@@ -195,39 +195,40 @@ wrap_summary_table_BM<-function(model_output){
 }
 
 #compare to GI
-pheno_data<-readRDS("pheno_data/pheno_data.rds")
+pheno_data<-readRDS("protein/coevol/pheno_data/pheno_data_30species.rds")
+combined_glm_all<-readRDS("protein/proliferation/proliferation_LR_res_orthologues.rds")
 
-prolif_vs_GI<-combined_glm_all %>% 
+prolif_vs_dnds<-combined_glm_all %>% 
   mutate(species=case_when(term=="macaque" ~ "Macaca_mulatta",
                            term=="galago" ~ "Otolemur_garnettii",
-                           term=="ferret" ~ "Mustela_putorius",
                            term=="mouse" ~ "Mus_musculus",
                            term=="human" ~ "Homo_sapiens",
                            term=="dolphin" ~ "Tursiops_truncatus")) %>%
-  left_join(pheno_data)
-saveRDS(prolif_vs_GI, "protein/proliferation/prolif_vs_GI.rds")
+  left_join(pheno_data) 
+saveRDS(prolif_vs_dnds, "protein/proliferation/prolif_vs_dnds.rds")
+prolif_vs_dnds<-readRDS("protein/proliferation/prolif_vs_dnds.rds")
 
 
 
 #tree
-tree.coding31<-read.tree("protein/trees/tree_TRNP1_coding_31sp.txt") 
+tree.coding30<-read.tree("protein/trees/tree_TRNP1_coding_30sp.txt") 
 
-tree.prolif<-drop.tip(tree.coding31, tree.coding31$tip.label[!tree.coding31$tip.label %in% prolif_vs_GI$species ])
-rownames(prolif_vs_GI)<-prolif_vs_GI$species
+tree.prolif<-drop.tip(tree.coding30, tree.coding30$tip.label[!tree.coding30$tip.label %in% prolif_vs_dnds$species_short ])
+rownames(prolif_vs_dnds)<-prolif_vs_dnds$species_short
 
-mod_GI<-gls(log2(GI) ~ log2(prolif_prob), data=prolif_vs_GI, correlation=corBrownian(1, tree.prolif,form=~species), method="ML")
+mod_GI<-gls(GI ~ prolif_prob, data=prolif_vs_dnds, correlation=corBrownian(1, tree.prolif,form=~species_short), method="ML")
 summary(mod_GI)
 #qq plots
 qqnorm(mod_GI$residuals, pch = 1, frame = FALSE)
 qqline(mod_GI$residuals, col = "steelblue", lwd = 2)
 plot(mod_GI$fitted, mod_GI$residuals)
 
-mod_GI_ctrl<-gls(log2(GI) ~ 1, data=prolif_vs_GI, correlation=corBrownian(1, tree.prolif,form=~species), method="ML")
+mod_GI_ctrl<-gls(GI ~ 1, data=prolif_vs_dnds, correlation=corBrownian(1, tree.prolif,form=~species_short), method="ML")
 anova(mod_GI,mod_GI_ctrl)
 
 
 anova_GI_reg<- as.data.frame(anova(mod_GI_ctrl,mod_GI)) 
-anova_GI_reg$call<-c("log2(GI) ~ 1","log2(GI) ~ log2(Proliferation rate)")
+anova_GI_reg$call<-c("GI ~ 1","GI ~ Proliferation rate")
 
 print(xtable(anova_GI_reg,digits=c(1,1,1,1,2,2,2,1,2,3)),
       include.rownames=FALSE, file="protein/proliferation/output_xtables/GI_prolif_mod_sel_BM.tex")
@@ -245,19 +246,35 @@ print(xtable(mod_GI_prolif,digits=c(1,1,2,2,2,3,2,3)),
 
 
 
-#exclude mouse####
-prolif_vs_GI_nomouse<-prolif_vs_GI %>%
-  filter(term!="mouse")
+#now brain mass (in kg)####
 
-tree.prolif.nomouse<-drop.tip(tree.coding31, tree.coding31$tip.label[!tree.coding31$tip.label %in% prolif_vs_GI_nomouse$species ])
-rownames(prolif_vs_GI_nomouse)<-prolif_vs_GI_nomouse$species
+mod_brain<-gls(brain_mass/1000 ~ prolif_prob, data=prolif_vs_dnds, correlation=corBrownian(1, tree.prolif,form=~species_short), method="ML")
+summary(mod_brain)
+#qq plots
+qqnorm(mod_brain$residuals, pch = 1, frame = FALSE)
+qqline(mod_brain$residuals, col = "steelblue", lwd = 2)
+plot(mod_brain$fitted, mod_brain$residuals)
+
+mod_brain_ctrl<-gls(brain_mass/1000 ~ 1, data=prolif_vs_dnds, correlation=corBrownian(1, tree.prolif,form=~species_short), method="ML")
+anova(mod_brain,mod_brain_ctrl)
 
 
-mod_GI_nomouse<-gls(log2(GI) ~ log2(prolif_prob), data=prolif_vs_GI_nomouse, correlation=corBrownian(1, tree.prolif.nomouse,form=~species), method="ML")
-summary(mod_GI_nomouse)
+anova_brain_reg<- as.data.frame(anova(mod_brain_ctrl,mod_brain)) 
+anova_brain_reg$call<-c("Brain size ~ 1","Brain size ~ Proliferation rate")
 
-mod_GI_ctrl_nomouse<-gls(log2(GI) ~ 1, data=prolif_vs_GI_nomouse, correlation=corBrownian(1, tree.prolif.nomouse,form=~species), method="ML")
-anova(mod_GI_nomouse,mod_GI_ctrl_nomouse)
+print(xtable(anova_brain_reg,digits=c(1,1,1,1,2,2,2,1,2,3)),
+      include.rownames=FALSE, file="protein/proliferation/output_xtables/brain_prolif_mod_sel_BM.tex")
+
+
+mod_brain_prolif<-wrap_summary_table_BM(mod_brain) %>%
+  mutate(Predictor=gsub("prolif_prob","Proliferation rate",Predictor),
+         R2=round(R2.resid(mod_brain,mod_brain_ctrl),digits=3))
+mod_brain_prolif$logLik[1]<-NA
+mod_brain_prolif$R2[1]<-NA
+
+print(xtable(mod_brain_prolif,digits=c(1,1,2,2,2,3,2,3)),
+      include.rownames=FALSE, file="protein/proliferation/output_xtables/brain_prolif_mod_BM.tex")
+
 
 
 

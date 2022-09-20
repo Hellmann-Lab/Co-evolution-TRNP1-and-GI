@@ -4,6 +4,8 @@
 libs <- c( "Biostrings","tidyverse", "rBLAST", "stringr")
 sapply(libs,require,character.only=T)
 
+setwd("/data/share/htp/TRNP1/paper_data/")
+
 #read arguments
 args <- commandArgs()
 print(args)
@@ -27,7 +29,7 @@ print("before function")
 
 
 #load human TRNP1 protein sequence
-protein.fa <- readAAStringSet("protein/fastas/trnp1_protein_seq_hum.fasta")
+protein.fa <- readAAStringSet("protein/data/trnp1_protein_seq_hum.fasta")
 
 
 #create a blast function
@@ -46,15 +48,15 @@ do_rblast_full<-function(subject=input_seq,query=protein.fa,type="tblastn", min_
   
   } 
   else {
-    #whereas in other cases (ENSEMBL genomes), the full name (which I concatenate together) is required to uniquely identify the sequences
+    #whereas in other cases, the full name (which I concatenate together) is required to uniquely identify the sequences
     dir<-paste(input_seq_dir)
     names(subject)<-gsub(" ","",names(subject))
-    writeXStringSet(subject, filepath = file.path(paste0(dir,"/",species,".seqs.fasta")))
-    db<-makeblastdb(file.path(paste0(dir,"/",species,".seqs.fasta")), dbtype = "nucl")
-    res<-blast(file.path(paste0(dir,"/",species,".seqs.fasta")),type=paste0(type))
+    writeXStringSet(subject, filepath = file.path(paste0(dir,"/",species,".Newseqs.fasta")))
+    db<-makeblastdb(file.path(paste0(dir,"/",species,".Newseqs.fasta")), dbtype = "nucl")
+    res<-blast(file.path(paste0(dir,"/",species,".Newseqs.fasta")),type=paste0(type))
     #switch off masking (normally masks overrepresented or low-complexity sequences)
     blast_output<-stats::predict(res,query, BLAST_args="-soft_masking false -seg no")
-    system(paste0("rm ", dir,"/",species,".seqs.fasta*"))
+    system(paste0("rm ", dir,"/",species,".Newseqs.fasta*"))
   }
   
   #filter for high identity and alignment length
@@ -66,10 +68,10 @@ do_rblast_full<-function(subject=input_seq,query=protein.fa,type="tblastn", min_
   
   #cut the region and do revCompl where necessary
   if (blast_output_filt$S.end[1]<blast_output_filt$S.start[1]){
-    subject_cut<-subseq(subject_seq, start=blast_output_filt$S.end[1], end=blast_output_filt$S.start[1])
+    subject_cut<-subseq(subject_seq, start=blast_output_filt$S.end[1]-24, end=blast_output_filt$S.start[1]+24)
     subject_cut<-Biostrings::reverseComplement(subject_cut)
   } else {
-    subject_cut<-subseq(subject_seq, start=blast_output_filt$S.start[1], end=blast_output_filt$S.end[1])
+    subject_cut<-subseq(subject_seq, start=blast_output_filt$S.start[1]-24, end=blast_output_filt$S.end[1]+24)
   }
   
   #make an exception for cases where there is a assembly-weirdness that leads to frameshift within the trnp1 coding sequence, such as in the case of M.fascicularis --> add the 2nd sequence part

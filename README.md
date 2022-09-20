@@ -9,9 +9,11 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 
 1) `collect_coding_seqs2/run_ccs2_function.sh` - blast wrapper to extract orthologous protein-coding sequences from genomes. If you want to do the blast search using our scripts, you will need to download genomes listed in table `protein/data/TRNP1_source_genomes.csv`
 
-2) `processingL_final.R` - process our own sequence assemblies from targeted re-sequencing
+2) `processingL_final.R` - process our own primate sequence assemblies from targeted re-sequencing
 
-3) `collect_coding_seqs.R` - gather the orthologous TRNP1 protein-coding sequences from all included sources. Intersect with the available trait data. Save sequences and traits for the downstream analyses
+3) `collect_coding_seqs2/Ferret_transcr_assembly_steps.sh` and `collect_coding_seqs2/Ferret_cutContig_makeFa.R` -  process the re-sequenced ferret sequence
+
+4) `collect_coding_seqs.R` - gather the orthologous TRNP1 protein-coding sequences from all included sources. Intersect with the available trait data. Save sequences and traits for the downstream analyses
 
 
 ### Evolutionary analysis of TRNP1 coding-sequence
@@ -20,19 +22,21 @@ All relevant scripts listed below can be found within the `protein/scripts` fold
 `align_with_prank.sh` -  protein-coding sequence alignment
 
 #### [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html) (v4.8)
-First, run PAML site models as described in the readme from folder `PAML`.
+First, run PAML site models as described in the README from folder `PAML`.
 `select_sign_sites_PAML_M8.R` - pull out the identified sites under positive selection
 
 #### [COEVOL](https://github.com/bayesiancook/coevol) (v1.4)
 
-1) `run_coevol.sh` - wrapper to run Coevol
+1) `run_coevol.sh` - wrapper to run Coevol; `finish_coevol.sh` - wrapper to stop Coevol and generate summaries
 
-2) `summarize_coevol_output1.R` - access the estimated correlations and posterior probabilities
+2) `summarize_coevol_output_TRNP1.R` - access the estimated omega, correlations and posterior probabilities
 
-3) `summarize_coevol_output2.R` - access the estimated omega of the protein
+Scripts for evolutionary analysis of control proteins can be found in a separate folder `other_protein_alignments` where there is a separate README on this part. 
+
+
 
 ### Analysis of NPC proliferation assay
-`proliferation_analysis.R` - gather proliferation assay data, estimate proliferation rates using logistic regression, infer association with GI using PGLS
+`proliferation_analysis.R` - gather proliferation assay data, estimate proliferation rates using logistic regression, infer association with brain size and GI using PGLS
 
 
 ## Regulation
@@ -70,4 +74,4 @@ Tree construction: `regulation/scripts/MPRA/tree_construction.R`
 Throughout the workflow, we are using job scheduling system [slurm](https://github.com/mattthias/slurm) (v0.4.3).
 
 ### Aditional Tables
-Primer sequences for the resequencing of putative Trnp1 cis regulatory elements as well as for the MPRA can be found in `oligo_sequences/`. For more information on the different tables please have a look at the README `oligo_sequences/README`
+Primer sequences for the resequencing of putative Trnp1 cis-regulatory elements as well as for the MPRA can be found in `oligo_sequences/`. For more information on the different tables please have a look at the README `oligo_sequences/README`

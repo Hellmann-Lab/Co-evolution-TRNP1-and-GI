@@ -1,12 +1,12 @@
-% latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Wed Dec  9 18:15:59 2020
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Tue Jan 18 13:36:49 2022
 \begin{table}[ht]
 \centering
 \begin{tabular}{rrrrr}
   \hline
  & Estimate & Std. Error & z value & Pr($>$$|$z$|$) \\ 
   \hline
-yes - no & 0.75 & 0.050 & 14.888 & 2.0E-16 \\ 
+yes - no & 0.77 & 0.052 & 14.939 & 2.0E-16 \\ 
    \hline
 \end{tabular}
 \end{table}

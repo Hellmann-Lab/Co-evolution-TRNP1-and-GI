@@ -1,17 +1,19 @@
-% latex table generated in R 3.6.3 by xtable 1.8-4 package
-% Mon Apr 27 17:17:19 2020
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Mon Jan  3 15:58:22 2022
 \begin{table}[ht]
 \centering
 \begin{tabular}{rlr}
   \hline
 Alignment position & Pr\_w$>$1 & Post mean omega \\ 
   \hline
- 35 & 0.977* & 1.11 \\ 
-   41 & 0.994** & 1.12 \\ 
-   62 & 0.991** & 1.12 \\ 
-   63 & 0.971* & 1.10 \\ 
-   86 & 0.984* & 1.12 \\ 
-  193 & 0.967* & 1.10 \\ 
+ 35 & 0.985* & 1.04 \\ 
+   41 & 0.995** & 1.05 \\ 
+   51 & 0.952* & 1.01 \\ 
+   58 & 0.967* & 1.02 \\ 
+   62 & 0.995** & 1.05 \\ 
+   63 & 0.984* & 1.04 \\ 
+   86 & 0.991** & 1.04 \\ 
+  191 & 0.980* & 1.04 \\ 
    \hline
 \end{tabular}
 \end{table}

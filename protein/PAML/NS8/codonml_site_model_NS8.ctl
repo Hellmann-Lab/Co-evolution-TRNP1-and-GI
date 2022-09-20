@@ -1,4 +1,4 @@
-      seqfile = /data/share/htp/TRNP1/paper_data/protein/fastas/prank_output/prank_TRNP1_coding_45species_forPAML.best.nuc.phy 
+      seqfile = /data/share/htp/TRNP1/paper_data/protein/fastas/prank_output/prank_TRNP1_coding_45species_forPAML_longer.best.nuc.phy 
      treefile = /data/share/htp/TRNP1/paper_data/protein/trees/tree_TRNP1_coding_45sp_forPAML.txt
       outfile = /data/share/htp/TRNP1/paper_data/protein/PAML/NS8/NS8_model_output.txt
 

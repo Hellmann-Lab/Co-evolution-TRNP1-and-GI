@@ -1,14 +1,14 @@
-% latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Wed Dec  9 18:15:59 2020
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Tue Jan 18 13:36:20 2022
 \begin{table}[ht]
 \centering
 \begin{tabular}{rrrrr}
   \hline
 Resid. Df & Resid. Dev & Df & Deviance & Pr($>$Chi) \\ 
   \hline
-68 & 1491.35 &  &  &  \\ 
-  67 & 1258.02 & 1 & 233.33 & 1.1E-52 \\ 
-  56 & 235.84 & 11 & 1022.18 & 3.2E-212 \\ 
+56 & 1312.80 &  &  &  \\ 
+  55 & 1058.00 & 1 & 254.80 & 2.3E-57 \\ 
+  44 & 209.80 & 11 & 848.20 & 8.4E-175 \\ 
    \hline
 \end{tabular}
 \end{table}

@@ -1,17 +1,16 @@
-% latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Wed Dec  9 18:15:58 2020
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Tue Jan 18 13:36:13 2022
 \begin{table}[ht]
 \centering
 \begin{tabular}{lrr}
   \hline
 Species & Proliferation rate & Proliferation SE \\ 
   \hline
-macaque & 0.49 & 0.028 \\ 
-  galago & 0.51 & 0.027 \\ 
-  ferret & 0.52 & 0.023 \\ 
-  mouse & 0.54 & 0.022 \\ 
-  human & 0.58 & 0.022 \\ 
-  dolphin & 0.65 & 0.025 \\ 
+macaque & 0.46 & 0.031 \\ 
+  galago & 0.48 & 0.031 \\ 
+  mouse & 0.51 & 0.026 \\ 
+  human & 0.55 & 0.025 \\ 
+  dolphin & 0.62 &  0.03 \\ 
    \hline
 \end{tabular}
 \end{table}

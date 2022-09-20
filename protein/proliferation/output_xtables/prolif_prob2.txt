@@ -1,13 +1,13 @@
-% latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Wed Dec  9 18:15:59 2020
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Tue Jan 18 13:36:24 2022
 \begin{table}[ht]
 \centering
 \begin{tabular}{lrr}
   \hline
 TRNP1 present & Proliferation rate & Proliferation SE \\ 
   \hline
-no & 0.35 & 0.019 \\ 
-  yes & 0.54 & 0.018 \\ 
+no & 0.34 & 0.02 \\ 
+  yes & 0.53 & 0.02 \\ 
    \hline
 \end{tabular}
 \end{table}
