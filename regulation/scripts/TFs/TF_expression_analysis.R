@@ -27,7 +27,10 @@ npc_counts<-readRDS("regulation/data/TFs/expression/input/MPRNAseq_NPC.dgecounts
 
 #select intron & exon counts
 umi_counts<-as.data.frame(as.matrix(npc_counts$umicount$inex$all))
-annot<-read.table("regulation/data/TFs/expression/input/MPRA_info.txt", header = T)
+annot<-read.table("regulation/data/TFs/expression/input/MPRA_info.txt", header = T) %>%
+  mutate(individual=case_when(clone == "29B5" ~ "human1",
+                              clone == "30B1" ~ "human2",
+                              clone == "39B2" ~ "macaque"))
 
 #filtering####
 # filter, visualize
@@ -172,7 +175,10 @@ ggsave("regulation/data/TFs/expression/figures5_PCA_500mv.pdf", height=3.5, widt
 
 
 
+
+
 #TRNP1 expression ####
+
 norm_counts_trnp1<-vsdMat[rownames(vsdMat)=="ENSG00000253368",] %>%
   as.data.frame(.) %>%
   rownames_to_column("XC") %>%
@@ -185,6 +191,45 @@ ggplot(norm_counts_trnp1, aes(x=clone, y=TRNP1_norm_expr, color=species))+
 
 ggsave("regulation/data/TFs/expression/figures6_TRNP1_expression.pdf", height=4, width=6)
 
+
+
+# DE results
+# TRNP1 ENSG00000253368
+hum1_vs_hum2<-results(dds,contrast=c("clone","29B5","30B1")) 
+hum1_vs_hum2_table<-as.data.frame(hum1_vs_hum2) %>%
+  rownames_to_column(var="ENSEMBL") #TRNP1 nonsignificant
+
+hum1_vs_mac<-results(dds,contrast=c("clone","29B5","39B2"))
+hum1_vs_mac_table<-as.data.frame(hum1_vs_mac) %>%
+  rownames_to_column(var="ENSEMBL")
+
+
+hum2_vs_mac<-results(dds,contrast=c("clone","30B1","39B2"))
+hum2_vs_mac_table<-as.data.frame(hum2_vs_mac) %>%
+  rownames_to_column(var="ENSEMBL")
+
+#gather results on TRNP1
+
+DE_comb<-bind_rows(hum1_vs_hum2_table %>% arrange(padj) %>% 
+                     mutate(contrast="human1 vs human2", rank = 1:nrow(.)),
+                   hum1_vs_mac_table %>% arrange(padj) %>% 
+                     mutate(contrast="human1 vs macaque", rank = 1:nrow(.)),
+                   hum2_vs_mac_table %>% arrange(padj) %>% 
+                     mutate(contrast="human2 vs macaque", rank = 1:nrow(.))) %>%
+  filter(ENSEMBL=="ENSG00000253368")
+
+
+
+
+vsdMat_long<-vsdMat %>%
+  as.data.frame(.) %>%
+  rownames_to_column("ENSEMBL") %>%
+  pivot_longer(-ENSEMBL, names_to = "XC", values_to = "vsd_expr") %>%
+  left_join(annot) %>%
+  group_by(XC) %>%
+  arrange(-vsd_expr) %>%
+  mutate(rank = 1:length(XC)) %>%
+  ungroup()
 
 
 
