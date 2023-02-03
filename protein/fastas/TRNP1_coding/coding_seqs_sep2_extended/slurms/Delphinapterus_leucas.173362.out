@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Delphinapterus_leucas"                                                                                                
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Delphinapterus_leucas"                           
+[8] "GCF_002288925.2_ASM228892v3_genomic.fna.gz"                                                                           
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Delphinapterus_leucas"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Delphinapterus_leucas"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Delphinapterus_leucas/GCF_002288925.2_ASM228892v3_genomic.fna.gz"
+DNAStringSet object of length 6:
+       width seq                                            names               
+[1] 14969233 ATGCTGGGGGACCCTCTGTTCC...TGGGACAAAAATAAATGCACC NW_022097992.1 De...
+[2] 16770926 AGCAAGGGAAAAACAAATAACG...TGCATCGGCAGGCGGACTCTC NW_022097993.1 De...
+[3] 16958992 ATGGACTTAATTGATATTTATA...TTCTTTTTCTACTACACAAAT NW_022097994.1 De...
+[4] 16597653 AAGAGCACAGAGGCTATGGGAT...AAAGATGCCATGTGCTTAAAG NW_022097995.1 De...
+[5] 17138287 ATCCTTGACCCATCACCAGAAA...CTTCACCTGTGAAGCCATCTG NW_022097996.1 De...
+[6] 17006696 ATTGCAGAGTCCAAGGGGACAC...TGACCTGACAAATAAGACAAA NW_022097997.1 De...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 16:21:42
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Delphinapterus_leucas/GCF_002288925.2_ASM228892v3_genomic.fna
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Delphinapterus_leucas/GCF_002288925.2_ASM228892v3_genomic.fna
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5905 sequences in 136 seconds.

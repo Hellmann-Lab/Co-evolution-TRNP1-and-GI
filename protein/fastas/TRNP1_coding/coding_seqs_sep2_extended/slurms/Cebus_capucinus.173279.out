@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Cebus_capucinus"                                                                                                      
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Cebus_capucinus"                                 
+[8] "Cebus_capucinus.Cebus_imitator-1.0.dna.toplevel.fa.gz"                                                                
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Cebus_capucinus"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Cebus_capucinus"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Cebus_capucinus/Cebus_capucinus.Cebus_imitator-1.0.dna.toplevel.fa.gz"
+DNAStringSet object of length 6:
+       width seq                                            names               
+[1] 21314971 CTCACTCTGTCCTTACTACCAG...CCTCTCTGCAGTCAGTGTCTG KV389426.1 dna:sc...
+[2] 20362211 CGCCACCATGCCCAGCTCATGT...CACGCCCAGCTATTTTTTTTT KV389444.1 dna:sc...
+[3] 19467048 CTCTCTCTCTCTCTCTCTCTCT...TCTAAAAAGTAATGGCCATAC KV389468.1 dna:sc...
+[4] 18007423 TTTTTTTTTTTTTAGCGAAGCA...ACCAGAGAGATGTTTCTGAGA KV389427.1 dna:sc...
+[5] 17373732 TTTTTTTCTGAGACAGAGTTTC...GGATCTACATAGAGAAGAGCA KV389471.1 dna:sc...
+[6] 17023488 ATTTTGTACGGAGAACCGCGGC...CCAAAAGCAAAAAAAAAAAAA KV389453.1 dna:sc...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/19/2021 22:39:24
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Cebus_capucinus/Cebus_capucinus.seqs.fasta
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Cebus_capucinus/Cebus_capucinus.seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 7156 sequences in 119.7 seconds.

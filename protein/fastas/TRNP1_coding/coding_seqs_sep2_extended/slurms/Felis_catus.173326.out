@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Felis_catus"                                                                                                          
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Felis_catus"                                     
+[8] "Felis_catus.Felis_catus_9.0.dna.toplevel.fa.gz"                                                                       
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Felis_catus"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Felis_catus"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Felis_catus/Felis_catus.Felis_catus_9.0.dna.toplevel.fa.gz"
+DNAStringSet object of length 6:
+        width seq                                           names               
+[1] 242100913 ATCAGGAGATCTAGATGCCTG...GAAGCACCTTCATGTTCCCAA A1 dna:chromosome...
+[2] 171471747 GGTCTGAGCTGTCAAGCACAG...TTGGTGAAGCCTAATTTAGCA A2 dna:chromosome...
+[3] 143202405 GAGGCAGCGCCGACTCTGAGC...GTTAGGGTTAGGGCTTAGGGT A3 dna:chromosome...
+[4] 208212889 TGATAACTGGTGTCCTATAGG...ATGTGAGTCCATGAAGAATAG B1 dna:chromosome...
+[5] 155302638 TACCCATGGGGAACAAATACC...TTTTTTTTTTTTTTTTTTTTT B2 dna:chromosome...
+[6] 149751809 ACAAGACACATAATGACAATG...TCGCTTTTATGTGAAATTGGA B3 dna:chromosome...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 02:03:34
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Felis_catus/Felis_catus.seqs.fasta
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Felis_catus/Felis_catus.seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 4508 sequences in 96.2906 seconds.

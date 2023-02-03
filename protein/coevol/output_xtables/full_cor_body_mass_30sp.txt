@@ -1,0 +1,14 @@
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Thu Jan 27 23:04:46 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{llll}
+  \hline
+Parameter 1 & Parameter 2 & Marginal Correlation (Posterior Probability) & Partial Correlation (Posterior Probability) \\ 
+  \hline
+body mass & omega & 0.696 (0.95) & 0.677 (0.91) \\ 
+  body mass & dS & -0.416 (0.94) & 0.068 (0.54) \\ 
+  omega & dS & -0.53 (0.89) & -0.364 (0.73) \\ 
+   \hline
+\end{tabular}
+\end{table}

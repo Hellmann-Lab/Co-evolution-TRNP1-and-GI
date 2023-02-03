@@ -1,0 +1,14 @@
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Thu Jan 27 23:04:46 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{llll}
+  \hline
+Parameter 1 & Parameter 2 & Marginal Correlation (Posterior Probability) & Partial Correlation (Posterior Probability) \\ 
+  \hline
+GI & omega & 0.769 (0.98) & 0.775 (0.96) \\ 
+  GI & dS & -0.42 (0.96) & 0.093 (0.57) \\ 
+  omega & dS & -0.525 (0.91) & -0.335 (0.71) \\ 
+   \hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,41 @@
+entries are in the following order:
+dS
+omega
+brain_mass
+
+covariances
+
+  0.893	 -0.218	  -1.22	
+ -0.218	  0.149	  0.688	
+  -1.22	  0.688	   5.75	
+
+correlation coefficients
+
+      1	 -0.616	 -0.556	
+ -0.616	      1	  0.797	
+ -0.556	  0.797	      1	
+
+posterior probs
+
+  -	0.06	0.016	
+0.06	  -	0.98	
+0.016	0.98	  -	
+
+precisions
+
+   26.9	   51.8	 -0.791	
+   51.8	    663	  -56.8	
+ -0.791	  -56.8	    8.5	
+
+partial correlation coefficients
+
+     -1	 -0.335	   0.03	
+ -0.335	     -1	  0.751	
+   0.03	  0.751	     -1	
+
+posterior probs
+
+  -	0.29	0.52	
+0.29	  -	0.94	
+0.52	0.94	  -	
+

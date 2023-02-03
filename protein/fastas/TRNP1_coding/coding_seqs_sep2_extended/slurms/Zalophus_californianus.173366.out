@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Zalophus_californianus"                                                                                               
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Zalophus_californianus"                          
+[8] "GCF_009762305.2_mZalCal1.pri.v2_genomic.fna.gz"                                                                       
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Zalophus_californianus"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Zalophus_californianus"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Zalophus_californianus/GCF_009762305.2_mZalCal1.pri.v2_genomic.fna.gz"
+DNAStringSet object of length 6:
+        width seq                                           names               
+[1] 216121386 CGGGAAGCTCATCGCAGCGCC...TGTGTGCTTGTGTGCACGTGT NC_045595.1 Zalop...
+[2] 203405709 CAGGGCTGGTGCACTTCCAGA...CCAGGTAGCTCCTTTCTCTGG NC_045596.1 Zalop...
+[3] 195893461 GACATTCAGAGGGTGGGAGAC...CTATTGACATCATTTCATCTT NC_045597.1 Zalop...
+[4] 191600665 ACCCAAGGGTGAAAAGCTGAA...CTCTCCTTAATACCCATCACC NC_045598.1 Zalop...
+[5] 154431508 CTAAAAGAAGTGGAGAAAAAC...GTGTCCCAGCCCCCGTGGGAA NC_045599.1 Zalop...
+[6] 147960056 ATGGGTATTGAGGAGGGCACG...AAAAAACAGGCATTTGTTAAG NC_045600.1 Zalop...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 16:21:42
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Zalophus_californianus/GCF_009762305.2_mZalCal1.pri.v2_genomic.fna
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Zalophus_californianus/GCF_009762305.2_mZalCal1.pri.v2_genomic.fna
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 47 sequences in 131.621 seconds.

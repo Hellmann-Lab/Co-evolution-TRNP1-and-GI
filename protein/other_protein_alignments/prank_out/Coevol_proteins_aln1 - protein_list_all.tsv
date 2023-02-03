@@ -1,0 +1,257 @@
+protein	alignment	species	notes	decision
+CCDS10014.1.fa	medium	2		curate
+CCDS10029.1.fa	good	0		use
+CCDS10240.1.fa	good	0		use
+CCDS10274.1.fa	good	0		use
+CCDS10282.1.fa	good	0		use
+CCDS10448.1.fa	good	0	sus_gap	use
+CCDS10487.1.fa	good	0,5		curate
+CCDS10488.1.fa	good	0		use
+CCDS10545.1.fa	good	0	short	use
+CCDS10546.1.fa	good	1,5		curate
+CCDS10549.1.fa	good	0	short	use
+CCDS10652.1.fa	good	0		use
+CCDS10735.1.fa	good	0		use
+CCDS1080.1.fa	good	0	short	use
+CCDS10847.1.fa	good	0		use
+CCDS1095.1.fa	good	0	short	use
+CCDS11320.1.fa	good	1	sus_gap	curate
+CCDS11463.1.fa	good	1	castor	curate
+CCDS11523.1.fa	good	0,5	short	curate
+CCDS11587.1.fa	good	0		use
+CCDS11756.1.fa	good	1	sus	curate
+CCDS11869.1.fa	good	0		use
+CCDS11976.1.fa	good	1	sus	curate
+CCDS1204.1.fa	good	0		use
+CCDS12092.1.fa	good	0		use
+CCDS12209.1.fa	good	1	tursiops	curate
+CCDS12403.1.fa	good	0		use
+CCDS12417.1.fa	good	1,5	castor	curate
+CCDS12424.1.fa	good	1	sus	curate
+CCDS12432.1.fa	good	0		use
+CCDS12458.1.fa	good	0,5		curate
+CCDS12461.1.fa	bad	3		exclude
+CCDS12558.1.fa	good	0		use
+CCDS12654.1.fa	good	1,5	sus	curate
+CCDS12866.1.fa	medium	2		curate
+CCDS12929.1.fa	bad	3		exclude
+CCDS12995.1.fa	bad	4		exclude
+CCDS1302.1.fa	good	0		use
+CCDS13080.1.fa	good	0,5		curate
+CCDS13139.1.fa	good	0		use
+CCDS13186.1.fa	medium	2		curate
+CCDS13192.1.fa	good	0		use
+CCDS13295.1.fa	good	0	short	use
+CCDS13311.1.fa	medium	2	sus	curate
+CCDS1343.1.fa	bad	4		exclude
+CCDS13449.2.fa	good	1	castor	curate
+CCDS13471.1.fa	good	0		use
+CCDS13483.1.fa				
+CCDS13608.1.fa	medium	2	gorilla,tursiops	curate
+CCDS13620.1.fa	bad	5		exclude
+CCDS13635.1.fa	good	0		use
+CCDS13645.1.fa	good	1	gorilla	curate
+CCDS13667.1.fa	good	1	otolemurga	curate
+CCDS13711.1.fa	medium	2	sus,rattus	curate
+CCDS13763.2.fa				
+CCDS13883.1.fa	good	1	castor	curate
+CCDS14095.1.fa	good	0		use
+CCDS1412.1.fa	good	0		use
+CCDS1450.1.fa	good	0		use
+CCDS1488.1.fa	good	0		use
+CCDS1491.1.fa	good	0		use
+CCDS1684.1.fa	medium	2		curate
+CCDS1699.1.fa	good	0	identical_AA	use
+CCDS1791.1.fa	good	0		use
+CCDS1826.1.fa	good	2		curate
+CCDS2000.1.fa	good	1		curate
+CCDS209.1.fa	bad	5		exclude
+CCDS2128.1.fa	good	0		use
+CCDS2198.1.fa	good	0		use
+CCDS2227.1.fa	good	0	identical_AA	use
+CCDS2480.1.fa	good	1		curate
+CCDS2512.1.fa	good	1		curate
+CCDS2596.1.fa	good	1		curate
+CCDS2644.1.fa	good	0	almost_identical_AA	use
+CCDS2736.1.fa	good	0,5		curate
+CCDS2769.1.fa	good	0		use
+CCDS288.1.fa	good	0		use
+CCDS3012.1.fa	good	0		use
+CCDS303.1.fa	good	0		use
+CCDS3048.1.fa	good	1		curate
+CCDS30668.1.fa	good	0		use
+CCDS30699.1.fa	good	2		curate
+CCDS30953.1.fa	bad	5		exclude
+CCDS31261.1.fa	bad	29		exclude
+CCDS31667.1.fa	bad	0	very_short	exclude
+CCDS31672.1.fa	good	1	gorilla	curate
+CCDS31856.1.fa	good	0,5		curate
+CCDS3192.1.fa	good	0,5		curate
+CCDS3193.1.fa	good	2		curate
+CCDS32037.1.fa	good	0		use
+CCDS32039.1.fa	good	0		use
+CCDS3239.1.fa	good	1		curate
+CCDS32545.1.fa	good	0		use
+CCDS32645.1.fa	good	0		use
+CCDS32999.1.fa	good	0,5		curate
+CCDS33056.1.fa	good	0		use
+CCDS33210.1.fa	good	1		curate
+CCDS33463.1.fa	good	0		use
+CCDS33662.1.fa	good	0		use
+CCDS33793.1.fa	good	0		use
+CCDS33887.1.fa	good	0	short	use
+CCDS3393.1.fa	bad	30		exclude
+CCDS34051.1.fa	good	0		use
+CCDS34165.1.fa	good	0	short	use
+CCDS34221.1.fa	good	0	short	use
+CCDS34244.1.fa	good	0	very_short	exclude
+CCDS34301.1.fa	good	1	sus	curate
+CCDS34575.1.fa	good	0		use
+CCDS3458.1.fa	good	1		curate
+CCDS34710.1.fa	medium	1,5	abelii	curate
+CCDS34997.1.fa	bad	3		exclude
+CCDS35185.1.fa	good	0		use
+CCDS3731.1.fa	good	0		use
+CCDS382.1.fa	good	0		use
+CCDS3961.1.fa	good	0		use
+CCDS4095.1.fa	good	0		use
+CCDS4119.1.fa	good	0		use
+CCDS4128.1.fa	bad	4		exclude
+CCDS41285.1.fa	good	2	sus,mulatta	curate
+CCDS41289.1.fa				
+CCDS41759.1.fa	good	0		use
+CCDS4179.1.fa	good	0		use
+CCDS4187.1.fa	good	0		use
+CCDS41923.1.fa	medium	2	tursiops,zal	curate
+CCDS41980.1.fa	good	0,5	rattus	curate
+CCDS41992.2.fa	bad	2		exclude
+CCDS42293.1.fa	good	2	mus,zal	curate
+CCDS4231.1.fa	good	0		use
+CCDS42409.1.fa	good	2	sus,madrillus	curate
+CCDS42490.1.fa	good	2	gorilla,cercoc	curate
+CCDS42657.1.fa	bad	28		exclude
+CCDS42919.2.fa	good	1	mus	curate
+CCDS43281.1.fa	good	0		use
+CCDS4334.1.fa	good	0		use
+CCDS4337.1.fa	good	0		use
+CCDS43492.1.fa				
+CCDS43795.1.fa	good	0	short	use
+CCDS43866.1.fa	good	0		use
+CCDS45066.1.fa	good	0,5	castor	curate
+CCDS45229.1.fa	good	0		use
+CCDS45254.1.fa	good	0	short	use
+CCDS45608.1.fa	good	0,5	gorilla	curate
+CCDS45726.1.fa				
+CCDS45815.1.fa	good	1	sus	curate
+CCDS45882.1.fa	bad	4		exclude
+CCDS45909.1.fa	bad	29		exclude
+CCDS46515.1.fa	good	1	gorilla	curate
+CCDS46558.1.fa	good	0		use
+CCDS46681.1.fa	good	0	short	use
+CCDS46959.1.fa				
+CCDS47296.1.fa	good	0		use
+CCDS47319.1.fa	good	0		use
+CCDS47692.1.fa	good	1		curate
+CCDS480.1.fa	good	1		curate
+CCDS5120.1.fa	good	0	short	use
+CCDS5186.1.fa	good	0		use
+CCDS5204.1.fa	good	0	short	use
+CCDS5205.1.fa	good	1		curate
+CCDS5272.1.fa	medium	3		exclude
+CCDS53257.1.fa				
+CCDS53295.1.fa	good	0	short	use
+CCDS53372.1.fa				
+CCDS53439.1.fa	good	9		use
+CCDS53606.1.fa	good	1	gorilla	curate
+CCDS5368.1.fa	good	0		use
+CCDS53682.1.fa	good	0,5	gorilla	curate
+CCDS53815.1.fa	good	0		use
+CCDS53941.1.fa	good	0		use
+CCDS5421.1.fa	good	0		use
+CCDS54444.1.fa	good	0		use
+CCDS5451.1.fa	good	0		use
+CCDS54590.1.fa	good	1	sus	curate
+CCDS54778.1.fa	good	0	short	use
+CCDS55195.1.fa	medium	2		curate
+CCDS5560.1.fa	good	0		use
+CCDS55639.1.fa	good	0		use
+CCDS55939.1.fa	good	0		use
+CCDS56011.1.fa	good	0		use
+CCDS56258.1.fa	bad	5		exclude
+CCDS56397.1.fa	good	0		use
+CCDS5704.1.fa	good	0		use
+CCDS58198.1.fa	bad	4		exclude
+CCDS5825.1.fa	bad	29		exclude
+CCDS58446.1.fa	good	1	sus	curate
+CCDS5901.1.fa	good	1		curate
+CCDS59451.1.fa	good	0		use
+CCDS5973.1.fa	good	0		use
+CCDS6007.1.fa	good	0,5		curate
+CCDS60908.1.fa	bad	4		exclude
+CCDS610.1.fa	medium	2		curate
+CCDS6115.1.fa	good	0		use
+CCDS6142.1.fa	bad	6		exclude
+CCDS6151.1.fa	good	1		curate
+CCDS6188.1.fa	good	0		use
+CCDS6221.1.fa	good	1		curate
+CCDS62263.1.fa	bad	4		exclude
+CCDS6310.1.fa	good	0		use
+CCDS64082.1.fa	good	0		use
+CCDS6436.1.fa	good	0		use
+CCDS6530.1.fa	good	0		use
+CCDS6559.1.fa	good	0		use
+CCDS6614.1.fa	good	0,5		curate
+CCDS6623.2.fa	bad	10		exclude
+CCDS6767.1.fa	medium	1	short	exclude
+CCDS6793.1.fa	good	2		curate
+CCDS7037.2.fa	good	0		use
+CCDS7065.1.fa	bad	5		exclude
+CCDS7108.1.fa	good	1		curate
+CCDS7266.2.fa	medium	2		curate
+CCDS72780.1.fa	good	0		use
+CCDS73628.1.fa	medium	1	rattus	curate
+CCDS7400.1.fa	good	0		use
+CCDS74325.1.fa	medium	1	short	exclude
+CCDS74780.1.fa	good	0	short	use
+CCDS75237.1.fa	good	0		use
+CCDS75462.1.fa	good	1	gorilla	curate
+CCDS77198.1.fa	medium	2	sus,felis	curate
+CCDS7795.1.fa	good	0	sus	use
+CCDS78053.1.fa	good	0		use
+CCDS7861.1.fa	good	0		use
+CCDS7866.1.fa	good	0		use
+CCDS8099.1.fa	good	0		use
+CCDS8120.1.fa	bad	3		exclude
+CCDS8220.1.fa	good	0		use
+CCDS82287.1.fa	good	0		use
+CCDS82707.1.fa	medium	1	tursiops,short	exclude
+CCDS8410.1.fa	good	0		use
+CCDS8467.1.fa	medium	2		curate
+CCDS8538.1.fa	good	0		use
+CCDS86085.1.fa	good	0,5	cercoc,mandrillus	curate
+CCDS86481.1.fa	good	0	short	use
+CCDS8681.1.fa	medium	2		curate
+CCDS86812.1.fa	bad	20		exclude
+CCDS87189.1.fa	good	9		use
+CCDS87206.1.fa	good	1,5	gorilla,rattus	curate
+CCDS882.1.fa	medium	2		curate
+CCDS885.1.fa	good	0		use
+CCDS8886.1.fa	good	0		use
+CCDS9119.1.fa				
+CCDS9152.1.fa				
+CCDS9249.1.fa	good	0		use
+CCDS9358.1.fa	good	0		use
+CCDS939.1.fa	good	0		use
+CCDS9396.1.fa	good	0		use
+CCDS9419.1.fa	good	1		curate
+CCDS9455.1.fa	good	1		curate
+CCDS9463.1.fa	good	0		use
+CCDS9473.1.fa	bad	6		exclude
+CCDS9491.1.fa	good	0		use
+CCDS9518.1.fa	good	0,5		curate
+CCDS9555.1.fa	good	0		use
+CCDS9588.1.fa	bad	4		exclude
+CCDS9695.1.fa	good	0	1_AA_diff	use
+CCDS9783.1.fa	good	2		curate
+CCDS985.1.fa	good	0		
+CCDS9996.1.fa	good	0		use

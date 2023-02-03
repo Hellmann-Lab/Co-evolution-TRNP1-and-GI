@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Castor_canadensis"                                                                                                    
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Castor_canadensis"                               
+[8] "GCF_001984765.1_C.can_genome_v1.0_genomic.fna.gz"                                                                     
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Castor_canadensis"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Castor_canadensis"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Castor_canadensis/GCF_001984765.1_C.can_genome_v1.0_genomic.fna.gz"
+DNAStringSet object of length 6:
+     width seq                                              names               
+[1]  17556 TATATATATATATATATACACAC...GCTACTTAAAAAGCTGGACATC NW_017869328.1 Ca...
+[2]  29511 TCATGGGTGTATTCATCATAATA...CATGAACTGTAAATAAACACAC NW_017869329.1 Ca...
+[3]  72207 GGCTTTATAGGAGGGGCCAAGCC...GAAACTAAAGCAGATACCTTAA NW_017869330.1 Ca...
+[4] 191876 AAATGAGACTACATCAAACTAAA...CAGCAGAAATAGCTGCCTAGGG NW_017869331.1 Ca...
+[5]  22410 AGCTGGGTCTTGCTTTATGCCCA...ATAGCCATATTCTAATCAATGA NW_017869332.1 Ca...
+[6]   9827 GCCGCCGGCTGCCTGCCTTTCCC...GAGGATCCAGAGTTGGGGAGCA NW_017869333.1 Ca...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 16:21:43
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Castor_canadensis/GCF_001984765.1_C.can_genome_v1.0_genomic.fna
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Castor_canadensis/GCF_001984765.1_C.can_genome_v1.0_genomic.fna
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 21157 sequences in 135.523 seconds.

@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Mus_musculus"                                                                                                         
+[7] "/data/share/ngs/genomes/UCSC/Mus_musculus"                                                                            
+[8] "mm10.fa"                                                                                                              
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Mus_musculus"
+[1] "/data/share/ngs/genomes/UCSC/Mus_musculus"
+[1] "first readin"
+[1] "/data/share/ngs/genomes/UCSC/Mus_musculus/mm10.fa"
+DNAStringSet object of length 6:
+        width seq                                           names               
+[1] 130694993 NNNNNNNNNNNNNNNNNNNNN...NNNNNNNNNNNNNNNNNNNNN chr10
+[2] 122082543 NNNNNNNNNNNNNNNNNNNNN...NNNNNNNNNNNNNNNNNNNNN chr11
+[3] 120129022 NNNNNNNNNNNNNNNNNNNNN...NNNNNNNNNNNNNNNNNNNNN chr12
+[4] 120421639 NNNNNNNNNNNNNNNNNNNNN...NNNNNNNNNNNNNNNNNNNNN chr13
+[5] 124902244 NNNNNNNNNNNNNNNNNNNNN...NNNNNNNNNNNNNNNNNNNNN chr14
+[6] 104043685 NNNNNNNNNNNNNNNNNNNNN...NNNNNNNNNNNNNNNNNNNNN chr15
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 16:50:11
+New DB name:   /data/share/ngs/genomes/UCSC/Mus_musculus/Mus_musculus.Newseqs.fasta
+New DB title:  /data/share/ngs/genomes/UCSC/Mus_musculus/Mus_musculus.Newseqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 66 sequences in 123.079 seconds.

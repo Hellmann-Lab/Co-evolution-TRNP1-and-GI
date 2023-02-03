@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Lipotes_vexillifer"                                                                                                   
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Lipotes_vexillifer"                              
+[8] "GCF_000442215.1_Lipotes_vexillifer_v1_genomic.fna.gz"                                                                 
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Lipotes_vexillifer"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Lipotes_vexillifer"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Lipotes_vexillifer/GCF_000442215.1_Lipotes_vexillifer_v1_genomic.fna.gz"
+DNAStringSet object of length 6:
+    width seq                                               names               
+[1]  1446 CTGGTCTATGGCGTGTCCTTTAT...ACGGTTTGGGCTCTTTGCATTAT NW_006769227.1 Li...
+[2]   253 TCTCCCTAAGCCACTAAGTTTTG...GGTAGGGTAAATTTTATAAAACT NW_006769228.1 Li...
+[3]   539 CGAACCCGTGTCCCCTGAATTGG...CAGTGGGCGGGCTCTTCGTTGTG NW_006769229.1 Li...
+[4]  3462 TGGAGTGGCTAGGCCCGTGAGCC...TTTTTTTTTTTTTTTTTTTTTTT NW_006769230.1 Li...
+[5]   529 CATAGCAGCATAATGAGTGCATT...CTCGTGATGAAACCTGGATTTAC NW_006769231.1 Li...
+[6]  1003 CCCGCTTCTATCGCCACCAGCAT...CCAACGCGGGCGACGTTGATTTA NW_006769232.1 Li...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/19/2021 22:32:25
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Lipotes_vexillifer/GCF_000442215.1_Lipotes_vexillifer_v1_genomic.fna
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Lipotes_vexillifer/GCF_000442215.1_Lipotes_vexillifer_v1_genomic.fna
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 30713 sequences in 125.435 seconds.

@@ -1,0 +1,26 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Sus_scrofa"                                                                                                           
+[7] "/data/share/ngs/genomes/UCSC/Sus_scrofa"                                                                              
+[8] "susScr3.fa"                                                                                                           
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Sus_scrofa"
+[1] "/data/share/ngs/genomes/UCSC/Sus_scrofa"
+[1] "first readin"
+[1] "/data/share/ngs/genomes/UCSC/Sus_scrofa/susScr3.fa"
+DNAStringSet object of length 6:
+        width seq                                           names               
+[1] 315321322 AATCGACGCCACACGCAGGCC...TGCTCGATGCCTCTNNTAAAA chr1
+[2]  79102373 TAATTCCCGCCCTGAGGAGGG...CCTATAAAAAACTGGAATTGA chr10
+[3]  87690581 CCTGAGTCCTGAGCAGCTTAT...TAATAAAGAAGGGGGGGGGGG chr11
+[4]  63588571 CATAAGGAGGTTCACAGGCTA...AAGAGAAATCGCTACAGGATC chr12
+[5] 218635234 TCAGATACAACTTGGAATGGA...GCCGCAGGGAGGCGGGAGGCG chr13
+[6] 153851969 AATGAAAGTGAAAAGAGATTT...TTCTTCGGGATTTTCCTATTT chr14
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"

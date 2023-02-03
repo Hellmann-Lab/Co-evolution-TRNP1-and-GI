@@ -1,0 +1,939 @@
+
+total number of cycles : 14355
+total time (s)         : 164729	164748
+time per cycle (s)     : 11.4754	11.4767
+
+#	%time	success	name
+
+1	4.1	100	mapping + sufficient stat
+2	0	37	chrono
+3	0	87	chrono
+4	0	98	chrono
+5	0	99	chrono
+6	0	3	propmove
+7	0	31	propmove
+8	0	30	propmove
+9	0	82	propmove
+10	0.1	20	multinormal
+11	0	70	multinormal
+12	0	94	multinormal
+13	0.5	6	conjugate sigma - process
+14	0.5	17	conjugate sigma - process
+15	0.5	56	conjugate sigma - process
+16	0.5	91	conjugate sigma - process
+17	0.5	99	conjugate sigma - process
+18	0	32	theta
+19	0	89	theta
+20	0	98	theta
+21	0	34	relrates
+22	0	90	relrates
+23	0	95	relrates
+24	0	97	relrates
+25	0	97	relrates
+26	0	76	relrates
+27	0	97	relrates
+28	0	99	relrates
+29	0	89	stat4
+30	0	70	stat4
+31	0	89	stat10
+32	0	98	stat
+33	0	37	chrono
+34	0	87	chrono
+35	0	98	chrono
+36	0	99	chrono
+37	0	3	propmove
+38	0	32	propmove
+39	0	30	propmove
+40	0	82	propmove
+41	0.1	20	multinormal
+42	0	70	multinormal
+43	0	94	multinormal
+44	0.5	6	conjugate sigma - process
+45	0.5	17	conjugate sigma - process
+46	0.5	56	conjugate sigma - process
+47	0.5	91	conjugate sigma - process
+48	0.5	99	conjugate sigma - process
+49	0	32	theta
+50	0	89	theta
+51	0	98	theta
+52	0	34	relrates
+53	0	90	relrates
+54	0	95	relrates
+55	0	97	relrates
+56	0	97	relrates
+57	0	76	relrates
+58	0	97	relrates
+59	0	99	relrates
+60	0	89	stat4
+61	0	70	stat4
+62	0	89	stat10
+63	0	98	stat
+64	0	37	chrono
+65	0	87	chrono
+66	0	98	chrono
+67	0	99	chrono
+68	0	3	propmove
+69	0	31	propmove
+70	0	30	propmove
+71	0	82	propmove
+72	0.1	20	multinormal
+73	0	70	multinormal
+74	0	95	multinormal
+75	0.5	6	conjugate sigma - process
+76	0.5	17	conjugate sigma - process
+77	0.5	56	conjugate sigma - process
+78	0.5	91	conjugate sigma - process
+79	0.5	99	conjugate sigma - process
+80	0	32	theta
+81	0	89	theta
+82	0	98	theta
+83	0	34	relrates
+84	0	90	relrates
+85	0	95	relrates
+86	0	97	relrates
+87	0	97	relrates
+88	0	76	relrates
+89	0	97	relrates
+90	0	99	relrates
+91	0	89	stat4
+92	0	70	stat4
+93	0	89	stat10
+94	0	98	stat
+95	0	37	chrono
+96	0	87	chrono
+97	0	98	chrono
+98	0	99	chrono
+99	0	3	propmove
+100	0	31	propmove
+101	0	30	propmove
+102	0	82	propmove
+103	0.1	20	multinormal
+104	0	70	multinormal
+105	0	94	multinormal
+106	0.5	6	conjugate sigma - process
+107	0.5	17	conjugate sigma - process
+108	0.5	56	conjugate sigma - process
+109	0.5	91	conjugate sigma - process
+110	0.5	99	conjugate sigma - process
+111	0	32	theta
+112	0	89	theta
+113	0	98	theta
+114	0	34	relrates
+115	0	90	relrates
+116	0	95	relrates
+117	0	97	relrates
+118	0	97	relrates
+119	0	76	relrates
+120	0	97	relrates
+121	0	99	relrates
+122	0	89	stat4
+123	0	70	stat4
+124	0	89	stat10
+125	0	99	stat
+126	0	37	chrono
+127	0	87	chrono
+128	0	98	chrono
+129	0	99	chrono
+130	0	3	propmove
+131	0	31	propmove
+132	0	30	propmove
+133	0	82	propmove
+134	0.1	20	multinormal
+135	0	70	multinormal
+136	0	94	multinormal
+137	0.5	6	conjugate sigma - process
+138	0.5	17	conjugate sigma - process
+139	0.5	56	conjugate sigma - process
+140	0.5	91	conjugate sigma - process
+141	0.5	99	conjugate sigma - process
+142	0	32	theta
+143	0	89	theta
+144	0	98	theta
+145	0	34	relrates
+146	0	90	relrates
+147	0	95	relrates
+148	0	97	relrates
+149	0	97	relrates
+150	0	76	relrates
+151	0	97	relrates
+152	0	99	relrates
+153	0	89	stat4
+154	0	69	stat4
+155	0	89	stat10
+156	0	99	stat
+157	0	37	chrono
+158	0	87	chrono
+159	0	98	chrono
+160	0	99	chrono
+161	0	3	propmove
+162	0	31	propmove
+163	0	30	propmove
+164	0	82	propmove
+165	0.1	20	multinormal
+166	0	70	multinormal
+167	0	94	multinormal
+168	0.5	6	conjugate sigma - process
+169	0.5	17	conjugate sigma - process
+170	0.5	56	conjugate sigma - process
+171	0.5	91	conjugate sigma - process
+172	0.5	99	conjugate sigma - process
+173	0	32	theta
+174	0	89	theta
+175	0	98	theta
+176	0	34	relrates
+177	0	90	relrates
+178	0	95	relrates
+179	0	97	relrates
+180	0	97	relrates
+181	0	76	relrates
+182	0	97	relrates
+183	0	99	relrates
+184	0	89	stat4
+185	0	70	stat4
+186	0	89	stat10
+187	0	98	stat
+188	0	37	chrono
+189	0	87	chrono
+190	0	98	chrono
+191	0	99	chrono
+192	0	3	propmove
+193	0	31	propmove
+194	0	30	propmove
+195	0	82	propmove
+196	0.1	20	multinormal
+197	0	70	multinormal
+198	0	94	multinormal
+199	0.5	6	conjugate sigma - process
+200	0.5	17	conjugate sigma - process
+201	0.5	56	conjugate sigma - process
+202	0.5	91	conjugate sigma - process
+203	0.5	99	conjugate sigma - process
+204	0	32	theta
+205	0	89	theta
+206	0	98	theta
+207	0	34	relrates
+208	0	90	relrates
+209	0	95	relrates
+210	0	97	relrates
+211	0	97	relrates
+212	0	76	relrates
+213	0	97	relrates
+214	0	99	relrates
+215	0	89	stat4
+216	0	69	stat4
+217	0	89	stat10
+218	0	98	stat
+219	0	37	chrono
+220	0	87	chrono
+221	0	98	chrono
+222	0	99	chrono
+223	0	3	propmove
+224	0	31	propmove
+225	0	30	propmove
+226	0	82	propmove
+227	0.1	20	multinormal
+228	0	70	multinormal
+229	0	94	multinormal
+230	0.5	6	conjugate sigma - process
+231	0.5	17	conjugate sigma - process
+232	0.5	56	conjugate sigma - process
+233	0.5	91	conjugate sigma - process
+234	0.5	99	conjugate sigma - process
+235	0	32	theta
+236	0	89	theta
+237	0	98	theta
+238	0	34	relrates
+239	0	90	relrates
+240	0	95	relrates
+241	0	97	relrates
+242	0	97	relrates
+243	0	76	relrates
+244	0	97	relrates
+245	0	99	relrates
+246	0	89	stat4
+247	0	69	stat4
+248	0	89	stat10
+249	0	98	stat
+250	0	37	chrono
+251	0	87	chrono
+252	0	98	chrono
+253	0	99	chrono
+254	0	3	propmove
+255	0	31	propmove
+256	0	30	propmove
+257	0	82	propmove
+258	0.1	20	multinormal
+259	0	70	multinormal
+260	0	94	multinormal
+261	0.5	6	conjugate sigma - process
+262	0.5	17	conjugate sigma - process
+263	0.5	56	conjugate sigma - process
+264	0.5	91	conjugate sigma - process
+265	0.5	99	conjugate sigma - process
+266	0	32	theta
+267	0	89	theta
+268	0	98	theta
+269	0	34	relrates
+270	0	90	relrates
+271	0	95	relrates
+272	0	97	relrates
+273	0	97	relrates
+274	0	76	relrates
+275	0	97	relrates
+276	0	99	relrates
+277	0	89	stat4
+278	0	70	stat4
+279	0	89	stat10
+280	0	98	stat
+281	0	37	chrono
+282	0	87	chrono
+283	0	98	chrono
+284	0	99	chrono
+285	0	3	propmove
+286	0	31	propmove
+287	0	30	propmove
+288	0	82	propmove
+289	0.1	20	multinormal
+290	0	70	multinormal
+291	0	94	multinormal
+292	0.5	6	conjugate sigma - process
+293	0.5	17	conjugate sigma - process
+294	0.5	56	conjugate sigma - process
+295	0.5	91	conjugate sigma - process
+296	0.5	99	conjugate sigma - process
+297	0	32	theta
+298	0	89	theta
+299	0	98	theta
+300	0	34	relrates
+301	0	90	relrates
+302	0	95	relrates
+303	0	97	relrates
+304	0	97	relrates
+305	0	76	relrates
+306	0	97	relrates
+307	0	99	relrates
+308	0	89	stat4
+309	0	70	stat4
+310	0	89	stat10
+311	0	98	stat
+312	0	37	chrono
+313	0	87	chrono
+314	0	98	chrono
+315	0	99	chrono
+316	0	3	propmove
+317	0	31	propmove
+318	0	30	propmove
+319	0	82	propmove
+320	0.1	20	multinormal
+321	0	70	multinormal
+322	0	94	multinormal
+323	0.5	6	conjugate sigma - process
+324	0.5	17	conjugate sigma - process
+325	0.5	56	conjugate sigma - process
+326	0.5	91	conjugate sigma - process
+327	0.5	99	conjugate sigma - process
+328	0	32	theta
+329	0	89	theta
+330	0	98	theta
+331	0	34	relrates
+332	0	90	relrates
+333	0	95	relrates
+334	0	97	relrates
+335	0	97	relrates
+336	0	76	relrates
+337	0	97	relrates
+338	0	99	relrates
+339	0	89	stat4
+340	0	70	stat4
+341	0	89	stat10
+342	0	98	stat
+343	0	37	chrono
+344	0	87	chrono
+345	0	98	chrono
+346	0	99	chrono
+347	0	3	propmove
+348	0	31	propmove
+349	0	30	propmove
+350	0	82	propmove
+351	0.1	20	multinormal
+352	0	70	multinormal
+353	0	94	multinormal
+354	0.5	6	conjugate sigma - process
+355	0.5	17	conjugate sigma - process
+356	0.5	56	conjugate sigma - process
+357	0.5	91	conjugate sigma - process
+358	0.5	99	conjugate sigma - process
+359	0	32	theta
+360	0	89	theta
+361	0	98	theta
+362	0	34	relrates
+363	0	90	relrates
+364	0	95	relrates
+365	0	97	relrates
+366	0	97	relrates
+367	0	76	relrates
+368	0	97	relrates
+369	0	99	relrates
+370	0	89	stat4
+371	0	69	stat4
+372	0	89	stat10
+373	0	98	stat
+374	0	37	chrono
+375	0	87	chrono
+376	0	98	chrono
+377	0	99	chrono
+378	0	3	propmove
+379	0	31	propmove
+380	0	30	propmove
+381	0	82	propmove
+382	0.1	20	multinormal
+383	0	70	multinormal
+384	0	94	multinormal
+385	0.5	6	conjugate sigma - process
+386	0.5	17	conjugate sigma - process
+387	0.5	56	conjugate sigma - process
+388	0.5	91	conjugate sigma - process
+389	0.5	99	conjugate sigma - process
+390	0	32	theta
+391	0	89	theta
+392	0	98	theta
+393	0	34	relrates
+394	0	90	relrates
+395	0	95	relrates
+396	0	97	relrates
+397	0	97	relrates
+398	0	76	relrates
+399	0	97	relrates
+400	0	99	relrates
+401	0	89	stat4
+402	0	69	stat4
+403	0	89	stat10
+404	0	98	stat
+405	0	37	chrono
+406	0	87	chrono
+407	0	98	chrono
+408	0	99	chrono
+409	0	3	propmove
+410	0	31	propmove
+411	0	30	propmove
+412	0	82	propmove
+413	0.1	20	multinormal
+414	0	70	multinormal
+415	0	94	multinormal
+416	0.5	6	conjugate sigma - process
+417	0.5	17	conjugate sigma - process
+418	0.5	56	conjugate sigma - process
+419	0.5	91	conjugate sigma - process
+420	0.5	99	conjugate sigma - process
+421	0	32	theta
+422	0	89	theta
+423	0	98	theta
+424	0	34	relrates
+425	0	90	relrates
+426	0	95	relrates
+427	0	97	relrates
+428	0	97	relrates
+429	0	76	relrates
+430	0	97	relrates
+431	0	99	relrates
+432	0	89	stat4
+433	0	69	stat4
+434	0	89	stat10
+435	0	98	stat
+436	0	37	chrono
+437	0	87	chrono
+438	0	98	chrono
+439	0	99	chrono
+440	0	3	propmove
+441	0	32	propmove
+442	0	30	propmove
+443	0	82	propmove
+444	0.1	20	multinormal
+445	0	70	multinormal
+446	0	94	multinormal
+447	0.5	6	conjugate sigma - process
+448	0.5	17	conjugate sigma - process
+449	0.5	56	conjugate sigma - process
+450	0.5	91	conjugate sigma - process
+451	0.5	99	conjugate sigma - process
+452	0	32	theta
+453	0	89	theta
+454	0	98	theta
+455	0	34	relrates
+456	0	90	relrates
+457	0	95	relrates
+458	0	97	relrates
+459	0	97	relrates
+460	0	76	relrates
+461	0	97	relrates
+462	0	99	relrates
+463	0	89	stat4
+464	0	70	stat4
+465	0	89	stat10
+466	0	98	stat
+467	0	37	chrono
+468	0	87	chrono
+469	0	98	chrono
+470	0	99	chrono
+471	0	3	propmove
+472	0	32	propmove
+473	0	30	propmove
+474	0	82	propmove
+475	0.1	20	multinormal
+476	0	70	multinormal
+477	0	94	multinormal
+478	0.5	6	conjugate sigma - process
+479	0.5	17	conjugate sigma - process
+480	0.5	56	conjugate sigma - process
+481	0.5	91	conjugate sigma - process
+482	0.5	99	conjugate sigma - process
+483	0	32	theta
+484	0	89	theta
+485	0	98	theta
+486	0	34	relrates
+487	0	90	relrates
+488	0	95	relrates
+489	0	97	relrates
+490	0	97	relrates
+491	0	76	relrates
+492	0	97	relrates
+493	0	99	relrates
+494	0	89	stat4
+495	0	69	stat4
+496	0	89	stat10
+497	0	98	stat
+498	0	37	chrono
+499	0	87	chrono
+500	0	98	chrono
+501	0	99	chrono
+502	0	3	propmove
+503	0	32	propmove
+504	0	30	propmove
+505	0	82	propmove
+506	0.1	20	multinormal
+507	0	70	multinormal
+508	0	94	multinormal
+509	0.5	6	conjugate sigma - process
+510	0.5	17	conjugate sigma - process
+511	0.5	56	conjugate sigma - process
+512	0.5	91	conjugate sigma - process
+513	0.5	99	conjugate sigma - process
+514	0	32	theta
+515	0	89	theta
+516	0	98	theta
+517	0	34	relrates
+518	0	90	relrates
+519	0	95	relrates
+520	0	97	relrates
+521	0	97	relrates
+522	0	76	relrates
+523	0	97	relrates
+524	0	99	relrates
+525	0	89	stat4
+526	0	70	stat4
+527	0	89	stat10
+528	0	98	stat
+529	0	37	chrono
+530	0	87	chrono
+531	0	98	chrono
+532	0	99	chrono
+533	0	3	propmove
+534	0	32	propmove
+535	0	30	propmove
+536	0	82	propmove
+537	0.1	20	multinormal
+538	0	70	multinormal
+539	0	94	multinormal
+540	0.5	6	conjugate sigma - process
+541	0.5	17	conjugate sigma - process
+542	0.5	56	conjugate sigma - process
+543	0.5	91	conjugate sigma - process
+544	0.5	99	conjugate sigma - process
+545	0	32	theta
+546	0	89	theta
+547	0	98	theta
+548	0	34	relrates
+549	0	90	relrates
+550	0	95	relrates
+551	0	97	relrates
+552	0	97	relrates
+553	0	76	relrates
+554	0	97	relrates
+555	0	99	relrates
+556	0	89	stat4
+557	0	70	stat4
+558	0	89	stat10
+559	0	98	stat
+560	0	37	chrono
+561	0	87	chrono
+562	0	98	chrono
+563	0	99	chrono
+564	0	3	propmove
+565	0	31	propmove
+566	0	30	propmove
+567	0	82	propmove
+568	0.1	20	multinormal
+569	0	70	multinormal
+570	0	94	multinormal
+571	0.5	6	conjugate sigma - process
+572	0.5	17	conjugate sigma - process
+573	0.5	56	conjugate sigma - process
+574	0.5	91	conjugate sigma - process
+575	0.5	99	conjugate sigma - process
+576	0	32	theta
+577	0	89	theta
+578	0	98	theta
+579	0	34	relrates
+580	0	90	relrates
+581	0	95	relrates
+582	0	97	relrates
+583	0	97	relrates
+584	0	77	relrates
+585	0	97	relrates
+586	0	99	relrates
+587	0	89	stat4
+588	0	69	stat4
+589	0	89	stat10
+590	0	98	stat
+591	0	37	chrono
+592	0	87	chrono
+593	0	98	chrono
+594	0	99	chrono
+595	0	3	propmove
+596	0	31	propmove
+597	0	30	propmove
+598	0	82	propmove
+599	0.1	20	multinormal
+600	0	70	multinormal
+601	0	94	multinormal
+602	0.5	6	conjugate sigma - process
+603	0.5	17	conjugate sigma - process
+604	0.5	56	conjugate sigma - process
+605	0.5	91	conjugate sigma - process
+606	0.5	99	conjugate sigma - process
+607	0	32	theta
+608	0	89	theta
+609	0	98	theta
+610	0	34	relrates
+611	0	90	relrates
+612	0	95	relrates
+613	0	97	relrates
+614	0	97	relrates
+615	0	76	relrates
+616	0	97	relrates
+617	0	99	relrates
+618	0	89	stat4
+619	0	70	stat4
+620	0	89	stat10
+621	0	98	stat
+622	0	37	chrono
+623	0	87	chrono
+624	0	98	chrono
+625	0	99	chrono
+626	0	3	propmove
+627	0	32	propmove
+628	0	30	propmove
+629	0	82	propmove
+630	0.1	20	multinormal
+631	0	70	multinormal
+632	0	94	multinormal
+633	0.5	6	conjugate sigma - process
+634	0.5	17	conjugate sigma - process
+635	0.5	56	conjugate sigma - process
+636	0.5	91	conjugate sigma - process
+637	0.5	99	conjugate sigma - process
+638	0	32	theta
+639	0	89	theta
+640	0	98	theta
+641	0	34	relrates
+642	0	90	relrates
+643	0	95	relrates
+644	0	97	relrates
+645	0	97	relrates
+646	0	76	relrates
+647	0	97	relrates
+648	0	99	relrates
+649	0	89	stat4
+650	0	70	stat4
+651	0	89	stat10
+652	0	98	stat
+653	0	37	chrono
+654	0	87	chrono
+655	0	98	chrono
+656	0	99	chrono
+657	0	3	propmove
+658	0	32	propmove
+659	0	30	propmove
+660	0	82	propmove
+661	0.1	20	multinormal
+662	0	70	multinormal
+663	0	94	multinormal
+664	0.5	6	conjugate sigma - process
+665	0.5	17	conjugate sigma - process
+666	0.5	56	conjugate sigma - process
+667	0.5	91	conjugate sigma - process
+668	0.5	99	conjugate sigma - process
+669	0	32	theta
+670	0	89	theta
+671	0	98	theta
+672	0	34	relrates
+673	0	90	relrates
+674	0	95	relrates
+675	0	97	relrates
+676	0	97	relrates
+677	0	77	relrates
+678	0	97	relrates
+679	0	99	relrates
+680	0	89	stat4
+681	0	69	stat4
+682	0	89	stat10
+683	0	98	stat
+684	0	37	chrono
+685	0	87	chrono
+686	0	98	chrono
+687	0	99	chrono
+688	0	3	propmove
+689	0	32	propmove
+690	0	30	propmove
+691	0	82	propmove
+692	0.1	20	multinormal
+693	0	70	multinormal
+694	0	94	multinormal
+695	0.5	6	conjugate sigma - process
+696	0.5	17	conjugate sigma - process
+697	0.5	56	conjugate sigma - process
+698	0.5	91	conjugate sigma - process
+699	0.5	99	conjugate sigma - process
+700	0	32	theta
+701	0	89	theta
+702	0	98	theta
+703	0	34	relrates
+704	0	90	relrates
+705	0	95	relrates
+706	0	97	relrates
+707	0	97	relrates
+708	0	76	relrates
+709	0	97	relrates
+710	0	99	relrates
+711	0	89	stat4
+712	0	70	stat4
+713	0	89	stat10
+714	0	98	stat
+715	0	37	chrono
+716	0	87	chrono
+717	0	98	chrono
+718	0	99	chrono
+719	0	3	propmove
+720	0	32	propmove
+721	0	30	propmove
+722	0	82	propmove
+723	0.1	20	multinormal
+724	0	70	multinormal
+725	0	94	multinormal
+726	0.5	6	conjugate sigma - process
+727	0.5	17	conjugate sigma - process
+728	0.5	56	conjugate sigma - process
+729	0.5	91	conjugate sigma - process
+730	0.5	99	conjugate sigma - process
+731	0	32	theta
+732	0	89	theta
+733	0	98	theta
+734	0	34	relrates
+735	0	90	relrates
+736	0	95	relrates
+737	0	97	relrates
+738	0	97	relrates
+739	0	76	relrates
+740	0	97	relrates
+741	0	99	relrates
+742	0	89	stat4
+743	0	70	stat4
+744	0	89	stat10
+745	0	98	stat
+746	0	37	chrono
+747	0	87	chrono
+748	0	98	chrono
+749	0	99	chrono
+750	0	3	propmove
+751	0	32	propmove
+752	0	30	propmove
+753	0	82	propmove
+754	0.1	20	multinormal
+755	0	70	multinormal
+756	0	94	multinormal
+757	0.5	6	conjugate sigma - process
+758	0.5	17	conjugate sigma - process
+759	0.5	56	conjugate sigma - process
+760	0.5	91	conjugate sigma - process
+761	0.5	99	conjugate sigma - process
+762	0	32	theta
+763	0	89	theta
+764	0	98	theta
+765	0	34	relrates
+766	0	90	relrates
+767	0	95	relrates
+768	0	97	relrates
+769	0	97	relrates
+770	0	76	relrates
+771	0	97	relrates
+772	0	99	relrates
+773	0	89	stat4
+774	0	69	stat4
+775	0	89	stat10
+776	0	98	stat
+777	0	37	chrono
+778	0	87	chrono
+779	0	98	chrono
+780	0	99	chrono
+781	0	3	propmove
+782	0	31	propmove
+783	0	30	propmove
+784	0	82	propmove
+785	0.1	20	multinormal
+786	0	70	multinormal
+787	0	94	multinormal
+788	0.5	6	conjugate sigma - process
+789	0.5	17	conjugate sigma - process
+790	0.5	56	conjugate sigma - process
+791	0.5	91	conjugate sigma - process
+792	0.5	99	conjugate sigma - process
+793	0	32	theta
+794	0	89	theta
+795	0	98	theta
+796	0	34	relrates
+797	0	90	relrates
+798	0	95	relrates
+799	0	97	relrates
+800	0	97	relrates
+801	0	76	relrates
+802	0	97	relrates
+803	0	99	relrates
+804	0	89	stat4
+805	0	70	stat4
+806	0	89	stat10
+807	0	98	stat
+808	0	37	chrono
+809	0	87	chrono
+810	0	98	chrono
+811	0	99	chrono
+812	0	3	propmove
+813	0	32	propmove
+814	0	30	propmove
+815	0	82	propmove
+816	0.1	20	multinormal
+817	0	70	multinormal
+818	0	94	multinormal
+819	0.5	6	conjugate sigma - process
+820	0.5	17	conjugate sigma - process
+821	0.5	56	conjugate sigma - process
+822	0.5	91	conjugate sigma - process
+823	0.5	99	conjugate sigma - process
+824	0	32	theta
+825	0	89	theta
+826	0	98	theta
+827	0	34	relrates
+828	0	90	relrates
+829	0	95	relrates
+830	0	97	relrates
+831	0	97	relrates
+832	0	76	relrates
+833	0	97	relrates
+834	0	99	relrates
+835	0	89	stat4
+836	0	70	stat4
+837	0	89	stat10
+838	0	98	stat
+839	0	37	chrono
+840	0	87	chrono
+841	0	98	chrono
+842	0	99	chrono
+843	0	3	propmove
+844	0	32	propmove
+845	0	30	propmove
+846	0	82	propmove
+847	0.1	20	multinormal
+848	0	70	multinormal
+849	0	95	multinormal
+850	0.5	6	conjugate sigma - process
+851	0.5	17	conjugate sigma - process
+852	0.5	56	conjugate sigma - process
+853	0.5	91	conjugate sigma - process
+854	0.5	99	conjugate sigma - process
+855	0	32	theta
+856	0	89	theta
+857	0	98	theta
+858	0	35	relrates
+859	0	90	relrates
+860	0	95	relrates
+861	0	97	relrates
+862	0	97	relrates
+863	0	76	relrates
+864	0	97	relrates
+865	0	99	relrates
+866	0	89	stat4
+867	0	70	stat4
+868	0	89	stat10
+869	0	98	stat
+870	0	37	chrono
+871	0	87	chrono
+872	0	98	chrono
+873	0	99	chrono
+874	0	3	propmove
+875	0	32	propmove
+876	0	30	propmove
+877	0	82	propmove
+878	0.1	20	multinormal
+879	0	70	multinormal
+880	0	94	multinormal
+881	0.5	6	conjugate sigma - process
+882	0.5	17	conjugate sigma - process
+883	0.5	56	conjugate sigma - process
+884	0.5	91	conjugate sigma - process
+885	0.5	99	conjugate sigma - process
+886	0	32	theta
+887	0	89	theta
+888	0	98	theta
+889	0	35	relrates
+890	0	90	relrates
+891	0	95	relrates
+892	0	97	relrates
+893	0	97	relrates
+894	0	76	relrates
+895	0	97	relrates
+896	0	99	relrates
+897	0	89	stat4
+898	0	69	stat4
+899	0	89	stat10
+900	0	98	stat
+901	0	37	chrono
+902	0	87	chrono
+903	0	98	chrono
+904	0	99	chrono
+905	0	3	propmove
+906	0	31	propmove
+907	0	30	propmove
+908	0	82	propmove
+909	0.1	20	multinormal
+910	0	70	multinormal
+911	0	94	multinormal
+912	0.5	6	conjugate sigma - process
+913	0.5	17	conjugate sigma - process
+914	0.5	56	conjugate sigma - process
+915	0.5	91	conjugate sigma - process
+916	0.5	99	conjugate sigma - process
+917	0	32	theta
+918	0	89	theta
+919	0	98	theta
+920	0	34	relrates
+921	0	90	relrates
+922	0	95	relrates
+923	0	97	relrates
+924	0	97	relrates
+925	0	76	relrates
+926	0	97	relrates
+927	0	99	relrates
+928	0	89	stat4
+929	0	69	stat4
+930	0	89	stat10
+931	0	98	stat
+

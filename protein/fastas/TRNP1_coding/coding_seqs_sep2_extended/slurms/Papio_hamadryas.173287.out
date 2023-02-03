@@ -1,0 +1,15 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Papio_hamadryas"                                                                                                      
+[7] "/data/share/ngs/genomes/UCSC/Papio_hamadryas"                                                                         
+[8] "papHam1.fa"                                                                                                           
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Papio_hamadryas"
+[1] "/data/share/ngs/genomes/UCSC/Papio_hamadryas"
+[1] "first readin"
+[1] "/data/share/ngs/genomes/UCSC/Papio_hamadryas/papHam1.fa"

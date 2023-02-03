@@ -1,0 +1,15 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Macaca_mulatta"                                                                                                       
+[7] "/data/share/ngs/genomes/UCSC/Macaca_mulatta/RheMac8"                                                                  
+[8] "rheMac8.fa"                                                                                                           
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Macaca_mulatta"
+[1] "/data/share/ngs/genomes/UCSC/Macaca_mulatta/RheMac8"
+[1] "first readin"
+[1] "/data/share/ngs/genomes/UCSC/Macaca_mulatta/RheMac8/rheMac8.fa"

@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Procavia_capensis"                                                                                                    
+[7] "/data/share/ngs/genomes/UCSC/Procavia_capensis"                                                                       
+[8] "proCap1.fa"                                                                                                           
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Procavia_capensis"
+[1] "/data/share/ngs/genomes/UCSC/Procavia_capensis"
+[1] "first readin"
+[1] "/data/share/ngs/genomes/UCSC/Procavia_capensis/proCap1.fa"
+DNAStringSet object of length 6:
+     width seq                                              names               
+[1] 380827 GAATTCCAAAACACCTAATTGTG...CTGATTTTCCATTGCTAGTTGA scaffold_0
+[2] 390036 GCTAGTCAGTTAGGCCTCCTCAG...TGCCAATAGAATACAACAACAT scaffold_1
+[3] 371953 TTGCACTTAATTGTTACTCTAAA...CATCTTCCCACCTCTAAGCCTC scaffold_2
+[4] 382647 CAAATTCATATCACAGTATGCTC...TCAAAGAGAGTTGTTCAAATGA scaffold_3
+[5] 387812 TCAAGACCTCTATGATCCCCAGT...ATTCAGCGAAAAACCTCCTTGT scaffold_4
+[6] 344095 GAATGACGTGGGAACAGATACGG...AGCCCTGTTGTAAAAAATTACT scaffold_5
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 16:54:09
+New DB name:   /data/share/ngs/genomes/UCSC/Procavia_capensis/Procavia_capensis.Newseqs.fasta
+New DB title:  /data/share/ngs/genomes/UCSC/Procavia_capensis/Procavia_capensis.Newseqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 295006 sequences in 159.586 seconds.

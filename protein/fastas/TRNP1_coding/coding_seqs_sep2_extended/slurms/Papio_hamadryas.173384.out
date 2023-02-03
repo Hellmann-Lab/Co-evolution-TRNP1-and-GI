@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Papio_hamadryas"                                                                                                      
+[7] "/data/share/ngs/genomes/UCSC/Papio_hamadryas"                                                                         
+[8] "papHam1.fa"                                                                                                           
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Papio_hamadryas"
+[1] "/data/share/ngs/genomes/UCSC/Papio_hamadryas"
+[1] "first readin"
+[1] "/data/share/ngs/genomes/UCSC/Papio_hamadryas/papHam1.fa"
+DNAStringSet object of length 6:
+     width seq                                              names               
+[1] 339856 CCGGTGCGTCCCGCCTAGCGACG...TTCCGTCATGTAGAGTACACTG scaffold258
+[2] 317290 CAGGAACATTTTTACACTGTTGG...GCCTGTGGTCCCAGCTACTCGG scaffold327
+[3] 349373 TTGATGGGTGCAGCACAGCAACA...TTCTGGGGTACATGTGCAGAAC scaffold227
+[4] 444181 GCTACTTGCAAGACATATTTATT...GGCTAGCTTCTCTCTTTGGGAA scaffold67
+[5] 283297 TTGTTTGGCTATGCCCTGCCCCC...AGCGACACAGAAGACCGGTGAT scaffold539
+[6] 225307 CCAAGATCACATCACTGCACTCC...AGGTATGTCTGTAAGATTGAAT scaffold1203
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 16:43:58
+New DB name:   /data/share/ngs/genomes/UCSC/Papio_hamadryas/Papio_hamadryas.Newseqs.fasta
+New DB title:  /data/share/ngs/genomes/UCSC/Papio_hamadryas/Papio_hamadryas.Newseqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 387374 sequences in 146.509 seconds.

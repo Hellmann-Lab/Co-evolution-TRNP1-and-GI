@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Theropithecus_gelada"                                                                                                 
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Theropithecus_gelada"                            
+[8] "GCF_003255815.1_Tgel_1.0_genomic.fna.gz"                                                                              
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Theropithecus_gelada"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Theropithecus_gelada"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Theropithecus_gelada/GCF_003255815.1_Tgel_1.0_genomic.fna.gz"
+DNAStringSet object of length 6:
+        width seq                                           names               
+[1] 222973213 AACCCTCATACACTGTTAGTG...TGTGGGCTCTGCACAGTGACT NC_037668.1 Thero...
+[2] 194193292 CCCTAACCCCAACCCTAACCC...TTCTCTATCAATGATGCTGAG NC_037669.1 Thero...
+[3] 183260707 ATGCTGCTATAAAGACACATG...GGGCGAGGGTGAGGGTTAGGG NC_037670.1 Thero...
+[4] 170232041 AGTGCCACTTACATTCAATAC...CTGAAGAACGTGGAGTCCGAT NC_037671.1 Thero...
+[5] 186847797 TTTAGGAGGCAGTTGGAGCCA...CTCTCCCGACACCCGGCGACG NC_037672.1 Thero...
+[6] 177691375 GTTAGCACTTCAACTTTTCTA...AATGATGATGTTGAGATACAA NC_037673.1 Thero...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 16:21:57
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Theropithecus_gelada/GCF_003255815.1_Tgel_1.0_genomic.fna
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Theropithecus_gelada/GCF_003255815.1_Tgel_1.0_genomic.fna
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 15308 sequences in 162.708 seconds.

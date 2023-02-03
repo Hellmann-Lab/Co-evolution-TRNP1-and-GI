@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Pongo_abelii"                                                                                                         
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pongo_abelii"                                    
+[8] "GCF_002880775.1_Susie_PABv2_genomic.fna.gz"                                                                           
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Pongo_abelii"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pongo_abelii"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pongo_abelii/GCF_002880775.1_Susie_PABv2_genomic.fna.gz"
+DNAStringSet object of length 6:
+        width seq                                           names               
+[1] 227913704 GAACAGGCAACCTACAGAATG...ATTAAATACAAATTCCATATG NC_036903.1 Pongo...
+[2]     36201 AGACACCAAGTTATATACAGG...TTGTTTTTCTTTTTTTTTTTT NW_019937266.1 Po...
+[3]     36654 GGAATCGCACATCCTAGTAGA...TTGTTTTTCTTTTTTTTTTTT NW_019937267.1 Po...
+[4] 109511694 TATGTATAACAATTGATTGAA...GGTTAGGGTTAGGTTAGGGTT NC_036904.1 Pongo...
+[5]     68790 TAAGCTCTTTAGTGGTGATTT...CCACAGTGCTGGGGGCTCCCG NW_019937268.1 Po...
+[6] 129937803 GGTGTCTACCTGTGGCCTGAT...GTACTCTCCCCCTTTTCCTAT NC_036905.1 Pongo...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 16:21:59
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pongo_abelii/GCF_002880775.1_Susie_PABv2_genomic.fna
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pongo_abelii/GCF_002880775.1_Susie_PABv2_genomic.fna
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5261 sequences in 165.754 seconds.

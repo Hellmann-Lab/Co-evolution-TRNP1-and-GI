@@ -1,0 +1,41 @@
+entries are in the following order:
+dS
+omega
+body_mass
+
+covariances
+
+  0.956	 -0.172	  -1.21	
+ -0.172	   0.12	  0.704	
+  -1.21	  0.704	   9.97	
+
+correlation coefficients
+
+      1	 -0.505	 -0.408	
+ -0.505	      1	  0.689	
+ -0.408	  0.689	      1	
+
+posterior probs
+
+  -	0.12	0.066	
+0.12	  -	0.94	
+0.066	0.94	  -	
+
+precisions
+
+   17.9	   42.2	 -0.883	
+   42.2	    725	  -33.9	
+ -0.883	  -33.9	   3.44	
+
+partial correlation coefficients
+
+     -1	 -0.348	 0.0661	
+ -0.348	     -1	  0.676	
+ 0.0661	  0.676	     -1	
+
+posterior probs
+
+  -	0.28	0.54	
+0.28	  -	0.9	
+0.54	0.9	  -	
+

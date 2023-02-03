@@ -1,0 +1,23 @@
+
+random seed : 854107
+
+Coevol version 1.4
+
+tree and data ok
+
+process RESET
+GI : 0 out of 30 missing
+
+unfold
+mapping substitutions
+ok
+
+ln prob = -15935
+start
+
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-gorilla2: error: *** JOB 201914 ON gorilla2 CANCELLED AT 2022-01-07T16:56:54 DUE TO TIME LIMIT ***
+slurmstepd-gorilla2: error: *** STEP 201914.0 ON gorilla2 CANCELLED AT 2022-01-07T16:56:54 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination
+srun: error: gorilla2: task 0: Terminated

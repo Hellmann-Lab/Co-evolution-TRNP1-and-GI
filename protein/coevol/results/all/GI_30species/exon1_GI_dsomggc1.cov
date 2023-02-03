@@ -1,0 +1,41 @@
+entries are in the following order:
+dS
+omega
+GI
+
+covariances
+
+  0.987	 -0.181	 -0.159	
+ -0.181	  0.118	 0.0946	
+ -0.159	 0.0946	  0.155	
+
+correlation coefficients
+
+      1	 -0.525	  -0.42	
+ -0.525	      1	  0.769	
+  -0.42	  0.769	      1	
+
+posterior probs
+
+  -	0.091	0.042	
+0.091	  -	0.98	
+0.042	0.98	  -	
+
+precisions
+
+   16.7	   37.4	  -6.84	
+   37.4	    568	   -237	
+  -6.84	   -237	    166	
+
+partial correlation coefficients
+
+     -1	 -0.335	 0.0932	
+ -0.335	     -1	  0.775	
+ 0.0932	  0.775	     -1	
+
+posterior probs
+
+  -	0.29	0.57	
+0.29	  -	0.96	
+0.57	0.96	  -	
+

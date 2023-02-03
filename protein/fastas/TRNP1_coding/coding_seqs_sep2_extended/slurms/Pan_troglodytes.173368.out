@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Pan_troglodytes"                                                                                                      
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pan_troglodytes"                                 
+[8] "GCF_002880755.1_Clint_PTRv2_genomic.fna.gz"                                                                           
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Pan_troglodytes"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pan_troglodytes"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pan_troglodytes/GCF_002880755.1_Clint_PTRv2_genomic.fna.gz"
+DNAStringSet object of length 6:
+        width seq                                           names               
+[1] 224244399 TCCAGCCTTGGCACCTCAAGG...CGGTGCCATCTACTTGTCTGC NC_036879.1 Pan t...
+[2] 108022953 CCCGAACCCGAACCCGAACCC...TAAAAATACAAAAATTAGCCT NC_036880.1 Pan t...
+[3] 128755405 GCAGCTGAACAAGTGCCCCAC...AGGTACTATGACTGGACGTGC NC_036881.1 Pan t...
+[4] 196562556 GTTTTGCTCGGGCCCATTGGG...TTTCCATGAAACCTTCTCTCC NC_036882.1 Pan t...
+[5] 189151597 CAAGGCAACACCCAGGAGTTA...TAAAGCAGAAAGGAGTGTAAC NC_036883.1 Pan t...
+[6] 159319378 TTACATTTGTTGGATTATAGC...TGTTTATGTTAAAAAAACAGA NC_036884.1 Pan t...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/20/2021 16:21:59
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pan_troglodytes/GCF_002880755.1_Clint_PTRv2_genomic.fna
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Pan_troglodytes/GCF_002880755.1_Clint_PTRv2_genomic.fna
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 4346 sequences in 160.994 seconds.

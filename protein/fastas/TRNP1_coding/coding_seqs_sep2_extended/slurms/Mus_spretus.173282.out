@@ -1,0 +1,36 @@
+Biostrings  tidyverse     rBLAST    stringr 
+      TRUE       TRUE       TRUE       TRUE 
+[1] "/opt/R/4.0.3/lib/R/bin/exec/R"                                                                                        
+[2] "--no-echo"                                                                                                            
+[3] "--no-restore"                                                                                                         
+[4] "--file=/data/share/htp/TRNP1/paper_data/protein/scripts/collect_coding_seqs2_extended/collect_coding_seqs2_function.R"
+[5] "--args"                                                                                                               
+[6] "Mus_spretus"                                                                                                          
+[7] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Mus_spretus"                                     
+[8] "Mus_spretus.SPRET_EiJ_v1.dna.toplevel.fa.gz"                                                                          
+[9] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"                               
+[1] "Mus_spretus"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Mus_spretus"
+[1] "first readin"
+[1] "/data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Mus_spretus/Mus_spretus.SPRET_EiJ_v1.dna.toplevel.fa.gz"
+DNAStringSet object of length 6:
+        width seq                                           names               
+[1] 198846266 ACAAAGGTATACTTATCCCTG...ACAATAAAAGCATTCCTAAGA 1 dna:chromosome ...
+[2] 182815943 TATTGATGTTCCTCCTATGGG...AGAATTTGGAAGGATCTGTAG 2 dna:chromosome ...
+[3] 160222558 AAGTGGGAGTGCTGGTTTCTG...AGGGTTAGGGTTAGGGTTAGG 3 dna:chromosome ...
+[4] 152946536 TACTACTCTTTAGCAGAGAGC...GCTAGAAGCTTCCAGGACTCT 4 dna:chromosome ...
+[5] 152823684 ACTCCAGCCTCAGGTAAGTGT...CTTATAGTAAATGCCTTTTAA 5 dna:chromosome ...
+[6] 150978388 ATTTTTAGAGCTTTATATTCT...TTAGGGTTAGGGTTAGGGTTA 6 dna:chromosome ...
+[1] "/data/share/htp/TRNP1/paper_data/protein/fastas/TRNP1_coding/coding_seqs_sep2_extended"
+[1] "before function"
+[1] "within function"
+
+
+Building a new DB, current time: 06/19/2021 22:40:15
+New DB name:   /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Mus_spretus/Mus_spretus.seqs.fasta
+New DB title:  /data/share/htp/TRNP1/TRNP1_exon_promoter_resequencing/downl_genomes/Mus_spretus/Mus_spretus.seqs.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5403 sequences in 129.664 seconds.
